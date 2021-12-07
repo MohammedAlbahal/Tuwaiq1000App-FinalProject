@@ -32,6 +32,14 @@
 		E634873F274DAFCD00559B91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634873E274DAFCD00559B91 /* SceneDelegate.swift */; };
 		E6348741274DAFCD00559B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6348740274DAFCD00559B91 /* ViewController.swift */; };
 		E6348751274DB06B00559B91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6348750274DB06B00559B91 /* GoogleService-Info.plist */; };
+		E65D9509275F9623008A378A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D9506275F9622008A378A /* DateExtension.swift */; };
+		E65D950A275F9623008A378A /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D9507275F9623008A378A /* UIViewControllerExtension.swift */; };
+		E65D950B275F9624008A378A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D9508275F9623008A378A /* UIViewExtension.swift */; };
+		E65D950D275F9654008A378A /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D950C275F9654008A378A /* SampleData.swift */; };
+		E65D9512275F9675008A378A /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D950E275F9674008A378A /* Subject.swift */; };
+		E65D9513275F9675008A378A /* PersonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D950F275F9674008A378A /* PersonProtocol.swift */; };
+		E65D9514275F9675008A378A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D9510275F9675008A378A /* Student.swift */; };
+		E65D9515275F9675008A378A /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D9511275F9675008A378A /* Teacher.swift */; };
 		E69246F32754B7A100421DCB /* DataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F22754B7A100421DCB /* DataBootcamp.swift */; };
 		E69246F52754B7DF00421DCB /* BootcampsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F42754B7DF00421DCB /* BootcampsVC.swift */; };
 		E69246F72754B84100421DCB /* BootcampsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F62754B84100421DCB /* BootcampsCell.swift */; };
@@ -69,6 +77,14 @@
 		E6348740274DAFCD00559B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E634874A274DAFD700559B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6348750274DB06B00559B91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E65D9506275F9622008A378A /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		E65D9507275F9623008A378A /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		E65D9508275F9623008A378A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E65D950C275F9654008A378A /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		E65D950E275F9674008A378A /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		E65D950F275F9674008A378A /* PersonProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonProtocol.swift; sourceTree = "<group>"; };
+		E65D9510275F9675008A378A /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		E65D9511275F9675008A378A /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		E69246F22754B7A100421DCB /* DataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBootcamp.swift; sourceTree = "<group>"; };
 		E69246F42754B7DF00421DCB /* BootcampsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsVC.swift; sourceTree = "<group>"; };
 		E69246F62754B84100421DCB /* BootcampsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsCell.swift; sourceTree = "<group>"; };
@@ -214,6 +230,7 @@
 				5E33D396275397AB007EC44C /* Main.storyboard */,
 				E69246F82754B92C00421DCB /* Assets.xcassets */,
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
+				E65D9501275F9374008A378A /* New Group */,
 				5E33D38927538FF1007EC44C /* Model */,
 				5E33D38827538FB9007EC44C /* View */,
 				E633B93F274E0EED0046ED89 /* Controller */,
@@ -223,6 +240,53 @@
 				5E33D38027538E4E007EC44C /* Receipt */,
 			);
 			path = "tuwaiq 1000";
+			sourceTree = "<group>";
+		};
+		E65D9501275F9374008A378A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E65D9505275F93C2008A378A /* Entities */,
+				E65D9504275F93A8008A378A /* Data */,
+				E65D9503275F939C008A378A /* Extenstion */,
+				E65D9502275F9390008A378A /* Recources */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E65D9502275F9390008A378A /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		E65D9503275F939C008A378A /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				E65D9506275F9622008A378A /* DateExtension.swift */,
+				E65D9507275F9623008A378A /* UIViewControllerExtension.swift */,
+				E65D9508275F9623008A378A /* UIViewExtension.swift */,
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		E65D9504275F93A8008A378A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E65D950C275F9654008A378A /* SampleData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E65D9505275F93C2008A378A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E65D950F275F9674008A378A /* PersonProtocol.swift */,
+				E65D9510275F9675008A378A /* Student.swift */,
+				E65D950E275F9674008A378A /* Subject.swift */,
+				E65D9511275F9675008A378A /* Teacher.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +375,9 @@
 				E634873D274DAFCD00559B91 /* AppDelegate.swift in Sources */,
 				E633B941274E0F670046ED89 /* SideMenuVC.swift in Sources */,
 				5E33D37227538C3F007EC44C /* DetelisVC.swift in Sources */,
+				E65D9515275F9675008A378A /* Teacher.swift in Sources */,
+				E65D950A275F9623008A378A /* UIViewControllerExtension.swift in Sources */,
+				E65D950D275F9654008A378A /* SampleData.swift in Sources */,
 				5E33D37427538C83007EC44C /* PurchaseVC.swift in Sources */,
 				E69247022754F18300421DCB /* StudentVC2.swift in Sources */,
 				5E33D37F27538E47007EC44C /* RecCell.swift in Sources */,
@@ -321,10 +388,15 @@
 				E69246F32754B7A100421DCB /* DataBootcamp.swift in Sources */,
 				5E33D36A27538B8D007EC44C /* InstructioerVC.swift in Sources */,
 				E634873F274DAFCD00559B91 /* SceneDelegate.swift in Sources */,
+				E65D9513275F9675008A378A /* PersonProtocol.swift in Sources */,
+				E65D9514275F9675008A378A /* Student.swift in Sources */,
+				E65D9509275F9623008A378A /* DateExtension.swift in Sources */,
+				E65D950B275F9624008A378A /* UIViewExtension.swift in Sources */,
 				5E33D37627538CA9007EC44C /* PrucheasCell.swift in Sources */,
 				5E33D39127539125007EC44C /* Data.swift in Sources */,
 				5E33D37D27538E1C007EC44C /* RecCollectionVC.swift in Sources */,
 				5E33D38427538EFD007EC44C /* EmailCell.swift in Sources */,
+				E65D9512275F9675008A378A /* Subject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
