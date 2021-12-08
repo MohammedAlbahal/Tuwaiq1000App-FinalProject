@@ -6,10 +6,16 @@ target 'tuwaiq 1000' do
   use_frameworks!
 
   # Pods for tuwaiq 1000
+
+    pod 'iCarousel', '~> 1.8'
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'GoogleSignIn'
     pod 'Firebase/Firestore'
+    pod 'MessageKit'
     pod  'Firebase/Database'
+    pod 'Firebase/Analytics'
     pod 'Firebase/Storage'
-    pod 'MessageUI'
 
     
 

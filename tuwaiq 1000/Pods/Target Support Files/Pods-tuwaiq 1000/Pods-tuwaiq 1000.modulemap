@@ -1,0 +1,6 @@
+framework module Pods_tuwaiq_1000 {
+  umbrella header "Pods-tuwaiq 1000-umbrella.h"
+
+  export *
+  module * { export * }
+}
