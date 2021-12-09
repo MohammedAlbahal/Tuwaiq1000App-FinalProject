@@ -34,7 +34,7 @@
 		E6348741274DAFCD00559B91 /* uu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6348740274DAFCD00559B91 /* uu.swift */; };
 		E64C236F2760910900DE566D /* Reghister.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C236E2760910900DE566D /* Reghister.swift */; };
 		E64C23712760941C00DE566D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64C23702760941C00DE566D /* GoogleService-Info.plist */; };
-		E64C23732760BCAC00DE566D /* VV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C23722760BCAA00DE566D /* VV.swift */; };
+		E64C23732760BCAC00DE566D /* Tt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C23722760BCAA00DE566D /* Tt.swift */; };
 		E64C237D2760C47300DE566D /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C23762760C46600DE566D /* PrivacyViewController.swift */; };
 		E64C237E2760C47300DE566D /* SpashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C23772760C46800DE566D /* SpashViewController.swift */; };
 		E64C237F2760C47300DE566D /* AvgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C23782760C46A00DE566D /* AvgViewController.swift */; };
@@ -118,7 +118,7 @@
 		E634874A274DAFD700559B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E64C236E2760910900DE566D /* Reghister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reghister.swift; sourceTree = "<group>"; };
 		E64C23702760941C00DE566D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E64C23722760BCAA00DE566D /* VV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VV.swift; sourceTree = "<group>"; };
+		E64C23722760BCAA00DE566D /* Tt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tt.swift; sourceTree = "<group>"; };
 		E64C23762760C46600DE566D /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
 		E64C23772760C46800DE566D /* SpashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpashViewController.swift; sourceTree = "<group>"; };
 		E64C23782760C46A00DE566D /* AvgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvgViewController.swift; sourceTree = "<group>"; };
@@ -277,7 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				E69246FF2754F05A00421DCB /* StudentVC.swift */,
-				E64C23722760BCAA00DE566D /* VV.swift */,
+				E64C23722760BCAA00DE566D /* Tt.swift */,
 				E69247012754F18300421DCB /* StudentVC2.swift */,
 				E69246FC2754C77E00421DCB /* BootcampVC.swift */,
 				E69246F42754B7DF00421DCB /* BootcampsVC.swift */,
@@ -624,7 +624,7 @@
 				5E33D38D275390CC007EC44C /* Top10VC.swift in Sources */,
 				E634873D274DAFCD00559B91 /* AppDelegate.swift in Sources */,
 				E633B941274E0F670046ED89 /* SideMenuVC.swift in Sources */,
-				E64C23732760BCAC00DE566D /* VV.swift in Sources */,
+				E64C23732760BCAC00DE566D /* Tt.swift in Sources */,
 				E64C23B02760EAA100DE566D /* ContainerStudentViewCell.swift in Sources */,
 				5E33D37227538C3F007EC44C /* DetelisVC.swift in Sources */,
 				E64C23812760C47300DE566D /* SelectionTableViewController.swift in Sources */,
