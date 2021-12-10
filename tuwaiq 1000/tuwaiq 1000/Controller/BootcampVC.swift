@@ -23,7 +23,7 @@ class VC2 : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor(named: "Color")
         
         if selectedpro != nil{
             Name2.text = selectedpro?.name

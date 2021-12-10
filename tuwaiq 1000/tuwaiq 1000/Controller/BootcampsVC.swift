@@ -64,7 +64,7 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
-        
+        view.backgroundColor = UIColor(named: "Color")
        let v2 = segue.destination as! VC2
        v2.selectedpro = sender as? Item
     }

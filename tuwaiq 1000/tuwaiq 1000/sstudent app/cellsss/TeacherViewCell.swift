@@ -45,7 +45,7 @@ class TeacherViewCell: UITableViewCell{
         nameTeacherCell.text = name
         emailTeacherCell.text = email
         if let teacherAge = age {
-            workTeacherCell.text = "Edad: \(teacherAge)"
+            workTeacherCell.text = "Age: \(teacherAge)"
         }
         
     }

@@ -44,7 +44,7 @@ class StudentViewCell: UITableViewCell{
         imageStudentCell.image = image
         nameStudentCell.text = name
         emailStudentCell.text = email
-        ageStudentCell.text = "Edad: \(String(describing: age))"
+        ageStudentCell.text = "Age: \(String(describing: age))"
         
     }
     

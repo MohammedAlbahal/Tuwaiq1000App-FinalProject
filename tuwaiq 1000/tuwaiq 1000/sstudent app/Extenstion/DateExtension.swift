@@ -11,7 +11,7 @@ extension Date {
     
     var formattedAge: String {
         if let age = Calendar.current.dateComponents([.year], from: self, to: Date()).year {
-            return "\(age) años"
+            return "\(age) years"
         } else {
             return ""
         }

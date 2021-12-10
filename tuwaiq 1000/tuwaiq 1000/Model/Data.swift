@@ -42,7 +42,7 @@ var products = [
 					   productSummary: "Abha Swift",
 					   productQuantity: 10,
 					   productSpecs: "The student is interactive and participating, has completed projects and is regular in attendance 95%"),
-			   Product(prodauctName: "Ibraem Ahmed",
+			   Product(prodauctName: "Ibrhaem Ahmed",
 					   productPic: UIImage(named: "ww"),
 					   prodauctPrice: 93,
 					   productSummary: "Abha Swift",

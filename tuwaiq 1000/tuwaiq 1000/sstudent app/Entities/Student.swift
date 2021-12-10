@@ -21,7 +21,7 @@ class Student: Person {
     var ageFormatted: String {
         if let studentBirthdate = age,
            let studentAge = Calendar.current.dateComponents([.year], from: studentBirthdate, to: Date()).year {
-            return "\(studentAge) años"
+            return "\(studentAge) Years"
         } else {
             return ""
         }
