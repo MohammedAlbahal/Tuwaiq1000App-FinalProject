@@ -84,7 +84,9 @@
 		E67505A22763AF4B004080BD /* OverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059D2763AF4A004080BD /* OverViewViewController.swift */; };
 		E67505A32763AF4B004080BD /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059E2763AF4A004080BD /* DashBoardViewController.swift */; };
 		E67505A42763AF4B004080BD /* VViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059F2763AF4B004080BD /* VViewController.swift */; };
-		E67505A62763C3A3004080BD /* side bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505A52763C3A3004080BD /* side bar.swift */; };
+		E67505A8276414F1004080BD /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67505A7276414F0004080BD /* Start.storyboard */; };
+		E67505AA2764182B004080BD /* G.P.A VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505A92764182B004080BD /* G.P.A VC.swift */; };
+		E67505AC27641869004080BD /* Link VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505AB27641868004080BD /* Link VC.swift */; };
 		E69246F32754B7A100421DCB /* DataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F22754B7A100421DCB /* DataBootcamp.swift */; };
 		E69246F52754B7DF00421DCB /* BootcampsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F42754B7DF00421DCB /* BootcampsVC.swift */; };
 		E69246F72754B84100421DCB /* BootcampsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F62754B84100421DCB /* BootcampsCell.swift */; };
@@ -175,7 +177,9 @@
 		E675059D2763AF4A004080BD /* OverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewViewController.swift; sourceTree = "<group>"; };
 		E675059E2763AF4A004080BD /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
 		E675059F2763AF4B004080BD /* VViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VViewController.swift; sourceTree = "<group>"; };
-		E67505A52763C3A3004080BD /* side bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "side bar.swift"; sourceTree = "<group>"; };
+		E67505A7276414F0004080BD /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		E67505A92764182B004080BD /* G.P.A VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "G.P.A VC.swift"; sourceTree = "<group>"; };
+		E67505AB27641868004080BD /* Link VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Link VC.swift"; sourceTree = "<group>"; };
 		E69246F22754B7A100421DCB /* DataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBootcamp.swift; sourceTree = "<group>"; };
 		E69246F42754B7DF00421DCB /* BootcampsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsVC.swift; sourceTree = "<group>"; };
 		E69246F62754B84100421DCB /* BootcampsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsCell.swift; sourceTree = "<group>"; };
@@ -334,10 +338,12 @@
 				E634874A274DAFD700559B91 /* Info.plist */,
 				5E33D396275397AB007EC44C /* Main.storyboard */,
 				E69246F82754B92C00421DCB /* Assets.xcassets */,
+				E67505A7276414F0004080BD /* Start.storyboard */,
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
 				E64C236E2760910900DE566D /* Reghister.swift */,
 				E64C23B92761ECD100DE566D /* animation.swift */,
-				E67505A52763C3A3004080BD /* side bar.swift */,
+				E67505A92764182B004080BD /* G.P.A VC.swift */,
+				E67505AB27641868004080BD /* Link VC.swift */,
 				E64C23B72761E9A600DE566D /* Web.swift */,
 				E67505992763AE21004080BD /* SideBarTableViewCell.xib */,
 				E67505982763AD25004080BD /* Siad Bar */,
@@ -571,6 +577,7 @@
 			files = (
 				E62F35F727561937000E4296 /* Launch Screen.storyboard in Resources */,
 				5E33D399275397C4007EC44C /* customer.storyboard in Resources */,
+				E67505A8276414F1004080BD /* Start.storyboard in Resources */,
 				5E33D397275397AB007EC44C /* Main.storyboard in Resources */,
 				5E33D37827538D50007EC44C /* Manager.storyboard in Resources */,
 				E64C23712760941C00DE566D /* GoogleService-Info.plist in Resources */,
@@ -636,7 +643,6 @@
 				E64C23A32760EA5700DE566D /* PersonInfoViewController.swift in Sources */,
 				E67505A32763AF4B004080BD /* DashBoardViewController.swift in Sources */,
 				E64C237E2760C47300DE566D /* SpashViewController.swift in Sources */,
-				E67505A62763C3A3004080BD /* side bar.swift in Sources */,
 				E64C23C227620E0B00DE566D /* ViewController.swift in Sources */,
 				5E33D38227538ED7007EC44C /* EmailVC.swift in Sources */,
 				E64C23A42760EA5700DE566D /* TeacherViewController.swift in Sources */,
@@ -668,6 +674,7 @@
 				E64C23A12760EA5700DE566D /* SubjectDescriptionViewController.swift in Sources */,
 				E64C23B12760EAA100DE566D /* TeacherViewCell.swift in Sources */,
 				E64C23C327620E0B00DE566D /* QuizViewController.swift in Sources */,
+				E67505AA2764182B004080BD /* G.P.A VC.swift in Sources */,
 				5E33D37F27538E47007EC44C /* RecCell.swift in Sources */,
 				5E33D36C27538BB6007EC44C /* EditStudentsCell.swift in Sources */,
 				E64C23B32760EAA100DE566D /* SubjectItemViewCell.swift in Sources */,
@@ -684,6 +691,7 @@
 				E64C238B2760C4C200DE566D /* Protocols.swift in Sources */,
 				E634873F274DAFCD00559B91 /* SceneDelegate.swift in Sources */,
 				E67505A02763AF4B004080BD /* SideBarTableViewCell.swift in Sources */,
+				E67505AC27641869004080BD /* Link VC.swift in Sources */,
 				E64C238A2760C4C100DE566D /* DBhelper.swift in Sources */,
 				E65D9513275F9675008A378A /* PersonProtocol.swift in Sources */,
 				E64C23C527620E0B00DE566D /* QuizManager.swift in Sources */,
