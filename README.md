@@ -138,7 +138,7 @@ Exit model
 | GET         | /api/exit/:id  |                                                              |                |              | Used to get one exit point document by id                    |
 | DELETE      | /api/exit/:id  |                                                              |                |              | Used to delete one exit point document by id                 |
 | GET         | /api/user      |                                                              |                |              | Used to get current user's profile. Id of the user is coming form the req.session.currentUser |
-| PUT         | /api/user      | {username, email, password}                                  |                |              | Used to update current user's profile. Id of the user is coming form the req.session.currentUser |
+| PUT         | /api/user      | {username, email, password}                                  |                |              | Used to update current user's profile. Id of the users is coming form the req.session.currentUser |
 
 ## Links
 
