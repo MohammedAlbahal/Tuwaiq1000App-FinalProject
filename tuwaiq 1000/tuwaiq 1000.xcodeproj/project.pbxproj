@@ -28,7 +28,6 @@
 		5E33D399275397C4007EC44C /* customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33D398275397C4007EC44C /* customer.storyboard */; };
 		AE2EF0B5AB776A40346E2A48 /* Pods_tuwaiq_1000.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83976AF724202D7C4BA75CF6 /* Pods_tuwaiq_1000.framework */; };
 		E62F35F727561937000E4296 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62F35F627561937000E4296 /* Launch Screen.storyboard */; };
-		E633B941274E0F670046ED89 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E633B940274E0F670046ED89 /* SideMenuVC.swift */; };
 		E634873D274DAFCD00559B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634873C274DAFCD00559B91 /* AppDelegate.swift */; };
 		E634873F274DAFCD00559B91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634873E274DAFCD00559B91 /* SceneDelegate.swift */; };
 		E6348741274DAFCD00559B91 /* uu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6348740274DAFCD00559B91 /* uu.swift */; };
@@ -121,7 +120,6 @@
 		83976AF724202D7C4BA75CF6 /* Pods_tuwaiq_1000.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuwaiq_1000.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A1658221A179C86DA1FC4 /* Pods-tuwaiq 1000.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuwaiq 1000.release.xcconfig"; path = "Target Support Files/Pods-tuwaiq 1000/Pods-tuwaiq 1000.release.xcconfig"; sourceTree = "<group>"; };
 		E62F35F627561937000E4296 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		E633B940274E0F670046ED89 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		E6348739274DAFCD00559B91 /* tuwaiq 1000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tuwaiq 1000.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E634873C274DAFCD00559B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E634873E274DAFCD00559B91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,7 +176,7 @@
 		E675059C2763AF49004080BD /* ShortCutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortCutsViewController.swift; sourceTree = "<group>"; };
 		E675059D2763AF4A004080BD /* OverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewViewController.swift; sourceTree = "<group>"; };
 		E675059E2763AF4A004080BD /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
-		E675059F2763AF4B004080BD /* VViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = VViewController.swift; sourceTree = "<group>"; };
+		E675059F2763AF4B004080BD /* VViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = VViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		E67505A7276414F0004080BD /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		E67505A92764182B004080BD /* G.P.A VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "G.P.A VC.swift"; sourceTree = "<group>"; };
 		E67505AB27641868004080BD /* Link VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Link VC.swift"; sourceTree = "<group>"; };
@@ -304,7 +302,6 @@
 				E69246F42754B7DF00421DCB /* BootcampsVC.swift */,
 				E69246F62754B84100421DCB /* BootcampsCell.swift */,
 				E6348740274DAFCD00559B91 /* uu.swift */,
-				E633B940274E0F670046ED89 /* SideMenuVC.swift */,
 				5E33D36D27538BE6007EC44C /* NewStudentVC.swift */,
 				5E33D36B27538BB6007EC44C /* EditStudentsCell.swift */,
 				5E33D37327538C83007EC44C /* PurchaseVC.swift */,
@@ -657,7 +654,6 @@
 				E64C23A22760EA5700DE566D /* StudentViewController.swift in Sources */,
 				5E33D38D275390CC007EC44C /* Top10VC.swift in Sources */,
 				E634873D274DAFCD00559B91 /* AppDelegate.swift in Sources */,
-				E633B941274E0F670046ED89 /* SideMenuVC.swift in Sources */,
 				E67505B02766356D004080BD /* gestureVC.swift in Sources */,
 				E64C23732760BCAC00DE566D /* Tt.swift in Sources */,
 				E64C23B02760EAA100DE566D /* ContainerStudentViewCell.swift in Sources */,
