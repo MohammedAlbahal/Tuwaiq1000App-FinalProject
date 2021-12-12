@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+
 class VViewController: UIViewController {
     var sideBarView: UIView!
     var tableView = UITableView()
@@ -19,7 +21,7 @@ class VViewController: UIViewController {
     var isEnableSideBarView:Bool = false
     
     var arrData = ["Dashboard", "Shortcuts", "Overview","Events","About","Services","Contats"]
-    var arrImages:[UIImage] = [#imageLiteral(resourceName: "plug"),#imageLiteral(resourceName: "tshirt"),#imageLiteral(resourceName: "smartphone"),#imageLiteral(resourceName: "living-room"),#imageLiteral(resourceName: "television"),#imageLiteral(resourceName: "nails"),#imageLiteral(resourceName: "receipt"),#imageLiteral(resourceName: "plane")]
+    var arrImages:[UIImage] = [#imageLiteral(resourceName: "19"),#imageLiteral(resourceName: "tshirt"),#imageLiteral(resourceName: "smartphone"),#imageLiteral(resourceName: "living-room"),#imageLiteral(resourceName: "television"),#imageLiteral(resourceName: "nails"),#imageLiteral(resourceName: "receipt"),#imageLiteral(resourceName: "plane")]
     
     var swipeToRight = UISwipeGestureRecognizer()
     var swipetoLeft = UISwipeGestureRecognizer()
@@ -81,7 +83,10 @@ class VViewController: UIViewController {
         nameLbl.textAlignment = NSTextAlignment.center
         nameLbl.backgroundColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
         
-        imageview.image = UIImage(imageLiteralResourceName: "me")
+        if let userPhotoUrl = Auth.auth().currentUser?.photoURL {
+            imageview.load(url: userPhotoUrl)
+        }
+        
         self.imageview.clipsToBounds = true
         self.imageview.layer.borderWidth = 1
         self.imageview.layer.borderColor = UIColor.white.cgColor
@@ -268,22 +273,50 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
         
         switch indexPath.row {
         case 0:
-            let dashboardVC = self.storyboard?.instantiateViewController(identifier: "dvc")as!DashBoardViewController
-            self.navigationController?.pushViewController(dashboardVC, animated: true)
+            let mapVC = self.storyboard?.instantiateViewController(identifier: "dvc")as!MapVC
+            self.navigationController?.pushViewController(mapVC, animated: true)
             cell.imagev.tintColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
             cell.lbl.textColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
             cell.contentView.backgroundColor = UIColor.white
             
         case 1:
-            let shortcutsVC = self.storyboard?.instantiateViewController(identifier: "svc")as! ShortCutsViewController
-            self.navigationController?.pushViewController(shortcutsVC, animated: true)
+            let studentVC = self.storyboard?.instantiateViewController(identifier: "svc")as! StudentViewController
+            self.navigationController?.pushViewController(studentVC, animated: true)
             cell.imagev.tintColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
             cell.lbl.textColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
             cell.contentView.backgroundColor = UIColor.white
             
         case 2:
-        let overviewVC = self.storyboard?.instantiateViewController(identifier: "ovc")as! OverViewViewController
-        self.navigationController?.pushViewController(overviewVC, animated: true)
+        let webVC = self.storyboard?.instantiateViewController(identifier: "ovc")as! WebVC
+        self.navigationController?.pushViewController(webVC, animated: true)
+            cell.imagev.tintColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+            cell.lbl.textColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+            cell.contentView.backgroundColor = UIColor.white
+            
+            
+        case 3:
+        let GPAVC = self.storyboard?.instantiateViewController(identifier: "aaa")as! HomeViewController
+        self.navigationController?.pushViewController(GPAVC, animated: true)
+            cell.imagev.tintColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+            cell.lbl.textColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+            cell.contentView.backgroundColor = UIColor.white
+            
+        case 4:
+        let subjectVC = self.storyboard?.instantiateViewController(identifier: "bbb")as! SubjectViewController
+        self.navigationController?.pushViewController(subjectVC, animated: true)
+            cell.imagev.tintColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+            cell.lbl.textColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+            cell.contentView.backgroundColor = UIColor.white
+            
+        case 5:
+        let TeacherVC = self.storyboard?.instantiateViewController(identifier: "ccc")as! TeacherViewController
+        self.navigationController?.pushViewController(TeacherVC, animated: true)
+            cell.imagev.tintColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+            cell.lbl.textColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+            cell.contentView.backgroundColor = UIColor.white
+        case 6:
+        let quizVC = self.storyboard?.instantiateViewController(identifier: "ggg")as! ViewController
+        self.navigationController?.pushViewController(quizVC, animated: true)
             cell.imagev.tintColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
             cell.lbl.textColor = UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
             cell.contentView.backgroundColor = UIColor.white

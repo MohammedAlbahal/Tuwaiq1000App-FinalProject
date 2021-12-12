@@ -7,16 +7,15 @@ target 'tuwaiq 1000' do
 
   # Pods for tuwaiq 1000
 
-    pod 'iCarousel', '~> 1.8'
+    pod 'iCarousel'
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod 'GoogleSignIn'
     pod 'Firebase/Firestore'
     pod 'MessageKit'
-    pod  'Firebase/Database'
+    pod 'Firebase/Database'
     pod 'Firebase/Analytics'
     pod 'Firebase/Storage'
-
-    
-
+    pod 'MapKit'
+ 
 end

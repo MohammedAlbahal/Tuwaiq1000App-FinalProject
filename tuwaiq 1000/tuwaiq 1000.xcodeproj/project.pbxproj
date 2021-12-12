@@ -87,6 +87,7 @@
 		E67505A8276414F1004080BD /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67505A7276414F0004080BD /* Start.storyboard */; };
 		E67505AA2764182B004080BD /* G.P.A VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505A92764182B004080BD /* G.P.A VC.swift */; };
 		E67505AC27641869004080BD /* Link VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505AB27641868004080BD /* Link VC.swift */; };
+		E67505AE2765E754004080BD /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505AD2765E754004080BD /* mapVC.swift */; };
 		E69246F32754B7A100421DCB /* DataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F22754B7A100421DCB /* DataBootcamp.swift */; };
 		E69246F52754B7DF00421DCB /* BootcampsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F42754B7DF00421DCB /* BootcampsVC.swift */; };
 		E69246F72754B84100421DCB /* BootcampsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F62754B84100421DCB /* BootcampsCell.swift */; };
@@ -176,10 +177,11 @@
 		E675059C2763AF49004080BD /* ShortCutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortCutsViewController.swift; sourceTree = "<group>"; };
 		E675059D2763AF4A004080BD /* OverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewViewController.swift; sourceTree = "<group>"; };
 		E675059E2763AF4A004080BD /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
-		E675059F2763AF4B004080BD /* VViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VViewController.swift; sourceTree = "<group>"; };
+		E675059F2763AF4B004080BD /* VViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = VViewController.swift; sourceTree = "<group>"; };
 		E67505A7276414F0004080BD /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		E67505A92764182B004080BD /* G.P.A VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "G.P.A VC.swift"; sourceTree = "<group>"; };
 		E67505AB27641868004080BD /* Link VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Link VC.swift"; sourceTree = "<group>"; };
+		E67505AD2765E754004080BD /* mapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
 		E69246F22754B7A100421DCB /* DataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBootcamp.swift; sourceTree = "<group>"; };
 		E69246F42754B7DF00421DCB /* BootcampsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsVC.swift; sourceTree = "<group>"; };
 		E69246F62754B84100421DCB /* BootcampsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsCell.swift; sourceTree = "<group>"; };
@@ -341,6 +343,7 @@
 				E67505A7276414F0004080BD /* Start.storyboard */,
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
 				E64C236E2760910900DE566D /* Reghister.swift */,
+				E67505AD2765E754004080BD /* mapVC.swift */,
 				E64C23B92761ECD100DE566D /* animation.swift */,
 				E67505A92764182B004080BD /* G.P.A VC.swift */,
 				E67505AB27641868004080BD /* Link VC.swift */,
@@ -462,16 +465,8 @@
 				E65D9505275F93C2008A378A /* Entities */,
 				E65D9504275F93A8008A378A /* Data */,
 				E65D9503275F939C008A378A /* Extenstion */,
-				E65D9502275F9390008A378A /* Recources */,
 			);
 			path = "sstudent app";
-			sourceTree = "<group>";
-		};
-		E65D9502275F9390008A378A /* Recources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Recources;
 			sourceTree = "<group>";
 		};
 		E65D9503275F939C008A378A /* Extenstion */ = {
@@ -665,6 +660,7 @@
 				5E33D37227538C3F007EC44C /* DetelisVC.swift in Sources */,
 				E67505A22763AF4B004080BD /* OverViewViewController.swift in Sources */,
 				E64C23812760C47300DE566D /* SelectionTableViewController.swift in Sources */,
+				E67505AE2765E754004080BD /* mapVC.swift in Sources */,
 				E64C238C2760C4C200DE566D /* Utility.swift in Sources */,
 				E65D9515275F9675008A378A /* Teacher.swift in Sources */,
 				E65D950A275F9623008A378A /* UIViewControllerExtension.swift in Sources */,
