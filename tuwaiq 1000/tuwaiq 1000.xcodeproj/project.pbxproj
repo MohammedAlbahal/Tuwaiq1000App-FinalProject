@@ -88,6 +88,7 @@
 		E67505AA2764182B004080BD /* G.P.A VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505A92764182B004080BD /* G.P.A VC.swift */; };
 		E67505AC27641869004080BD /* Link VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505AB27641868004080BD /* Link VC.swift */; };
 		E67505AE2765E754004080BD /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505AD2765E754004080BD /* mapVC.swift */; };
+		E67505B02766356D004080BD /* gestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505AF2766356C004080BD /* gestureVC.swift */; };
 		E69246F32754B7A100421DCB /* DataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F22754B7A100421DCB /* DataBootcamp.swift */; };
 		E69246F52754B7DF00421DCB /* BootcampsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F42754B7DF00421DCB /* BootcampsVC.swift */; };
 		E69246F72754B84100421DCB /* BootcampsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246F62754B84100421DCB /* BootcampsCell.swift */; };
@@ -182,6 +183,7 @@
 		E67505A92764182B004080BD /* G.P.A VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "G.P.A VC.swift"; sourceTree = "<group>"; };
 		E67505AB27641868004080BD /* Link VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Link VC.swift"; sourceTree = "<group>"; };
 		E67505AD2765E754004080BD /* mapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
+		E67505AF2766356C004080BD /* gestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureVC.swift; sourceTree = "<group>"; };
 		E69246F22754B7A100421DCB /* DataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBootcamp.swift; sourceTree = "<group>"; };
 		E69246F42754B7DF00421DCB /* BootcampsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsVC.swift; sourceTree = "<group>"; };
 		E69246F62754B84100421DCB /* BootcampsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsCell.swift; sourceTree = "<group>"; };
@@ -303,11 +305,11 @@
 				E69246F62754B84100421DCB /* BootcampsCell.swift */,
 				E6348740274DAFCD00559B91 /* uu.swift */,
 				E633B940274E0F670046ED89 /* SideMenuVC.swift */,
-				5E33D36927538B8D007EC44C /* InstructioerVC.swift */,
 				5E33D36D27538BE6007EC44C /* NewStudentVC.swift */,
 				5E33D36B27538BB6007EC44C /* EditStudentsCell.swift */,
 				5E33D37327538C83007EC44C /* PurchaseVC.swift */,
 				5E33D37527538CA9007EC44C /* PrucheasCell.swift */,
+				5E33D36927538B8D007EC44C /* InstructioerVC.swift */,
 				5E33D37127538C3F007EC44C /* DetelisVC.swift */,
 				5E33D3942753938F007EC44C /* DetailsCell.swift */,
 				5E33D36F27538C19007EC44C /* UpdateStudentVC.swift */,
@@ -344,6 +346,7 @@
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
 				E64C236E2760910900DE566D /* Reghister.swift */,
 				E67505AD2765E754004080BD /* mapVC.swift */,
+				E67505AF2766356C004080BD /* gestureVC.swift */,
 				E64C23B92761ECD100DE566D /* animation.swift */,
 				E67505A92764182B004080BD /* G.P.A VC.swift */,
 				E67505AB27641868004080BD /* Link VC.swift */,
@@ -655,6 +658,7 @@
 				5E33D38D275390CC007EC44C /* Top10VC.swift in Sources */,
 				E634873D274DAFCD00559B91 /* AppDelegate.swift in Sources */,
 				E633B941274E0F670046ED89 /* SideMenuVC.swift in Sources */,
+				E67505B02766356D004080BD /* gestureVC.swift in Sources */,
 				E64C23732760BCAC00DE566D /* Tt.swift in Sources */,
 				E64C23B02760EAA100DE566D /* ContainerStudentViewCell.swift in Sources */,
 				5E33D37227538C3F007EC44C /* DetelisVC.swift in Sources */,

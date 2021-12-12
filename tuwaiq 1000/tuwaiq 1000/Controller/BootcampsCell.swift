@@ -18,5 +18,7 @@ class Cell1 : UICollectionViewCell {
         logop.image = Item.logo
         lName.text = Item.name
         price1.text = "\(Item.price1)"
+        logop.layer.cornerRadius = 40
+        logop.clipsToBounds = true
     }
 }

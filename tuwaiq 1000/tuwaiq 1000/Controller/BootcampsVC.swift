@@ -25,6 +25,8 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
             })
         }
         picC.reloadData()
+        picC.layer.cornerRadius = 20
+        picC.clipsToBounds = true
     }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
@@ -76,7 +78,8 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
         
         searchba = List
         picC.reloadData()
-        
+        picC.layer.cornerRadius = 20
+        picC.clipsToBounds = true
     }
 
     
