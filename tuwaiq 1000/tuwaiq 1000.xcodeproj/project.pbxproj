@@ -95,6 +95,8 @@
 		E69246FD2754C77E00421DCB /* BootcampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246FC2754C77E00421DCB /* BootcampVC.swift */; };
 		E69247002754F05A00421DCB /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246FF2754F05A00421DCB /* StudentVC.swift */; };
 		E69247022754F18300421DCB /* StudentVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69247012754F18300421DCB /* StudentVC2.swift */; };
+		E6EF13DA276781E2008227D1 /* collmove.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13D9276781E1008227D1 /* collmove.swift */; };
+		E6EF13DC27678652008227D1 /* ThemeColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13DB27678652008227D1 /* ThemeColorVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -189,6 +191,8 @@
 		E69246FC2754C77E00421DCB /* BootcampVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampVC.swift; sourceTree = "<group>"; };
 		E69246FF2754F05A00421DCB /* StudentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
 		E69247012754F18300421DCB /* StudentVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVC2.swift; sourceTree = "<group>"; };
+		E6EF13D9276781E1008227D1 /* collmove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collmove.swift; sourceTree = "<group>"; };
+		E6EF13DB27678652008227D1 /* ThemeColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorVC.swift; sourceTree = "<group>"; };
 		EE5BEB1A07E452DE90129F34 /* Pods-tuwaiq 1000.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuwaiq 1000.debug.xcconfig"; path = "Target Support Files/Pods-tuwaiq 1000/Pods-tuwaiq 1000.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -343,6 +347,8 @@
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
 				E64C236E2760910900DE566D /* Reghister.swift */,
 				E67505AD2765E754004080BD /* mapVC.swift */,
+				E6EF13DB27678652008227D1 /* ThemeColorVC.swift */,
+				E6EF13D9276781E1008227D1 /* collmove.swift */,
 				E67505AF2766356C004080BD /* gestureVC.swift */,
 				E64C23B92761ECD100DE566D /* animation.swift */,
 				E67505A92764182B004080BD /* G.P.A VC.swift */,
@@ -653,6 +659,7 @@
 				5E33D393275391A5007EC44C /* stulnfoVC.swift in Sources */,
 				E64C23A22760EA5700DE566D /* StudentViewController.swift in Sources */,
 				5E33D38D275390CC007EC44C /* Top10VC.swift in Sources */,
+				E6EF13DA276781E2008227D1 /* collmove.swift in Sources */,
 				E634873D274DAFCD00559B91 /* AppDelegate.swift in Sources */,
 				E67505B02766356D004080BD /* gestureVC.swift in Sources */,
 				E64C23732760BCAC00DE566D /* Tt.swift in Sources */,
@@ -702,6 +709,7 @@
 				5E33D37627538CA9007EC44C /* PrucheasCell.swift in Sources */,
 				E64C23802760C47300DE566D /* HomeViewController.swift in Sources */,
 				E64C238D2760C4C200DE566D /* Utils.swift in Sources */,
+				E6EF13DC27678652008227D1 /* ThemeColorVC.swift in Sources */,
 				E64C23C427620E0B00DE566D /* Quiz.swift in Sources */,
 				5E33D39127539125007EC44C /* Data.swift in Sources */,
 				5E33D37D27538E1C007EC44C /* RecCollectionVC.swift in Sources */,

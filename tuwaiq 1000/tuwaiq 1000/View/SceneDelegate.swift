@@ -10,6 +10,8 @@
 
 import UIKit
 
+var gloabalWindow: UIWindow?
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 	var window: UIWindow?

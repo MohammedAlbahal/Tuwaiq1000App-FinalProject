@@ -16,6 +16,7 @@ class VViewController: UIViewController {
     var tableView = UITableView()
     var toplabel = UILabel()
     var bottomView = UIView()
+    let switchMood = UISwitch(frame:CGRect(x: 180, y: 150, width: 15, height: 0))
     //    var logOutBtn = UIButton()
     lazy var logOutBtn: UIButton = {
         let buttonSingOut = UIButton(type: .system)
@@ -48,6 +49,7 @@ class VViewController: UIViewController {
         loadSideBarViewFunctionality()
         loadGesturefunctionality()
         setupButtonForSignOut()
+        setupMoodSwitch()
         
     }
     
@@ -176,7 +178,24 @@ class VViewController: UIViewController {
     //            }
     //        }
     
+    func setupMoodSwitch(){
+       
+        switchMood.addTarget(self, action: #selector(switchStateDidChange), for: .valueChanged)
+        view.addSubview(switchMood)
+        switchMood.onTintColor = ThemeColor.mainColor
+        switch gloabalWindow?.traitCollection.userInterfaceStyle {
+        case .dark:
+            switchMood.setOn(true, animated: false)
+        case .light:
+            switchMood.setOn(false, animated: false)
+        default:
+            print("Unspecified")
+        }
+    }
     
+    @objc func switchStateDidChange() {
+        gloabalWindow?.overrideUserInterfaceStyle = switchMood.isOn ? .dark : .light
+    }
     func loadGesturefunctionality(){
         swipeToRight = UISwipeGestureRecognizer(target: self, action: #selector(swipedToRight))
         swipeToRight.direction = .right
