@@ -32,7 +32,7 @@ class VViewController: UIViewController {
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["subject", "instructors","studens","top 10 student","ecercises","calculate your rate","references","location"]
+    var arrData = ["Subject", "Instructors","Studens","Top 10 student","Ecercises","Calculate your rate","References","Location","setting"]
     var arrImages:[UIImage] = [#imageLiteral(resourceName: "plug"),#imageLiteral(resourceName: "tshirt"),#imageLiteral(resourceName: "smartphone"),#imageLiteral(resourceName: "living-room"),#imageLiteral(resourceName: "television"),#imageLiteral(resourceName: "nails"),#imageLiteral(resourceName: "receipt"),#imageLiteral(resourceName: "plane")]
     
     
@@ -101,7 +101,7 @@ class VViewController: UIViewController {
         topHeight_navigationBar_statusBar = UIApplication.shared.statusBarFrame.height + (navigationController?.navigationBar.frame.height)!
         
         tempview = UIView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height))
-        tempview.backgroundColor = UIColor(named: "Color-2")
+        tempview.backgroundColor = UIColor(named: "colorClaro")
         tempview.alpha = 0
         tempview.layer.cornerRadius = 27
         tempview.clipsToBounds = true
@@ -375,6 +375,13 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
 //
         
         switch indexPath.row {
+        case 8:
+            let stteing = self.storyboard?.instantiateViewController(identifier: "lll")as!MapVC
+            self.navigationController?.pushViewController(stteing, animated: true)
+            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.contentView.backgroundColor = UIColor.black
+            
         case 7:
             let mapVC = self.storyboard?.instantiateViewController(identifier: "dvc")as!MapVC
             self.navigationController?.pushViewController(mapVC, animated: true)

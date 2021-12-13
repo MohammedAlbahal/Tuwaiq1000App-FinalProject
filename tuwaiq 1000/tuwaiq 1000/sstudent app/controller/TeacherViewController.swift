@@ -22,7 +22,7 @@ class TeacherViewController: UIViewController{
     override func viewDidLoad(){
         super.viewDidLoad()
         
-        tittleLabel.text = "Teachers"
+        tittleLabel.text = "Instructors"
         
         tableView.delegate = self
         tableView.dataSource = self
