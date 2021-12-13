@@ -16,7 +16,16 @@ class VViewController: UIViewController {
     var tableView = UITableView()
     var toplabel = UILabel()
     var bottomView = UIView()
-    var logOutBtn = UIButton()
+    //    var logOutBtn = UIButton()
+    lazy var logOutBtn: UIButton = {
+        let buttonSingOut = UIButton(type: .system)
+        buttonSingOut.setTitle(NSLocalizedString("singOut", comment: ""), for: .normal)
+        buttonSingOut.setTitleColor(.red, for: .normal)
+        buttonSingOut.translatesAutoresizingMaskIntoConstraints = false
+        buttonSingOut.titleLabel?.font = .systemFont(ofSize: 20, weight: .bold)
+        buttonSingOut.addTarget(self, action: #selector(singOutButtonTapped), for: .touchUpInside)
+        return buttonSingOut
+    }()
     var nameLbl = UILabel()
     var imageview = UIImageView()
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
@@ -33,13 +42,13 @@ class VViewController: UIViewController {
     
     
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         loadViewFunctionality()
         loadSideBarViewFunctionality()
         loadGesturefunctionality()
         setupButtonForSignOut()
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -47,6 +56,21 @@ class VViewController: UIViewController {
         fetchCurrentUsers()
         checkIfUserDidntSignout()
     }
+    @objc private func singOutButtonTapped(sender: UIButton!) {
+        let alert = UIAlertController(title: "هل تريد تسجيل الخروج؟",
+                                      message: "",
+                                      preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "y", style: .default, handler: {
+            action in
+            self.dismiss(animated: true) {
+                self.navigationController?.popViewController(animated: true)
+            }
+            
+         }))
+        alert.addAction(UIAlertAction(title: "n", style: .cancel))
+        self.present(alert, animated: true)
+    }
+    
     private func checkIfUserDidntSignout() {
         if FirebaseAuth.Auth.auth().currentUser == nil {
             let navigationController = UINavigationController(rootViewController: RegisterVC())
@@ -64,11 +88,13 @@ class VViewController: UIViewController {
         self.navigationItem.leftBarButtonItem = menuBtn
     }
     func setupButtonForSignOut() {
-        view.addSubview(logOutBtn)
+        bottomView.addSubview(logOutBtn)
         
-       
-        logOutBtn.addTarget(self, action: #selector(signOutButtonTapped), for: .touchUpInside)
+        
+        logOutBtn.addTarget(self, action: #selector(singOutButtonTapped), for: .touchUpInside)
+        //        self.dismiss(animated: true, completion: nil)
     }
+    
     func loadSideBarViewFunctionality(){
         topHeight_navigationBar_statusBar = UIApplication.shared.statusBarFrame.height + (navigationController?.navigationBar.frame.height)!
         
@@ -78,39 +104,37 @@ class VViewController: UIViewController {
         tempview.layer.cornerRadius = 27
         tempview.clipsToBounds = true
         sideBarView = UIView(frame: CGRect(x: -self.view.bounds.width/1.5, y: topHeight_navigationBar_statusBar, width: self.view.bounds.width/1.5, height: self.view.bounds.height - topHeight_navigationBar_statusBar))
-        
+        sideBarView.backgroundColor = UIColor(red: 0.75, green: 1.00, blue: 1.00, alpha: 1.00)
         tableView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "SideBarTableViewCell", bundle: nil), forCellReuseIdentifier: "sideBarCell")
         tableView.separatorStyle = .none
         tableView.bounces = false
-
+        
         toplabel.text = "Tuwaiq 1000"
         toplabel.textAlignment = .center
         toplabel.font = UIFont(name: "Party LET", size: 45)
         toplabel.textColor = UIColor.black
-        toplabel.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-        bottomView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+        toplabel.backgroundColor = UIColor(red: 0.75, green: 1.00, blue: 1.00, alpha: 1.00)
+        bottomView.backgroundColor = UIColor(red: 0.75, green: 1.00, blue: 1.00, alpha: 1.00)
         
         logOutBtn.setTitle("Log Out", for: .normal)
-        logOutBtn.tintColor = UIColor.black
-        logOutBtn.alpha = 0
-        logOutBtn.layer.cornerRadius = 27
+        logOutBtn.backgroundColor = UIColor(red: 0.71, green: 1.00, blue: 1.00, alpha: 1.00)
         logOutBtn.titleLabel?.textColor = UIColor.black
-        logOutBtn.backgroundColor = UIColor.black
+        logOutBtn.setTitleColor(.black, for: .normal)
         logOutBtn.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
+        logOutBtn.addTarget(self, action: #selector(singOutButtonTapped), for: .touchUpInside)
+        
         
         nameLbl.numberOfLines = 0
-//        nameLbl.backgroundColor = UIColor.blue
         nameLbl.text = "Vinayak"
-        nameLbl.alpha = 0
-        nameLbl.layer.cornerRadius = 27
-        nameLbl.tintColor = UIColor.black
-        nameLbl.textColor = UIColor.black
+        nameLbl.textColor = .black
+        nameLbl.tintColor = .black
         nameLbl.textAlignment = NSTextAlignment.center
-        nameLbl.backgroundColor = .black
+        nameLbl.backgroundColor = UIColor(red: 0.71, green: 1.00, blue: 1.00, alpha: 1.00)
         
+        // UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
         
         if let userPhotoUrl = Auth.auth().currentUser?.photoURL {
             imageview.load(url: userPhotoUrl)
@@ -125,28 +149,33 @@ class VViewController: UIViewController {
         self.sideBarView.addSubview(toplabel)
         self.sideBarView.addSubview(bottomView)
         self.sideBarView.addSubview(tableView)
-        
-        self.bottomView.addSubview(logOutBtn)
         self.bottomView.addSubview(nameLbl)
+        self.bottomView.addSubview(logOutBtn)
         self.bottomView.addSubview(imageview)
         
         setUpSideBarViewConstraints()
         setUpBottomViewConstraints()
     }
-    @objc func signOutButtonTapped() {
-        guard let currentUser = Auth.auth().currentUser else {return}
-        db.collection("Users").document(currentUser.displayName!).setData([
-            "isOnline": "no",
-        ], merge: true) { err in
-            if let err = err {
-                print("Error writing document: \(err)")
-            } else {
-                try? Auth.auth().signOut()
-                self.tabBarController?.selectedIndex = 0
-                print("ChangedUserStatus")
-            }
-        }
-    }
+   
+    //
+    //
+    ////        target: self,
+    ////    action: #selector(signOutButtonTapped)
+    //    }
+    ////
+    //        guard let currentUser = Auth.auth().currentUser else {return}
+    //        db.collection("Users").document(currentUser.displayName!).setData([
+    //            "isOnline": "no",
+    //        ], merge: true) { err in
+    //            if let err = err {
+    //                print("Error writing document: \(err)")
+    //            } else {
+    //                try? Auth.auth().signOut()
+    //                self.tabBarController?.selectedIndex = 0
+    //                print("ChangedUserStatus")
+    //            }
+    //        }
+    
     
     func loadGesturefunctionality(){
         swipeToRight = UISwipeGestureRecognizer(target: self, action: #selector(swipedToRight))
@@ -164,16 +193,12 @@ class VViewController: UIViewController {
     func setUpBottomViewConstraints(){
         logOutBtn.translatesAutoresizingMaskIntoConstraints = false
         logOutBtn.leadingAnchor.constraint(equalTo: self.bottomView.leadingAnchor, constant: 20).isActive = true
-//        logOutBtn.trailingAnchor.constraint(equalTo: self.imageview.leadingAnchor, constant: -20).isActive = true
-        logOutBtn.topAnchor.constraint(equalTo: self.bottomView.topAnchor, constant: 40).isActive = true
-        logOutBtn.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        
+        logOutBtn.topAnchor.constraint(equalTo: self.bottomView.topAnchor, constant: 15).isActive = true
+        logOutBtn.heightAnchor.constraint(equalToConstant: 20).isActive = true
         nameLbl.translatesAutoresizingMaskIntoConstraints = false
         nameLbl.leadingAnchor.constraint(equalTo: self.bottomView.leadingAnchor, constant: 20).isActive = true
-//        nameLbl.trailingAnchor.constraint(equalTo: self.imageview.leadingAnchor, constant: -20).isActive = true
         nameLbl.bottomAnchor.constraint(equalTo: self.bottomView.bottomAnchor, constant: -15).isActive = true
         nameLbl.topAnchor.constraint(equalTo: self.logOutBtn.bottomAnchor, constant: 0).isActive = true
-        
         imageview.translatesAutoresizingMaskIntoConstraints = false
         imageview.topAnchor.constraint(equalTo: self.bottomView.topAnchor, constant: 20).isActive = true
         imageview.trailingAnchor.constraint(equalTo: self.bottomView.trailingAnchor, constant: -20).isActive = true
@@ -284,7 +309,7 @@ class VViewController: UIViewController {
             isEnableSideBarView = true
         }
     }
-
+    
 }
 
 
@@ -301,15 +326,18 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "sideBarCell", for: indexPath)as! SideBarTableViewCell
         cell.imagev.image = self.arrImages[indexPath.row]
         cell.lbl.text = self.arrData[indexPath.row]
-        if(indexPath.row % 2 == 0){
-            cell.backgroundColor = .black
-            } else{
-                cell.backgroundColor = .red
-            }
-//        cell.imagev.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-//        cell.lbl.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+        //        if(indexPath.row % 2 == 0){
+        //            cell.backgroundColor = .black
+        //            } else{
+        //                cell.backgroundColor = .red
+        //            }
+        //        cell.imagev.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+        //        cell.lbl.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
         cell.lbl.tintColor = .blue
         cell.imagev.tintColor = .black
+        cell.contentView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+//        cell.contentView.lbl. = .black
+        cell.lbl.textColor = UIColor(named: "color")
         
         return cell
     }
@@ -319,98 +347,107 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        tableView.deselectRow(at: indexPath, animated: false)
         let cell = tableView.cellForRow(at: indexPath)as! SideBarTableViewCell
+//
         
         switch indexPath.row {
         case 0:
             let mapVC = self.storyboard?.instantiateViewController(identifier: "dvc")as!MapVC
             self.navigationController?.pushViewController(mapVC, animated: true)
-            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.contentView.backgroundColor = UIColor.black
+            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.contentView.backgroundColor = UIColor.black
             
         case 1:
             let studentVC = self.storyboard?.instantiateViewController(identifier: "svc")as! StudentViewController
             self.navigationController?.pushViewController(studentVC, animated: true)
-            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.contentView.backgroundColor = UIColor.white
+            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.contentView.backgroundColor = UIColor.white
             
         case 2:
-        let webVC = self.storyboard?.instantiateViewController(identifier: "ovc")as! WebVC
-        self.navigationController?.pushViewController(webVC, animated: true)
-            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.contentView.backgroundColor = UIColor.white
-            
+            let webVC = self.storyboard?.instantiateViewController(identifier: "ovc")as! WebVC
+            self.navigationController?.pushViewController(webVC, animated: true)
+            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.lbl.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            //            cell.lbl.setTitleColor(.black, for: .normal)
+            //            cell.contentView.backgroundColor = UIColor.white
+            //
+//            cell.lbl.textColor = .black
             
         case 3:
-        let GPAVC = self.storyboard?.instantiateViewController(identifier: "aaa")as! HomeViewController
-        self.navigationController?.pushViewController(GPAVC, animated: true)
-            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.contentView.backgroundColor = UIColor.white
-            
+            let GPAVC = self.storyboard?.instantiateViewController(identifier: "aaa")as! HomeViewController
+            self.navigationController?.pushViewController(GPAVC, animated: true)
+            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            //            cell.contentView.backgroundColor = UIColor.white
+//            cell.lbl.textColor = .black
+            //
         case 4:
-        let subjectVC = self.storyboard?.instantiateViewController(identifier: "bbb")as! SubjectViewController
-        self.navigationController?.pushViewController(subjectVC, animated: true)
-            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.contentView.backgroundColor = UIColor.white
+            let subjectVC = self.storyboard?.instantiateViewController(identifier: "bbb")as! SubjectViewController
+            self.navigationController?.pushViewController(subjectVC, animated: true)
+//            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+//            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+//            cell.contentView.backgroundColor = UIColor.white
+//            cell.lbl.textColor = .black
             
         case 5:
-        let TeacherVC = self.storyboard?.instantiateViewController(identifier: "ccc")as! TeacherViewController
-        self.navigationController?.pushViewController(TeacherVC, animated: true)
-            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.contentView.backgroundColor = UIColor.white
+            let TeacherVC = self.storyboard?.instantiateViewController(identifier: "ccc")as! TeacherViewController
+            self.navigationController?.pushViewController(TeacherVC, animated: true)
+//            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+//            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+//            cell.contentView.backgroundColor = UIColor.white
+//            cell.lbl.textColor = .black
         case 6:
-        let quizVC = self.storyboard?.instantiateViewController(identifier: "ggg")as! ViewController
-        self.navigationController?.pushViewController(quizVC, animated: true)
-            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.contentView.backgroundColor = UIColor.white
+            let quizVC = self.storyboard?.instantiateViewController(identifier: "ggg")as! ViewController
+            self.navigationController?.pushViewController(quizVC, animated: true)
+//            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+//            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+//            cell.contentView.backgroundColor = UIColor.white
+//            cell.lbl.textColor = .black
             
         default:
             print(self.arrData[indexPath.row])
             cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.contentView.backgroundColor = UIColor.white
+            cell.lbl.textColor = .black
+            cell.contentView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             
         }
     }
     
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        let cell = tableView.cellForRow(at: indexPath)as! SideBarTableViewCell
-        cell.imagev.tintColor = UIColor.white
-        cell.lbl.textColor = UIColor.white
-        cell.contentView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-    }
+    //    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+    //        let cell = tableView.cellForRow(at: indexPath)as! SideBarTableViewCell
+    //        cell.imagev.tintColor = UIColor.white
+    //        cell.lbl.textColor = UIColor.black
+    //        cell.lbl.tintColor = .black
+    //        cell.contentView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+    //        tableView.reloadData()
+    //    }
     
-
-private func fetchCurrentUsers() {
-    guard let currentUserName = FirebaseAuth.Auth.auth().currentUser?.displayName else {return}
-    db.collection("Users").whereField("full name", isEqualTo: currentUserName)
-        .addSnapshotListener { (querySnapshot, error) in
+    
+    private func fetchCurrentUsers() {
+        guard let currentUserName = FirebaseAuth.Auth.auth().currentUser?.displayName else {return}
+        db.collection("Users").whereField("full name", isEqualTo: currentUserName)
+            .addSnapshotListener { (querySnapshot, error) in
                 
-            if let e = error {
-                print("There was an issue retrieving data from Firestore. \(e)")
-            } else {
-                if let snapshotDocuments = querySnapshot?.documents {
-                    for doc in snapshotDocuments {
-                        let data = doc.data()
-                        if let userName = data["full name"] as? String,
-                            let userIsOnline = data["isOnline"] as? String{
-                                    DispatchQueue.main.async {
-                                        self.nameLbl.text = userName
-                                       
+                if let e = error {
+                    print("There was an issue retrieving data from Firestore. \(e)")
+                } else {
+                    if let snapshotDocuments = querySnapshot?.documents {
+                        for doc in snapshotDocuments {
+                            let data = doc.data()
+                            if let userName = data["full name"] as? String,
+                               let userIsOnline = data["isOnline"] as? String{
+                                DispatchQueue.main.async {
+                                    self.nameLbl.text = userName
+                                    
+                                }
                             }
                         }
                     }
+                    
                 }
-
             }
     }
-}
 }
