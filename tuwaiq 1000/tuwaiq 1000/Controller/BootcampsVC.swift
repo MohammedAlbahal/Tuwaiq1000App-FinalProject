@@ -25,7 +25,7 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
             })
         }
         picC.reloadData()
-        picC.layer.cornerRadius = 27
+        picC.layer.cornerRadius = 20
         picC.clipsToBounds = true
     }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {

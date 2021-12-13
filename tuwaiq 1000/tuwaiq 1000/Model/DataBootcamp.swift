@@ -22,21 +22,21 @@ var purchsedPr : Array<Item> = []
 
 var List : Array<Item> = [
     Item(
-        name: "Cyber Security Twauiq ",
+        name: "Cyber Security",
         price1 : "Riyadh",
         logo: UIImage(named: "1"),
         spe : "A training camp aimed at qualifying Saudi capabilities and developing their skills in various cybersecurity fields, including vulnerability assessment, penetration testing, incident response, and digital forensic investigation"
     ),
-Item(
-    name: "Cyber security",
-    price1 : "Riyadh",
-    logo: UIImage(named: "19"),
-    spe : "The Cyber ​​Track gives 200 male and female trainees a unique opportunity to improve their skills and develop their capabilities in Linux server and network management, vulnerability assessment, penetration testing, incident response and digital forensics. At the end of the camp, the trainee will be qualified and able to work in one of the areas of cybersecurity The training camp consists of two phases A month-long foundation stage A specialized phase that lasts for three months and is divided into Offensive and defensive."
-),
+//Item(
+//    name: "Cyber security",
+//    price1 : "Riyadh",
+//    logo: UIImage(named: "19"),
+//    spe : "The Cyber ​​Track gives 200 male and female trainees a unique opportunity to improve their skills and develop their capabilities in Linux server and network management, vulnerability assessment, penetration testing, incident response and digital forensics. At the end of the camp, the trainee will be qualified and able to work in one of the areas of cybersecurity The training camp consists of two phases A month-long foundation stage A specialized phase that lasts for three months and is divided into Offensive and defensive."
+//),
 Item(
     name: "Cloud Computing",
     price1 : "Riyadh",
-    logo: UIImage(named: "155"),
+    logo: UIImage(named: "Image-2"),
     spe : "Qualifying recent graduates to work and providing them with the technical and professional skills necessary to work in the field of cloud computing."
 ),
 Item(
@@ -63,7 +63,7 @@ Item(
 Item(
     name: "C#",
     price1 : "Medina",
-    logo: UIImage(named: "1111"),
+    logo: UIImage(named: "Image-3"),
     spe : "Camp enables you to design and build integrated web applications using #C"
 
 ),

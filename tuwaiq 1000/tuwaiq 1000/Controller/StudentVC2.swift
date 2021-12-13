@@ -16,7 +16,7 @@ class productCollectionViewCell: UICollectionViewCell{
         productPriceLabel.text = Item.name
         productName.text = Item.name
     
-    procductImage.layer.cornerRadius = 27
+    procductImage.layer.cornerRadius = 20
     procductImage.clipsToBounds = true
 }
 }

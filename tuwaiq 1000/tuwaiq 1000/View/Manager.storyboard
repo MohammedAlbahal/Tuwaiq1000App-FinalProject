@@ -208,7 +208,6 @@
                     <connections>
                         <segue destination="pnb-H3-vWe" kind="relationship" relationship="viewControllers" id="GDk-Gt-tbO"/>
                         <segue destination="dMV-IW-mXU" kind="relationship" relationship="viewControllers" id="u2A-zI-xvk"/>
-                        <segue destination="yVM-SZ-Gbo" kind="relationship" relationship="viewControllers" id="hzT-aR-waJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9I-gQ-2Ug" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -489,16 +488,16 @@
             </objects>
             <point key="canvasLocation" x="1950.7246376811595" y="-903.34821428571422"/>
         </scene>
-        <!--Purchase-->
+        <!--Top10-->
         <scene sceneID="5VO-pZ-syv">
             <objects>
-                <viewController id="yVM-SZ-Gbo" customClass="PurchaseViewController" customModule="tuwaiq_1000" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hhh" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yVM-SZ-Gbo" customClass="PurchaseViewController" customModule="tuwaiq_1000" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WVL-9t-6OO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jMg-sJ-JX2">
-                                <rect key="frame" x="0.0" y="194" width="414" height="619"/>
+                                <rect key="frame" x="0.0" y="194" width="414" height="668"/>
                                 <color key="backgroundColor" red="0.88235294819999999" green="0.92549026010000002" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="sectionIndexBackgroundColor" red="0.88235294819999999" green="0.92549026010000002" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
@@ -569,7 +568,7 @@
                             <constraint firstItem="WPS-SB-nPR" firstAttribute="trailing" secondItem="B4f-wf-s3X" secondAttribute="trailing" constant="16" id="yGf-YB-rp5"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Purchase" image="person.3.fill" catalog="system" id="DT5-1P-d2C"/>
+                    <tabBarItem key="tabBarItem" title="Top10" image="person.3.fill" catalog="system" id="DT5-1P-d2C"/>
                     <connections>
                         <outlet property="purchaseTableView" destination="jMg-sJ-JX2" id="53D-y7-xtA"/>
                     </connections>

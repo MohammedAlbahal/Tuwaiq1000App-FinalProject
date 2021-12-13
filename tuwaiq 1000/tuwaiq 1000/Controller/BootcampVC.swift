@@ -24,12 +24,15 @@ class VC2 : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(named: "Color")
-        
+        Image1.layer.cornerRadius = 27
+        Image1.clipsToBounds = true
         if selectedpro != nil{
             Name2.text = selectedpro?.name
             price2.text = selectedpro?.price1
             labels.text = selectedpro?.spe
             Image1.image = selectedpro!.logo
+            Image1.layer.cornerRadius = 27
+            Image1.clipsToBounds = true
             
         }
     }

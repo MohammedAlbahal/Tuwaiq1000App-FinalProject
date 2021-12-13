@@ -32,7 +32,7 @@ class VViewController: UIViewController {
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["subject", "instructors","studens","references","location","setting"]
+    var arrData = ["subject", "instructors","studens","top 10 student","ecercises","calculate your rate","references","location"]
     var arrImages:[UIImage] = [#imageLiteral(resourceName: "plug"),#imageLiteral(resourceName: "tshirt"),#imageLiteral(resourceName: "smartphone"),#imageLiteral(resourceName: "living-room"),#imageLiteral(resourceName: "television"),#imageLiteral(resourceName: "nails"),#imageLiteral(resourceName: "receipt"),#imageLiteral(resourceName: "plane")]
     
     
@@ -62,14 +62,14 @@ class VViewController: UIViewController {
         let alert = UIAlertController(title: "هل تريد تسجيل الخروج؟",
                                       message: "",
                                       preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "y", style: .default, handler: {
+        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {
             action in
             self.dismiss(animated: true) {
                 self.navigationController?.popViewController(animated: true)
             }
             
          }))
-        alert.addAction(UIAlertAction(title: "n", style: .cancel))
+        alert.addAction(UIAlertAction(title: "No", style: .cancel))
         self.present(alert, animated: true)
     }
     
@@ -86,7 +86,7 @@ class VViewController: UIViewController {
     
     func loadViewFunctionality(){
         var menuBtn = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .done, target: self, action: #selector(menuBtnClick))
-        menuBtn.tintColor = UIColor(red: 0.67, green: 1.00, blue: 1.00, alpha: 1.00)
+        menuBtn.tintColor = UIColor(named: "Color-2")
         self.navigationItem.leftBarButtonItem = menuBtn
     }
     func setupButtonForSignOut() {
@@ -101,29 +101,33 @@ class VViewController: UIViewController {
         topHeight_navigationBar_statusBar = UIApplication.shared.statusBarFrame.height + (navigationController?.navigationBar.frame.height)!
         
         tempview = UIView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height))
-        tempview.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+        tempview.backgroundColor = UIColor(named: "Color-2")
         tempview.alpha = 0
         tempview.layer.cornerRadius = 27
         tempview.clipsToBounds = true
         sideBarView = UIView(frame: CGRect(x: -self.view.bounds.width/1.5, y: topHeight_navigationBar_statusBar, width: self.view.bounds.width/1.5, height: self.view.bounds.height - topHeight_navigationBar_statusBar))
-        sideBarView.backgroundColor = UIColor(red: 0.75, green: 1.00, blue: 1.00, alpha: 1.00)
-        tableView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+        sideBarView.backgroundColor = UIColor(named: "Color")
+        sideBarView.layer.cornerRadius = 15
+        sideBarView.clipsToBounds = true
+        tableView.backgroundColor = UIColor(named: "Color")
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "SideBarTableViewCell", bundle: nil), forCellReuseIdentifier: "sideBarCell")
         tableView.separatorStyle = .none
         tableView.bounces = false
+        tableView.layer.cornerRadius = 27
+        tableView.clipsToBounds = true
         
         toplabel.text = "Tuwaiq 1000"
         toplabel.textAlignment = .center
         toplabel.font = UIFont(name: "Party LET", size: 45)
-        toplabel.textColor = UIColor.black
-        toplabel.backgroundColor = UIColor(red: 0.75, green: 1.00, blue: 1.00, alpha: 1.00)
-        bottomView.backgroundColor = UIColor(red: 0.75, green: 1.00, blue: 1.00, alpha: 1.00)
+        toplabel.textColor = UIColor(named: "Color-1")
+        toplabel.backgroundColor = UIColor(named: "Color-2")
+        bottomView.backgroundColor = UIColor(named: "Color-2")
         
         logOutBtn.setTitle("Log Out", for: .normal)
-        logOutBtn.backgroundColor = UIColor(red: 0.71, green: 1.00, blue: 1.00, alpha: 1.00)
-        logOutBtn.titleLabel?.textColor = UIColor.black
+        logOutBtn.backgroundColor = UIColor(named: "Color-2")
+        logOutBtn.titleLabel?.textColor = UIColor(named: "Color-1")
         logOutBtn.setTitleColor(.black, for: .normal)
         logOutBtn.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         logOutBtn.addTarget(self, action: #selector(singOutButtonTapped), for: .touchUpInside)
@@ -131,10 +135,10 @@ class VViewController: UIViewController {
         
         nameLbl.numberOfLines = 0
         nameLbl.text = "Vinayak"
-        nameLbl.textColor = .black
-        nameLbl.tintColor = .black
+        nameLbl.textColor = UIColor(named: "Color-1")
+        nameLbl.tintColor = UIColor(named: "Color-1")
         nameLbl.textAlignment = NSTextAlignment.center
-        nameLbl.backgroundColor = UIColor(red: 0.71, green: 1.00, blue: 1.00, alpha: 1.00)
+        nameLbl.backgroundColor = UIColor(named: "Color-2")
         
         // UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
         
@@ -352,11 +356,11 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
         //            }
         //        cell.imagev.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
         //        cell.lbl.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-        cell.lbl.tintColor = .blue
-        cell.imagev.tintColor = .black
-        cell.contentView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+        cell.lbl.tintColor = UIColor(named: "Color-1")
+        cell.imagev.tintColor = UIColor(named: "Color-1")
+        cell.contentView.backgroundColor = UIColor(named: "Color")
 //        cell.contentView.lbl. = .black
-        cell.lbl.textColor = UIColor(named: "color")
+        cell.lbl.textColor = UIColor(named: "Color-1")
         
         return cell
     }
@@ -371,21 +375,24 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
 //
         
         switch indexPath.row {
-        case 0:
+        case 7:
             let mapVC = self.storyboard?.instantiateViewController(identifier: "dvc")as!MapVC
             self.navigationController?.pushViewController(mapVC, animated: true)
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.contentView.backgroundColor = UIColor.black
             
-        case 1:
+        case 2:
             let studentVC = self.storyboard?.instantiateViewController(identifier: "svc")as! StudentViewController
             self.navigationController?.pushViewController(studentVC, animated: true)
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.contentView.backgroundColor = UIColor.white
-            
-        case 2:
+            // PurchaseViewController
+        case 3:
+            let tt = self.storyboard?.instantiateViewController(identifier: "hhh")as! PurchaseViewController
+            self.navigationController?.pushViewController(tt, animated: true)
+        case 6:
             let webVC = self.storyboard?.instantiateViewController(identifier: "ovc")as! WebVC
             self.navigationController?.pushViewController(webVC, animated: true)
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
@@ -395,7 +402,7 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
             //
 //            cell.lbl.textColor = .black
             
-        case 3:
+        case 5:
             let GPAVC = self.storyboard?.instantiateViewController(identifier: "aaa")as! HomeViewController
             self.navigationController?.pushViewController(GPAVC, animated: true)
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
@@ -403,7 +410,7 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
             //            cell.contentView.backgroundColor = UIColor.white
 //            cell.lbl.textColor = .black
             //
-        case 4:
+        case 0:
             let subjectVC = self.storyboard?.instantiateViewController(identifier: "bbb")as! SubjectViewController
             self.navigationController?.pushViewController(subjectVC, animated: true)
 //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
@@ -411,14 +418,14 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
 //            cell.contentView.backgroundColor = UIColor.white
 //            cell.lbl.textColor = .black
             
-        case 5:
+        case 1:
             let TeacherVC = self.storyboard?.instantiateViewController(identifier: "ccc")as! TeacherViewController
             self.navigationController?.pushViewController(TeacherVC, animated: true)
 //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
 //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
 //            cell.contentView.backgroundColor = UIColor.white
 //            cell.lbl.textColor = .black
-        case 6:
+        case 4:
             let quizVC = self.storyboard?.instantiateViewController(identifier: "ggg")as! ViewController
             self.navigationController?.pushViewController(quizVC, animated: true)
 //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
@@ -428,9 +435,9 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
             
         default:
             print(self.arrData[indexPath.row])
-            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            cell.lbl.textColor = .black
-            cell.contentView.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+            cell.imagev.tintColor = UIColor(named: "Color-1")
+            cell.lbl.textColor = UIColor(named: "Color-1")
+            cell.contentView.backgroundColor = UIColor(named: "Color")
             
         }
     }
