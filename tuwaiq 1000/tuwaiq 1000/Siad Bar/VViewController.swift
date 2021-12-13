@@ -16,7 +16,7 @@ class VViewController: UIViewController {
     var tableView = UITableView()
     var toplabel = UILabel()
     var bottomView = UIView()
-    let switchMood = UISwitch(frame:CGRect(x: 180, y: 150, width: 15, height: 0))
+    //let switchMood = UISwitch(frame:CGRect(x: 180, y: 150, width: 15, height: 0))
     //    var logOutBtn = UIButton()
     lazy var logOutBtn: UIButton = {
         let buttonSingOut = UIButton(type: .system)
@@ -33,7 +33,7 @@ class VViewController: UIViewController {
     var isEnableSideBarView:Bool = false
     
     var arrData = ["Subject", "Instructors","Studens","Top 10 student","Ecercises","Calculate your rate","References","Location","setting"]
-    var arrImages:[UIImage] = [#imageLiteral(resourceName: "plug"),#imageLiteral(resourceName: "tshirt"),#imageLiteral(resourceName: "smartphone"),#imageLiteral(resourceName: "living-room"),#imageLiteral(resourceName: "television"),#imageLiteral(resourceName: "nails"),#imageLiteral(resourceName: "receipt"),#imageLiteral(resourceName: "plane")]
+    var arrImages:[UIImage] = [#imageLiteral(resourceName: "plug"),#imageLiteral(resourceName: "tshirt"),#imageLiteral(resourceName: "smartphone"),#imageLiteral(resourceName: "living-room"),#imageLiteral(resourceName: "television"),#imageLiteral(resourceName: "nails"),#imageLiteral(resourceName: "receipt"),#imageLiteral(resourceName: "plane"),#imageLiteral(resourceName: "plane")]
     
     
     var swipeToRight = UISwipeGestureRecognizer()
@@ -49,7 +49,7 @@ class VViewController: UIViewController {
         loadSideBarViewFunctionality()
         loadGesturefunctionality()
         setupButtonForSignOut()
-        setupMoodSwitch()
+      //  setupMoodSwitch()
         
     }
     
@@ -182,24 +182,24 @@ class VViewController: UIViewController {
     //            }
     //        }
     
-    func setupMoodSwitch(){
-       
-        switchMood.addTarget(self, action: #selector(switchStateDidChange), for: .valueChanged)
-        view.addSubview(switchMood)
-        switchMood.onTintColor = ThemeColor.mainColor
-        switch gloabalWindow?.traitCollection.userInterfaceStyle {
-        case .dark:
-            switchMood.setOn(true, animated: false)
-        case .light:
-            switchMood.setOn(false, animated: false)
-        default:
-            print("Unspecified")
-        }
-    }
-    
-    @objc func switchStateDidChange() {
-        gloabalWindow?.overrideUserInterfaceStyle = switchMood.isOn ? .dark : .light
-    }
+//    func setupMoodSwitch(){
+//
+//        switchMood.addTarget(self, action: #selector(switchStateDidChange), for: .valueChanged)
+//        view.addSubview(switchMood)
+//        switchMood.onTintColor = ThemeColor.mainColor
+//        switch gloabalWindow?.traitCollection.userInterfaceStyle {
+//        case .dark:
+//            switchMood.setOn(true, animated: false)
+//        case .light:
+//            switchMood.setOn(false, animated: false)
+//        default:
+//            print("Unspecified")
+//        }
+//    }
+//    
+//    @objc func switchStateDidChange() {
+//        gloabalWindow?.overrideUserInterfaceStyle = switchMood.isOn ? .dark : .light
+//    }
     func loadGesturefunctionality(){
         swipeToRight = UISwipeGestureRecognizer(target: self, action: #selector(swipedToRight))
         swipeToRight.direction = .right
@@ -376,7 +376,7 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
         
         switch indexPath.row {
         case 8:
-            let stteing = self.storyboard?.instantiateViewController(identifier: "lll")as!MapVC
+            let stteing = self.storyboard?.instantiateViewController(identifier: "lll")as!SettingViewController
             self.navigationController?.pushViewController(stteing, animated: true)
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
@@ -435,11 +435,11 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
         case 4:
             let quizVC = self.storyboard?.instantiateViewController(identifier: "ggg")as! ViewController
             self.navigationController?.pushViewController(quizVC, animated: true)
-//            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-//            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-//            cell.contentView.backgroundColor = UIColor.white
-//            cell.lbl.textColor = .black
-            
+////            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+////            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+////            cell.contentView.backgroundColor = UIColor.white
+////            cell.lbl.textColor = .black
+//
         default:
             print(self.arrData[indexPath.row])
             cell.imagev.tintColor = UIColor(named: "Color-1")
