@@ -17,13 +17,14 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lbAnswered.text = "Perguntas Respondidas: \(totalAnswers)"
-        lbCorrect.text = "Perguntas Corretas: \(totalCorrectAnswers)"
-        lbWrong.text = "Perguntas Erradas: \(totalAnswers - totalCorrectAnswers)"
+        lbAnswered.text = "Answer the questions: \(totalAnswers)"
+        lbCorrect.text = "right questions: \(totalCorrectAnswers)"
+        lbWrong.text = "wrong questions: \(totalAnswers - totalCorrectAnswers)"
         let score = totalCorrectAnswers*100/totalAnswers
         lbScore.text = "\(score)%"
     }
     @IBAction func close(_ sender: Any) {
+        
         dismiss(animated: true, completion: nil)
     }
     
