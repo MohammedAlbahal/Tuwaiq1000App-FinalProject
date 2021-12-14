@@ -433,8 +433,8 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
 //            cell.contentView.backgroundColor = UIColor.white
 //            cell.lbl.textColor = .black
         case 4:
-            let quizVC = self.storyboard?.instantiateViewController(identifier: "ggg")as! ViewController
-            self.navigationController?.pushViewController(quizVC, animated: true)
+            let attendance = self.storyboard?.instantiateViewController(identifier: "333")as! MapVC
+            self.navigationController?.pushViewController(attendance, animated: true)
 ////            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
 ////            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
 ////            cell.contentView.backgroundColor = UIColor.white

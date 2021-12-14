@@ -345,6 +345,7 @@
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
 				E64C236E2760910900DE566D /* Reghister.swift */,
 				E67505AD2765E754004080BD /* mapVC.swift */,
+				E6EF140727695115008227D1 /* New Group */,
 				E6EF13DB27678652008227D1 /* ThemeColorVC.swift */,
 				E6EF13D9276781E1008227D1 /* collmove.swift */,
 				E67505AF2766356C004080BD /* gestureVC.swift */,
@@ -511,6 +512,13 @@
 				E675059F2763AF4B004080BD /* VViewController.swift */,
 			);
 			path = "Siad Bar";
+			sourceTree = "<group>";
+		};
+		E6EF140727695115008227D1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
