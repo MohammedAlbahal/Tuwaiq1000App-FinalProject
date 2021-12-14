@@ -32,8 +32,8 @@ class VViewController: UIViewController {
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["Subject", "Instructors","Studens","Top 10 student","Ecercises","Calculate your rate","References","Location","setting"]
-    var arrImages:[UIImage] = [#imageLiteral(resourceName: "plug"),#imageLiteral(resourceName: "tshirt"),#imageLiteral(resourceName: "smartphone"),#imageLiteral(resourceName: "living-room"),#imageLiteral(resourceName: "television"),#imageLiteral(resourceName: "nails"),#imageLiteral(resourceName: "receipt"),#imageLiteral(resourceName: "plane"),#imageLiteral(resourceName: "plane")]
+    var arrData = ["Subject", "Instructors","Studens","Top 10 student","Exercises","Calculate your rate","References","Location","setting"]
+    var arrImages:[UIImage] = [#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "person.wave.2"),#imageLiteral(resourceName: "person.3"),#imageLiteral(resourceName: "figure.wave"),#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "keyboard.onehanded.right"),#imageLiteral(resourceName: "globe.badge.chevron.backward"),#imageLiteral(resourceName: "location"),#imageLiteral(resourceName: "gear.circle-1")]
     
     
     var swipeToRight = UISwipeGestureRecognizer()

@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "television.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "television.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
