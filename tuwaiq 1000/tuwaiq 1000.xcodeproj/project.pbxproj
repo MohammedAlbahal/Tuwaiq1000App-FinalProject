@@ -79,9 +79,6 @@
 		E65D9515275F9675008A378A /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D9511275F9675008A378A /* Teacher.swift */; };
 		E675059A2763AE21004080BD /* SideBarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E67505992763AE21004080BD /* SideBarTableViewCell.xib */; };
 		E67505A02763AF4B004080BD /* SideBarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059B2763AF48004080BD /* SideBarTableViewCell.swift */; };
-		E67505A12763AF4B004080BD /* ShortCutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059C2763AF49004080BD /* ShortCutsViewController.swift */; };
-		E67505A22763AF4B004080BD /* OverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059D2763AF4A004080BD /* OverViewViewController.swift */; };
-		E67505A32763AF4B004080BD /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059E2763AF4A004080BD /* DashBoardViewController.swift */; };
 		E67505A42763AF4B004080BD /* VViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059F2763AF4B004080BD /* VViewController.swift */; };
 		E67505A8276414F1004080BD /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67505A7276414F0004080BD /* Start.storyboard */; };
 		E67505AA2764182B004080BD /* G.P.A VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67505A92764182B004080BD /* G.P.A VC.swift */; };
@@ -97,6 +94,8 @@
 		E69247022754F18300421DCB /* StudentVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69247012754F18300421DCB /* StudentVC2.swift */; };
 		E6EF13DA276781E2008227D1 /* collmove.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13D9276781E1008227D1 /* collmove.swift */; };
 		E6EF13DC27678652008227D1 /* ThemeColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13DB27678652008227D1 /* ThemeColorVC.swift */; };
+		E6EF14042769328F008227D1 /* SideBarInstroctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */; };
+		E6EF140627693346008227D1 /* SideBarInstroctorVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF140527693346008227D1 /* SideBarInstroctorVCTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -175,9 +174,6 @@
 		E65D9511275F9675008A378A /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		E67505992763AE21004080BD /* SideBarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarTableViewCell.xib; sourceTree = "<group>"; };
 		E675059B2763AF48004080BD /* SideBarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewCell.swift; sourceTree = "<group>"; };
-		E675059C2763AF49004080BD /* ShortCutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortCutsViewController.swift; sourceTree = "<group>"; };
-		E675059D2763AF4A004080BD /* OverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewViewController.swift; sourceTree = "<group>"; };
-		E675059E2763AF4A004080BD /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
 		E675059F2763AF4B004080BD /* VViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = VViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		E67505A7276414F0004080BD /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		E67505A92764182B004080BD /* G.P.A VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "G.P.A VC.swift"; sourceTree = "<group>"; };
@@ -193,6 +189,8 @@
 		E69247012754F18300421DCB /* StudentVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVC2.swift; sourceTree = "<group>"; };
 		E6EF13D9276781E1008227D1 /* collmove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collmove.swift; sourceTree = "<group>"; };
 		E6EF13DB27678652008227D1 /* ThemeColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorVC.swift; sourceTree = "<group>"; };
+		E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarInstroctorVC.swift; sourceTree = "<group>"; };
+		E6EF140527693346008227D1 /* SideBarInstroctorVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarInstroctorVCTableViewCell.swift; sourceTree = "<group>"; };
 		EE5BEB1A07E452DE90129F34 /* Pods-tuwaiq 1000.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuwaiq 1000.debug.xcconfig"; path = "Target Support Files/Pods-tuwaiq 1000/Pods-tuwaiq 1000.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -507,10 +505,9 @@
 		E67505982763AD25004080BD /* Siad Bar */ = {
 			isa = PBXGroup;
 			children = (
-				E675059E2763AF4A004080BD /* DashBoardViewController.swift */,
-				E675059D2763AF4A004080BD /* OverViewViewController.swift */,
-				E675059C2763AF49004080BD /* ShortCutsViewController.swift */,
 				E675059B2763AF48004080BD /* SideBarTableViewCell.swift */,
+				E6EF140527693346008227D1 /* SideBarInstroctorVCTableViewCell.swift */,
+				E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */,
 				E675059F2763AF4B004080BD /* VViewController.swift */,
 			);
 			path = "Siad Bar";
@@ -642,7 +639,6 @@
 				E64C23B82761E9A700DE566D /* Web.swift in Sources */,
 				5E33D3952753938F007EC44C /* DetailsCell.swift in Sources */,
 				E64C23A32760EA5700DE566D /* PersonInfoViewController.swift in Sources */,
-				E67505A32763AF4B004080BD /* DashBoardViewController.swift in Sources */,
 				E64C237E2760C47300DE566D /* SpashViewController.swift in Sources */,
 				E64C23C227620E0B00DE566D /* ViewController.swift in Sources */,
 				5E33D38227538ED7007EC44C /* EmailVC.swift in Sources */,
@@ -665,7 +661,6 @@
 				E64C23732760BCAC00DE566D /* Tt.swift in Sources */,
 				E64C23B02760EAA100DE566D /* ContainerStudentViewCell.swift in Sources */,
 				5E33D37227538C3F007EC44C /* DetelisVC.swift in Sources */,
-				E67505A22763AF4B004080BD /* OverViewViewController.swift in Sources */,
 				E64C23812760C47300DE566D /* SelectionTableViewController.swift in Sources */,
 				E67505AE2765E754004080BD /* mapVC.swift in Sources */,
 				E64C238C2760C4C200DE566D /* Utility.swift in Sources */,
@@ -677,6 +672,7 @@
 				E64C23A12760EA5700DE566D /* SubjectDescriptionViewController.swift in Sources */,
 				E64C23B12760EAA100DE566D /* TeacherViewCell.swift in Sources */,
 				E64C23C327620E0B00DE566D /* QuizViewController.swift in Sources */,
+				E6EF14042769328F008227D1 /* SideBarInstroctorVC.swift in Sources */,
 				E67505AA2764182B004080BD /* G.P.A VC.swift in Sources */,
 				5E33D37F27538E47007EC44C /* RecCell.swift in Sources */,
 				5E33D36C27538BB6007EC44C /* EditStudentsCell.swift in Sources */,
@@ -684,11 +680,11 @@
 				E64C23B22760EAA100DE566D /* ContainerViewCell.swift in Sources */,
 				E69246F72754B84100421DCB /* BootcampsCell.swift in Sources */,
 				5E33D37027538C19007EC44C /* UpdateStudentVC.swift in Sources */,
+				E6EF140627693346008227D1 /* SideBarInstroctorVCTableViewCell.swift in Sources */,
 				E64C237F2760C47300DE566D /* AvgViewController.swift in Sources */,
 				E64C236F2760910900DE566D /* Reghister.swift in Sources */,
 				E69246FD2754C77E00421DCB /* BootcampVC.swift in Sources */,
 				E64C23962760C85600DE566D /* dddata.swift in Sources */,
-				E67505A12763AF4B004080BD /* ShortCutsViewController.swift in Sources */,
 				E69246F32754B7A100421DCB /* DataBootcamp.swift in Sources */,
 				5E33D36A27538B8D007EC44C /* InstructioerVC.swift in Sources */,
 				E64C238B2760C4C200DE566D /* Protocols.swift in Sources */,
