@@ -128,7 +128,7 @@ class VViewController: UIViewController {
         logOutBtn.setTitle("Log Out", for: .normal)
         logOutBtn.backgroundColor = UIColor(named: "Color-2")
         logOutBtn.titleLabel?.textColor = UIColor(named: "Color-1")
-        logOutBtn.setTitleColor(.black, for: .normal)
+        logOutBtn.titleLabel?.tintColor = UIColor(named: "Color-1")
         logOutBtn.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         logOutBtn.addTarget(self, action: #selector(singOutButtonTapped), for: .touchUpInside)
         

@@ -15,10 +15,10 @@ class RegisterVC: UIViewController {
     
     let subTitLbl: UILabel = {
         let title = UILabel()
-        title.text = "سويفت أبها"
+        title.text = "Swift Bootcamp"
         title.textColor = .label
         title.font = UIFont.systemFont(ofSize: 15, weight: .light)
-        title.backgroundColor = .lightGray
+        title.backgroundColor = UIColor(named: "Color-2")
         title.layer.cornerRadius = 12
         title.layer.masksToBounds = true
         title.textAlignment = .center
@@ -28,17 +28,18 @@ class RegisterVC: UIViewController {
     
     let button: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("تسجيل الدخول من خلال قوقل", for: .normal)
+        button.setTitle("Continue with Google", for: .normal)
+        button.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = .gray
-        button.layer.cornerRadius = 23
+        button.backgroundColor = UIColor(named: "Color-2")
+        button.layer.cornerRadius = 20
         button.layer.masksToBounds = true
         return button
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .lightGray
+        view.backgroundColor = UIColor(named: "Color")
         setupBtn()
         setupLbl()
     }
