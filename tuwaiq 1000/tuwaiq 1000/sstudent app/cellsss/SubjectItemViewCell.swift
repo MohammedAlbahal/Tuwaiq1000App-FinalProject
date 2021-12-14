@@ -24,14 +24,14 @@ class SubjectItemViewCell : UICollectionViewCell {
         view2SubjectCollection.layer.cornerRadius = 10.0
         
         labelSubjectCollection.textColor = UIColor (named: "colorClaro")
-        labelYearCollection.textColor = UIColor (named: "colorClaro")
+//        labelYearCollection.textColor = UIColor (named: "colorClaro")
     }
     
 //    MARK: - Configure
     func configure(image: UIImage?, subject: String, year: String) {
             imageCollection.image = image
             labelSubjectCollection.text = subject
-            labelYearCollection.text = year
+//            labelYearCollection.text = year
         }
     
     }

@@ -1,12 +1,12 @@
 //
-//  SettingViewController.swift
-//  Fit Tip App
+//  ViewController.swift
+//  ttt
 //
-//  Created by Atheer Othman on 21/04/1443 AH.
+//  Created by saja Al-qhtani on 10/05/1443 AH.
 //
 
 import UIKit
-import FirebaseAuth
+
 
 class SettingViewController: UIViewController {
     
@@ -19,7 +19,7 @@ class SettingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(named: "BackgroundColor")
+        view.backgroundColor = UIColor(named: "Color")
         navigationItem.title = NSLocalizedString("setting", comment: "")
         setupMoodSwitch()
         setupSignOut()
@@ -58,14 +58,14 @@ class SettingViewController: UIViewController {
     }
     
     func setupSignOut(){
-//        view.addSubview(signOutButton)
-//        signOutButton.translatesAutoresizingMaskIntoConstraints = false
-//        signOutButton.setTitle(NSLocalizedString("signout", comment: ""), for: .normal)
+        view.addSubview(signOutButton)
+        signOutButton.translatesAutoresizingMaskIntoConstraints = false
+        signOutButton.setTitle(NSLocalizedString("signout", comment: ""), for: .normal)
 //        signOutButton.addTarget(self, action: #selector(signOutButtonPressed), for: .touchUpInside)
-//        signOutButton.tintColor = UIColor(named: "BackgroundColor")
-//        signOutButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-//        signOutButton.layer.cornerRadius = 10
-//        signOutButton.layer.masksToBounds = true
+        signOutButton.tintColor = UIColor(named: "Color")
+        signOutButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        signOutButton.layer.cornerRadius = 10
+        signOutButton.layer.masksToBounds = true
         
         let gradient = setupRedGradientLayer()
         gradient.frame = view.bounds
@@ -92,8 +92,8 @@ class SettingViewController: UIViewController {
 //        alert.addAction(UIAlertAction(title: NSLocalizedString("cancel", comment: "") , style: .default, handler: nil))
 //        alert.addAction(exitAction)
 //        present(alert, animated: true, completion: nil)
-    
-    
+//    }
+//
 //    func logout(){
 //        do{
 //            try Auth.auth().signOut()
@@ -104,7 +104,7 @@ class SettingViewController: UIViewController {
 //            print(error)
 //        }
 //    }
-    
+//
     func setupDarkLightImageView(){
         view.addSubview(darkImageView)
         view.addSubview(lightImageView)
@@ -136,7 +136,7 @@ class SettingViewController: UIViewController {
         languageButton.translatesAutoresizingMaskIntoConstraints = false
         languageButton.setTitle(NSLocalizedString("language", comment: "") , for: .normal)
         languageButton.addTarget(self, action: #selector(changeLanguagePressed), for: .touchUpInside)
-        languageButton.tintColor = UIColor(named: "BackgroundColor")
+        languageButton.tintColor = UIColor(named: "Color")
         languageButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
         languageButton.layer.cornerRadius = 10
         languageButton.layer.masksToBounds = true
@@ -163,5 +163,3 @@ class SettingViewController: UIViewController {
         exit(0)
     }
 }
-
-

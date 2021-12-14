@@ -376,7 +376,7 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
         
         switch indexPath.row {
         case 8:
-            let stteing = self.storyboard?.instantiateViewController(identifier: "lll")as!SettingViewController
+            let stteing = self.storyboard?.instantiateViewController(identifier: "kkk")as!SettingViewController
             self.navigationController?.pushViewController(stteing, animated: true)
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
