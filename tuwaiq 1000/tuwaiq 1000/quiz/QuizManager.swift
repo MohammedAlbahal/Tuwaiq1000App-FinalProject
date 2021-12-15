@@ -6,50 +6,54 @@
 //
 
 import Foundation
+var someSet = Set<Character>()
+
 
 class QuizManager {
     
     private let quizes: [(question: String, correctAnswer: String, options: [String])] = [
-            (question: "Quais desses é string?", correctAnswer: "\"Olá mundo\"",
-             options: ["20", "\"Olá mundo\"", "Olá mundo", "'Olá mundo'"]),
-            (question: "Qual é o resultado da expressão \"1\" + \"1\"", correctAnswer: "\"11\"",
+            (question: "Which of these is string?", correctAnswer: "\"Hello World\"",
+             options: ["20", "\"Hello World\"", "Hello World", "'Hello World'"]),
+            (question: "What is the result of the expression \"1\" + \"1\"", correctAnswer: "\"11\"",
              options: ["11", "\"2\"", "\"11\"", "\"1 1\""]),
-            (question: "Qual desses símbolos é usado para \"escapar\" caracteres especiais", correctAnswer: "\\",
+            (question: "Which of these symbols is used to \"escape\" special characters", correctAnswer: "\\",
              options: ["/", "\\", "!", "ESC"]),
-            (question: "Qual a sintaxe correta para declarar uma função?", correctAnswer: "func myFunction() {}",
+            (question: "What is the correct syntax for declaring a function?", correctAnswer: "func myFunction() {}",
              options: ["func = myFunction() {}", "let myFunction = func() {}", "let func = myFunction() {}", "func myFunction() {}"]),
             (question:
                 """
                    func printSomething() {
-                      print("Adoro funções")
+                      print("I love KSA")
                    }
                    printSomething()
                 """, correctAnswer: "Adoro funções",
-                     options: ["Nada", "printSomething()", "Adoro funções", "Erro"]),
-            (question: "Quando não declaramos o tipo de retorno de uma função, qual é o retorno padrão?", correctAnswer: "Void",
+                     options: ["Nothing", "printSomething()", "I love KSA", "Error"]),
+            (question: "When we don't declare a function's return type, what is the default return?", correctAnswer: "Void",
              options: ["Void", "Int", "String", "nil"]),
-            (question: "Qual é a sintaxe correta para declarar um parâmetro?", correctAnswer: "resposta correta",
+            (question: "What is the correct syntax for declaring a parameter?", correctAnswer: "resposta correta",
              options: ["func myFunc(String message) {}", "func myFunc(let message = String) {}", "func myFunc(message String) {}", "func myFunc(message: String) {}"]),
             
-            (question: "Qual é o tipo de uma variavél String que pode aceitar nil?", correctAnswer: "String?",
+            (question: "What is the type of a String variable that can accept nil?", correctAnswer: "String?",
              options: ["String", "String?", "Int", "Void"]),
-            (question: "Quando queremos declarar uma constante, qual palavra reservada devemos usar?", correctAnswer: "let",
+            (question: "When we want to declare a constant, which reserved word should we use?", correctAnswer: "let",
              options: ["var", "const", "let", "CONST"]),
-            (question: "O que é um dicionário?", correctAnswer: "É uma coleção não-ordenada com chave e valor",
-             options: ["É uma coleção que não aceita objetos repetidos", "É uma coleção ordenada com chave e valor", "É uma coleção não-ordenada com chave e valor", "É uma coleção que permite valores de tipos diferentes"]),
-            (question: "Qual o nome do tipo especial em Swift que é usado para declarar blocos ou funções anônimas?", correctAnswer: "Closure",
+            (question: "What is a dictionary?", correctAnswer: "It is an unordered collection with key and value.",
+             options: ["It is a collection that does not accept repeated objects.", "It is an ordered collection with key and value.", "It is an unordered collection with key and value.", "It is a collection that allows values ​​of different types."]),
+            (question: "What is the name of the special type in Swift that is used to declare anonymous blocks or functions?", correctAnswer: "Closure",
              options: ["Lambda", "Block", "Closure", "Protocol"]),
-            (question: "O que é um enum?", correctAnswer: "Tipo definido pelo usuário para um grupo de valores relacionados",
-             options: ["É um conjunto de Strings", "É um tipo especial de String", "É um operador unário do tipo prefix", "Tipo definido pelo usuário para um grupo de valores relacionados"]),
-            (question: "O que uma extension não pode fazer?", correctAnswer: "Adicionar propriedades armazenadas",
-             options: ["Adicionar novas funcionalidades", "Definir novos construtores", "Adicionar propriedades armazenadas", "Adicionar propriedades computadas"]),
-            (question: "Quando herdamos de uma classe e queremos chamar o seu construtor, usamos...", correctAnswer: "super.init",
+            (question: "What is an enum?", correctAnswer: "User defined type for a group of related values",
+             options: ["It's a set of Strings", "It's a special type of String", "It is a unary operator of type prefix.", "User defined type for a group of related values"]),
+            (question: "What can an extension not do?", correctAnswer: "Add stored properties",
+             options: ["Add new features", "Define new builders", "Add stored properties", "Add computed properties"]),
+            (question: "When we inherit from a class and want to call its constructor, we use...", correctAnswer: "super.init",
              options: ["main.init", "super.init", "self.init", "super"]),
             ]
     private var quiz: Quiz!
     private var _totalAnswers = 0
     private var _totalCorrect = 0
-    
+    var someDict:[Int:String] = [1:"One", 2:"Two", 3:"Three"]
+
+
     var question: String {
         return quiz.question
     }

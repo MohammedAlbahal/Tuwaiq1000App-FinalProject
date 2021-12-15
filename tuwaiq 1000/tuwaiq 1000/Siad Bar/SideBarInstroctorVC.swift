@@ -400,8 +400,8 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
             let tt = self.storyboard?.instantiateViewController(identifier: "hhh")as! PurchaseViewController
             self.navigationController?.pushViewController(tt, animated: true)
         case 6:
-            let webVC = self.storyboard?.instantiateViewController(identifier: "ovc")as! WebVC
-            self.navigationController?.pushViewController(webVC, animated: true)
+            let tabVC = self.storyboard?.instantiateViewController(identifier: "444")as! TabbsVC
+            self.navigationController?.pushViewController(tabVC, animated: true)
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.lbl.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            //            cell.lbl.setTitleColor(.black, for: .normal)
@@ -433,7 +433,7 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
 //            cell.contentView.backgroundColor = UIColor.white
 //            cell.lbl.textColor = .black
         case 4:
-            let attendance = self.storyboard?.instantiateViewController(identifier: "333")as! MapVC
+            let attendance = self.storyboard?.instantiateViewController(identifier: "333")as! TabbsVC
             self.navigationController?.pushViewController(attendance, animated: true)
 ////            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
 ////            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
