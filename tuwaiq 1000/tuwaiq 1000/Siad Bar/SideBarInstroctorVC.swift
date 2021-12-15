@@ -388,7 +388,7 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.contentView.backgroundColor = UIColor.black
-            
+            //NoteVC
         case 2:
             let studentVC = self.storyboard?.instantiateViewController(identifier: "svc")as! StudentViewController
             self.navigationController?.pushViewController(studentVC, animated: true)
@@ -410,8 +410,8 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
 //            cell.lbl.textColor = .black
             
         case 5:
-            let GPAVC = self.storyboard?.instantiateViewController(identifier: "aaa")as! HomeViewController
-            self.navigationController?.pushViewController(GPAVC, animated: true)
+            let weeks = self.storyboard?.instantiateViewController(identifier: "444")as! CourtVC
+            self.navigationController?.pushViewController(weeks, animated: true)
             //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
             //            cell.contentView.backgroundColor = UIColor.white

@@ -106,6 +106,16 @@
 		E6EF145D2769D31F008227D1 /* StudentsSservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14532769D31B008227D1 /* StudentsSservice.swift */; };
 		E6EF145E2769D31F008227D1 /* TabbsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14542769D31D008227D1 /* TabbsVC.swift */; };
 		E6EF145F2769D31F008227D1 /* StudentsssVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14552769D31E008227D1 /* StudentsssVC.swift */; };
+		E6EF14622769DDB0008227D1 /* modael.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14612769DDAF008227D1 /* modael.swift */; };
+		E6EF14642769DE1D008227D1 /* weeksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14632769DE1D008227D1 /* weeksVC.swift */; };
+		E6EF14662769DE70008227D1 /* weeksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14652769DE70008227D1 /* weeksCell.swift */; };
+		E6EF14682769DE98008227D1 /* daaysssVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14672769DE98008227D1 /* daaysssVC.swift */; };
+		E6EF146A2769DECC008227D1 /* daaysssCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14692769DECC008227D1 /* daaysssCell.swift */; };
+		E6EF146C2769E17A008227D1 /* DiscbctiondayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF146B2769E179008227D1 /* DiscbctiondayVC.swift */; };
+		E6EF14722769E5CA008227D1 /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF146E2769E5C7008227D1 /* NotesService.swift */; };
+		E6EF14732769E5CA008227D1 /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF146F2769E5C8008227D1 /* NoteVC.swift */; };
+		E6EF14742769E5CA008227D1 /* NoteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14702769E5C9008227D1 /* NoteListVC.swift */; };
+		E6EF14752769E5CA008227D1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14712769E5CA008227D1 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -211,6 +221,16 @@
 		E6EF14532769D31B008227D1 /* StudentsSservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsSservice.swift; sourceTree = "<group>"; };
 		E6EF14542769D31D008227D1 /* TabbsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbsVC.swift; sourceTree = "<group>"; };
 		E6EF14552769D31E008227D1 /* StudentsssVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsssVC.swift; sourceTree = "<group>"; };
+		E6EF14612769DDAF008227D1 /* modael.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modael.swift; sourceTree = "<group>"; };
+		E6EF14632769DE1D008227D1 /* weeksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeksVC.swift; sourceTree = "<group>"; };
+		E6EF14652769DE70008227D1 /* weeksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeksCell.swift; sourceTree = "<group>"; };
+		E6EF14672769DE98008227D1 /* daaysssVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daaysssVC.swift; sourceTree = "<group>"; };
+		E6EF14692769DECC008227D1 /* daaysssCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daaysssCell.swift; sourceTree = "<group>"; };
+		E6EF146B2769E179008227D1 /* DiscbctiondayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscbctiondayVC.swift; sourceTree = "<group>"; };
+		E6EF146E2769E5C7008227D1 /* NotesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
+		E6EF146F2769E5C8008227D1 /* NoteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
+		E6EF14702769E5C9008227D1 /* NoteListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListVC.swift; sourceTree = "<group>"; };
+		E6EF14712769E5CA008227D1 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		EE5BEB1A07E452DE90129F34 /* Pods-tuwaiq 1000.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuwaiq 1000.debug.xcconfig"; path = "Target Support Files/Pods-tuwaiq 1000/Pods-tuwaiq 1000.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -364,12 +384,14 @@
 				E67505A7276414F0004080BD /* Start.storyboard */,
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
 				E64C236E2760910900DE566D /* Reghister.swift */,
-				E67505AD2765E754004080BD /* mapVC.swift */,
-				E6EF140727695115008227D1 /* New Group */,
+				E6EF14602769DD8B008227D1 /* weeks */,
+				E6EF140727695115008227D1 /* attndace */,
 				E65D9501275F9374008A378A /* sstudent app */,
-				E6EF13D9276781E1008227D1 /* collmove.swift */,
+				E6EF146D2769E59C008227D1 /* New Group */,
 				E6EF13DB27678652008227D1 /* ThemeColorVC.swift */,
 				E67505AF2766356C004080BD /* gestureVC.swift */,
+				E6EF13D9276781E1008227D1 /* collmove.swift */,
+				E67505AD2765E754004080BD /* mapVC.swift */,
 				E64C23B92761ECD100DE566D /* animation.swift */,
 				E67505A92764182B004080BD /* G.P.A VC.swift */,
 				E67505AB27641868004080BD /* Link VC.swift */,
@@ -534,7 +556,7 @@
 			path = "Siad Bar";
 			sourceTree = "<group>";
 		};
-		E6EF140727695115008227D1 /* New Group */ = {
+		E6EF140727695115008227D1 /* attndace */ = {
 			isa = PBXGroup;
 			children = (
 				E6EF144C2769D311008227D1 /* Day.swift */,
@@ -547,6 +569,30 @@
 				E6EF14532769D31B008227D1 /* StudentsSservice.swift */,
 				E6EF14552769D31E008227D1 /* StudentsssVC.swift */,
 				E6EF14542769D31D008227D1 /* TabbsVC.swift */,
+			);
+			path = attndace;
+			sourceTree = "<group>";
+		};
+		E6EF14602769DD8B008227D1 /* weeks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF14612769DDAF008227D1 /* modael.swift */,
+				E6EF14632769DE1D008227D1 /* weeksVC.swift */,
+				E6EF146B2769E179008227D1 /* DiscbctiondayVC.swift */,
+				E6EF14692769DECC008227D1 /* daaysssCell.swift */,
+				E6EF14672769DE98008227D1 /* daaysssVC.swift */,
+				E6EF14652769DE70008227D1 /* weeksCell.swift */,
+			);
+			path = weeks;
+			sourceTree = "<group>";
+		};
+		E6EF146D2769E59C008227D1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF14712769E5CA008227D1 /* Note.swift */,
+				E6EF14702769E5C9008227D1 /* NoteListVC.swift */,
+				E6EF146E2769E5C7008227D1 /* NotesService.swift */,
+				E6EF146F2769E5C8008227D1 /* NoteVC.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -594,6 +640,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"ar-SA",
 				Base,
 			);
 			mainGroup = E6348730274DAFCC00559B91;
@@ -677,6 +724,7 @@
 				E64C23B82761E9A700DE566D /* Web.swift in Sources */,
 				5E33D3952753938F007EC44C /* DetailsCell.swift in Sources */,
 				E64C23A32760EA5700DE566D /* PersonInfoViewController.swift in Sources */,
+				E6EF14662769DE70008227D1 /* weeksCell.swift in Sources */,
 				E64C237E2760C47300DE566D /* SpashViewController.swift in Sources */,
 				E64C23C227620E0B00DE566D /* ViewController.swift in Sources */,
 				5E33D38227538ED7007EC44C /* EmailVC.swift in Sources */,
@@ -693,6 +741,7 @@
 				5E33D36E27538BE6007EC44C /* NewStudentVC.swift in Sources */,
 				E6EF14562769D31E008227D1 /* Day.swift in Sources */,
 				5E33D393275391A5007EC44C /* stulnfoVC.swift in Sources */,
+				E6EF14682769DE98008227D1 /* daaysssVC.swift in Sources */,
 				E64C23A22760EA5700DE566D /* StudentViewController.swift in Sources */,
 				5E33D38D275390CC007EC44C /* Top10VC.swift in Sources */,
 				E6EF13DA276781E2008227D1 /* collmove.swift in Sources */,
@@ -709,6 +758,7 @@
 				E65D950D275F9654008A378A /* SampleData.swift in Sources */,
 				5E33D37427538C83007EC44C /* PurchaseVC.swift in Sources */,
 				E69247022754F18300421DCB /* StudentVC2.swift in Sources */,
+				E6EF14722769E5CA008227D1 /* NotesService.swift in Sources */,
 				E64C23A12760EA5700DE566D /* SubjectDescriptionViewController.swift in Sources */,
 				E6EF14572769D31F008227D1 /* DaysssVC.swift in Sources */,
 				E64C23B12760EAA100DE566D /* TeacherViewCell.swift in Sources */,
@@ -717,6 +767,7 @@
 				E6EF14042769328F008227D1 /* SideBarInstroctorVC.swift in Sources */,
 				E67505AA2764182B004080BD /* G.P.A VC.swift in Sources */,
 				5E33D37F27538E47007EC44C /* RecCell.swift in Sources */,
+				E6EF14732769E5CA008227D1 /* NoteVC.swift in Sources */,
 				5E33D36C27538BB6007EC44C /* EditStudentsCell.swift in Sources */,
 				E64C23B32760EAA100DE566D /* SubjectItemViewCell.swift in Sources */,
 				E64C23B22760EAA100DE566D /* ContainerViewCell.swift in Sources */,
@@ -732,12 +783,16 @@
 				E64C238B2760C4C200DE566D /* Protocols.swift in Sources */,
 				E634873F274DAFCD00559B91 /* SceneDelegate.swift in Sources */,
 				E67505A02763AF4B004080BD /* SideBarTableViewCell.swift in Sources */,
+				E6EF14742769E5CA008227D1 /* NoteListVC.swift in Sources */,
 				E67505AC27641869004080BD /* Link VC.swift in Sources */,
+				E6EF14622769DDB0008227D1 /* modael.swift in Sources */,
 				E64C238A2760C4C100DE566D /* DBhelper.swift in Sources */,
 				E6EF14592769D31F008227D1 /* NewDayyyVC.swift in Sources */,
 				E6EF14582769D31F008227D1 /* DayyyAttendanceVC.swift in Sources */,
 				E65D9513275F9675008A378A /* PersonProtocol.swift in Sources */,
+				E6EF14642769DE1D008227D1 /* weeksVC.swift in Sources */,
 				E6EF145C2769D31F008227D1 /* DaysSservice.swift in Sources */,
+				E6EF146A2769DECC008227D1 /* daaysssCell.swift in Sources */,
 				E64C23C527620E0B00DE566D /* QuizManager.swift in Sources */,
 				E6EF145D2769D31F008227D1 /* StudentsSservice.swift in Sources */,
 				E64C23B52760EAA100DE566D /* PersonOrSubjectItemView.swift in Sources */,
@@ -746,6 +801,7 @@
 				E64C23832760C47300DE566D /* SettingsViewController.swift in Sources */,
 				E64C23B62760EAA100DE566D /* SubjectMemberItemViewCell.swift in Sources */,
 				E65D9509275F9623008A378A /* DateExtension.swift in Sources */,
+				E6EF146C2769E17A008227D1 /* DiscbctiondayVC.swift in Sources */,
 				E64C23822760C47300DE566D /* CalculationViewController.swift in Sources */,
 				E65D950B275F9624008A378A /* UIViewExtension.swift in Sources */,
 				5E33D37627538CA9007EC44C /* PrucheasCell.swift in Sources */,
@@ -758,6 +814,7 @@
 				5E33D37D27538E1C007EC44C /* RecCollectionVC.swift in Sources */,
 				5E33D38427538EFD007EC44C /* EmailCell.swift in Sources */,
 				E6EF145B2769D31F008227D1 /* Studentsss.swift in Sources */,
+				E6EF14752769E5CA008227D1 /* Note.swift in Sources */,
 				E65D9512275F9675008A378A /* Subject.swift in Sources */,
 				E64C23B42760EAA100DE566D /* StudentViewCell.swift in Sources */,
 				E64C23C127620E0B00DE566D /* ResultViewController.swift in Sources */,
