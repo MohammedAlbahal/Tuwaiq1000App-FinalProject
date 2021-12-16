@@ -1,9 +1,7 @@
+//  tuwaiq 1000
 //
-//  QuizViewController.swift
-//  App_Quiz
-//
-//  Created by Kaique Lopes on 21/04/21.
-//
+//  Created by M.Al-qhtani.
+
 
 import UIKit
 

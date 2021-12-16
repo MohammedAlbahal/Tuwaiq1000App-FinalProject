@@ -1,8 +1,6 @@
+//  tuwaiq 1000
 //
-//  PersonOrSubjectItemView.swift
-//  MidiOS
-//
-//  Created by Bel Cerezo on 10/2/21.
+//  Created by M.Al-qhtani.
 //
 
 import UIKit

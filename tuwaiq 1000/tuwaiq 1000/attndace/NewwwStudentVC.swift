@@ -1,8 +1,6 @@
+//  tuwaiq 1000
 //
-//  NewStudentVC.swift
-//  Attendance2
-//
-//  Created by Tsnim Alqahtani on 02/04/1443 AH.
+//  Created by M.Al-qhtani on 07/05/1443 AH.
 //
 
 import UIKit

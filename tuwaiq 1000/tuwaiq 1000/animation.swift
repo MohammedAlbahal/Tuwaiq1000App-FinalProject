@@ -1,8 +1,6 @@
+//  tuwaiq 1000
 //
-//  Helper.swift
-//  Fit Tip App
-//
-//  Created by Atheer Othman on 18/04/1443 AH.
+//  Created by M.Al-qhtani.
 //
 
 import UIKit

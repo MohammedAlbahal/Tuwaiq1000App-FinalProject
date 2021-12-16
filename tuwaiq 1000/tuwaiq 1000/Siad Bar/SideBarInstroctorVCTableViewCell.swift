@@ -1,8 +1,6 @@
-//
-//  SideBarInstroctorVCTableViewCell.swift
 //  tuwaiq 1000
 //
-//  Created by saja Al-qhtani on 10/05/1443 AH.
+//  Created by M.Al-qhtani.
 //
 
 import UIKit

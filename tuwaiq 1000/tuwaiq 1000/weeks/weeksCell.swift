@@ -1,8 +1,6 @@
+//  tuwaiq 1000
 //
-//  CourtVC_Cell.swift
-//  Fawaz solo project
-//
-//  Created by Fawaz on 29/11/2021.
+//  Created by M.Al-qhtani on 07/05/1443 AH.
 //
 
 import UIKit

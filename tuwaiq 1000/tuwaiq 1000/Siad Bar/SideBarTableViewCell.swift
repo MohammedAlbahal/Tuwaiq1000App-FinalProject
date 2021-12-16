@@ -1,11 +1,7 @@
+//  tuwaiq 1000
 //
-//  SideBarTableViewCell.swift
-//  SideBarViewYT
+//  Created by M.Al-qhtani.
 //
-//  Created by Vinayak Balaji Tuptewar on 27/09/20.
-//  Copyright © 2020 Vinayak Balaji Tuptewar. All rights reserved.
-//
-
 import UIKit
 
 class SideBarTableViewCell: UITableViewCell {

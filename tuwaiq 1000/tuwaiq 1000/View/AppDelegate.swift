@@ -1,9 +1,6 @@
+//  tuwaiq 1000
 //
-//  AppDelegate.swift
-//  chat-app
-//
-//  Created by ibrahim asiri on 23/03/1443 AH.
-//
+//  Created by M.Al-qhtani.
 
 import UIKit
 import Firebase

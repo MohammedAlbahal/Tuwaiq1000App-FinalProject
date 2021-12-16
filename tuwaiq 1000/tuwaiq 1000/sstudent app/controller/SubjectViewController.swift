@@ -1,8 +1,6 @@
+//  tuwaiq 1000
 //
-//  SubjectViewController.swift
-//  MidiOS
-//
-//  Created by Bel Cerezo on 3/2/21.
+//  Created by M.Al-qhtani.
 //
 
 import UIKit

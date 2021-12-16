@@ -1,10 +1,7 @@
+//  tuwaiq 1000
 //
-//  PersonInfoViewController.swift
-//  MidiOS
+//  Created by M.Al-qhtani.
 //
-//  Created by Bel Cerezo on 10/2/21.
-//
-
 import UIKit
 
 class PersonInfoViewController: UIViewController{

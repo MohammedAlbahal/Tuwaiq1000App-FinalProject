@@ -1,10 +1,7 @@
+//  tuwaiq 1000
 //
-//  ViewController.swift
-//  ttt
+//  Created by M.Al-qhtani.
 //
-//  Created by saja Al-qhtani on 10/05/1443 AH.
-//
-
 import UIKit
 
 

@@ -1,9 +1,6 @@
-//////
-//////  ViewController.swift
-//////  tuwaiq 1000
-//////
-//////  Created by m.Al-qhatani on 19/04/1443 AH.
-//////
+//  tuwaiq 1000
+//
+//  Created by M.Al-qhtani.
 //import UIKit
 //import MessageUI
 //
@@ -22,7 +19,7 @@
 //        mailVC.mailComposeDelegate = self
 //        mailVC.setToRecipients([])
 //        mailVC.setSubject("Subject for email")
-//        mailVC.setMessageBody("hhhh", isHTML: false)
+//        mailVC.setMessageBody("hi", isHTML: false)
 //
 //        present(mailVC, animated: true, completion: nil)
 //    }

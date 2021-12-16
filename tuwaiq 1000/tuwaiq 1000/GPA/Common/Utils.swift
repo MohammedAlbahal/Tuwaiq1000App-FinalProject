@@ -1,9 +1,6 @@
+//  tuwaiq 1000
 //
-//  Utils.swift
-//  GPA Calculator
-//
-//  Created by manish on 20/08/21.
-//
+//  Created by M.Al-qhtani.
 
 import Foundation
 import UIKit

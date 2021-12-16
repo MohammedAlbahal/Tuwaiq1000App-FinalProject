@@ -1,9 +1,7 @@
-////
-////  ViewController.swift
-////  tuwaiq 1000
-////
-////  Created by m.Al-qhatani on 3/04/1443 AH.
-////
+//  tuwaiq 1000
+//
+//  Created by M.Al-qhtani.
+//
 
 
 import UIKit

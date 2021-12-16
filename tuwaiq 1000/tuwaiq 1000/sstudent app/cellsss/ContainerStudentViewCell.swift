@@ -1,10 +1,7 @@
+//  tuwaiq 1000
 //
-//  ContainerStudentViewCell.swift
-//  MidiOS
+//  Created by M.Al-qhtani.
 //
-//  Created by Bel Cerezo on 4/2/21.
-//
-
 import UIKit
 
 class ContainerStudentViewCell: UITableViewCell{

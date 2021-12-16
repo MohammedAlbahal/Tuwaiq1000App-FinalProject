@@ -1,9 +1,6 @@
+//  tuwaiq 1000
 //
-//  ViewController.swift
-//  SideBarViewYT
-//
-//  Created by Vinayak Balaji Tuptewar on 10/08/20.
-//  Copyright © 2020 Vinayak Balaji Tuptewar. All rights reserved.
+//  Created by M.Al-qhtani.
 //
 
 import UIKit
@@ -16,8 +13,6 @@ class SideBarInstroctorVC: UIViewController {
     var tableView = UITableView()
     var toplabel = UILabel()
     var bottomView = UIView()
-    //let switchMood = UISwitch(frame:CGRect(x: 180, y: 150, width: 15, height: 0))
-    //    var logOutBtn = UIButton()
     lazy var logOutBtn: UIButton = {
         let buttonSingOut = UIButton(type: .system)
         buttonSingOut.setTitle(NSLocalizedString("singOut", comment: ""), for: .normal)
@@ -32,7 +27,7 @@ class SideBarInstroctorVC: UIViewController {
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["Subject", "Instructors","Studens","Top 10 Students","Exercises","Calculate your Rate","Learning Resource","Location","Setting"]
+    var arrData = ["Subject", "Students","Edit Students","Top 10 Students","attendance","Note","Learning Resource","Location","Setting"]
     var arrImages:[UIImage] = [#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "person.wave.2"),#imageLiteral(resourceName: "person.3"),#imageLiteral(resourceName: "figure.wave"),#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "keyboard.onehanded.right"),#imageLiteral(resourceName: "globe.badge.chevron.backward"),#imageLiteral(resourceName: "location"),#imageLiteral(resourceName: "gear.circle-1")]
     
     
@@ -49,7 +44,7 @@ class SideBarInstroctorVC: UIViewController {
         loadSideBarViewFunctionality()
         loadGesturefunctionality()
         setupButtonForSignOut()
-      //  setupMoodSwitch()
+     
         
     }
     
@@ -59,8 +54,8 @@ class SideBarInstroctorVC: UIViewController {
         checkIfUserDidntSignout()
     }
     @objc private func singOutButtonTapped(sender: UIButton!) {
-        let alert = UIAlertController(title: "هل تريد تسجيل الخروج؟",
-                                      message: "",
+        let alert = UIAlertController(title: "Sign Out",
+                                      message: "Are you sure you want to sign out",
                                       preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {
             action in
@@ -68,7 +63,7 @@ class SideBarInstroctorVC: UIViewController {
                 self.navigationController?.popViewController(animated: true)
             }
             
-         }))
+        }))
         alert.addAction(UIAlertAction(title: "No", style: .cancel))
         self.present(alert, animated: true)
     }
@@ -94,7 +89,6 @@ class SideBarInstroctorVC: UIViewController {
         
         
         logOutBtn.addTarget(self, action: #selector(singOutButtonTapped), for: .touchUpInside)
-        //        self.dismiss(animated: true, completion: nil)
     }
     
     func loadSideBarViewFunctionality(){
@@ -140,7 +134,7 @@ class SideBarInstroctorVC: UIViewController {
         nameLbl.textAlignment = NSTextAlignment.center
         nameLbl.backgroundColor = UIColor(named: "Color-2")
         
-        // UIColor(cgColor: CGColor(srgbRed: 239/255, green: 109/255, blue: 73/255, alpha: 1))
+        
         
         if let userPhotoUrl = Auth.auth().currentUser?.photoURL {
             imageview.load(url: userPhotoUrl)
@@ -162,44 +156,8 @@ class SideBarInstroctorVC: UIViewController {
         setUpSideBarViewConstraints()
         setUpBottomViewConstraints()
     }
-   
-    //
-    //
-    ////        target: self,
-    ////    action: #selector(signOutButtonTapped)
-    //    }
-    ////
-    //        guard let currentUser = Auth.auth().currentUser else {return}
-    //        db.collection("Users").document(currentUser.displayName!).setData([
-    //            "isOnline": "no",
-    //        ], merge: true) { err in
-    //            if let err = err {
-    //                print("Error writing document: \(err)")
-    //            } else {
-    //                try? Auth.auth().signOut()
-    //                self.tabBarController?.selectedIndex = 0
-    //                print("ChangedUserStatus")
-    //            }
-    //        }
     
-//    func setupMoodSwitch(){
-//
-//        switchMood.addTarget(self, action: #selector(switchStateDidChange), for: .valueChanged)
-//        view.addSubview(switchMood)
-//        switchMood.onTintColor = ThemeColor.mainColor
-//        switch gloabalWindow?.traitCollection.userInterfaceStyle {
-//        case .dark:
-//            switchMood.setOn(true, animated: false)
-//        case .light:
-//            switchMood.setOn(false, animated: false)
-//        default:
-//            print("Unspecified")
-//        }
-//    }
-//
-//    @objc func switchStateDidChange() {
-//        gloabalWindow?.overrideUserInterfaceStyle = switchMood.isOn ? .dark : .light
-//    }
+    
     func loadGesturefunctionality(){
         swipeToRight = UISwipeGestureRecognizer(target: self, action: #selector(swipedToRight))
         swipeToRight.direction = .right
@@ -359,7 +317,7 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
         cell.lbl.tintColor = UIColor(named: "Color-1")
         cell.imagev.tintColor = UIColor(named: "Color-1")
         cell.contentView.backgroundColor = UIColor(named: "Color")
-//        cell.contentView.lbl. = .black
+        
         cell.lbl.textColor = UIColor(named: "Color-1")
         
         return cell
@@ -372,74 +330,37 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
         let cell = tableView.cellForRow(at: indexPath)as! SideBarTableViewCell
-//
+        //
         
         switch indexPath.row {
         case 8:
             let stteing = self.storyboard?.instantiateViewController(identifier: "kkk")as!SettingViewController
             self.navigationController?.pushViewController(stteing, animated: true)
-            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.contentView.backgroundColor = UIColor.black
-            
         case 7:
             let mapVC = self.storyboard?.instantiateViewController(identifier: "dvc")as!MapVC
             self.navigationController?.pushViewController(mapVC, animated: true)
-            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.contentView.backgroundColor = UIColor.black
-            //NoteVC
         case 2:
-            let studentVC = self.storyboard?.instantiateViewController(identifier: "svc")as! StudentViewController
-            self.navigationController?.pushViewController(studentVC, animated: true)
-            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.contentView.backgroundColor = UIColor.white
-            // PurchaseViewController
+            let editstudent = self.storyboard?.instantiateViewController(identifier: "111")as!ManagerViewController
+            self.navigationController?.pushViewController(editstudent, animated: true)
         case 3:
             let tt = self.storyboard?.instantiateViewController(identifier: "hhh")as! PurchaseViewController
             self.navigationController?.pushViewController(tt, animated: true)
         case 6:
-            let tabVC = self.storyboard?.instantiateViewController(identifier: "444")as! TabbsVC
+            let tabVC = self.storyboard?.instantiateViewController(identifier: "666")as! TabbsVC
             self.navigationController?.pushViewController(tabVC, animated: true)
-            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.lbl.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            //            cell.lbl.setTitleColor(.black, for: .normal)
-            //            cell.contentView.backgroundColor = UIColor.white
-            //
-//            cell.lbl.textColor = .black
-            
         case 5:
+            let Not = self.storyboard?.instantiateViewController(identifier: "555")as! NoteVC
+            self.navigationController?.pushViewController(Not, animated: true)
+        case 0:
             let weeks = self.storyboard?.instantiateViewController(identifier: "444")as! CourtVC
             self.navigationController?.pushViewController(weeks, animated: true)
-            //            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-            //            cell.contentView.backgroundColor = UIColor.white
-//            cell.lbl.textColor = .black
-            //
-        case 0:
-            let subjectVC = self.storyboard?.instantiateViewController(identifier: "222")as! ProductsCollectionViewController
-            self.navigationController?.pushViewController(subjectVC, animated: true)
-//            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-//            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-//            cell.contentView.backgroundColor = UIColor.white
-//            cell.lbl.textColor = .black
-            
         case 1:
-            let TeacherVC = self.storyboard?.instantiateViewController(identifier: "111")as! ManagerViewController
-            self.navigationController?.pushViewController(TeacherVC, animated: true)
-//            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-//            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-//            cell.contentView.backgroundColor = UIColor.white
-//            cell.lbl.textColor = .black
+            let student = self.storyboard?.instantiateViewController(identifier: "222")as! ProductsCollectionViewController
+            self.navigationController?.pushViewController(student, animated: true)
         case 4:
             let attendance = self.storyboard?.instantiateViewController(identifier: "333")as! TabbsVC
             self.navigationController?.pushViewController(attendance, animated: true)
-////            cell.imagev.tintColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-////            cell.lbl.textColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-////            cell.contentView.backgroundColor = UIColor.white
-////            cell.lbl.textColor = .black
-//
+            
         default:
             print(self.arrData[indexPath.row])
             cell.imagev.tintColor = UIColor(named: "Color-1")
@@ -470,18 +391,17 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
                     if let snapshotDocuments = querySnapshot?.documents {
                         for doc in snapshotDocuments {
                             let data = doc.data()
-                            if let userName = data["full name"] as? String,
-                               let userIsOnline = data["isOnline"] as? String{
-                                DispatchQueue.main.async {
-                                    self.nameLbl.text = userName
-                                    
-                                }
-                            }
+                           if let userName = data["full name"] as? String,
+                                                           let userIsOnline = data["isOnline"] as? String{
+                                                            DispatchQueue.main.async {
+                                                                self.nameLbl.text = userName
                         }
                     }
-                    
                 }
             }
+        
     }
+}
+}
 }
 
