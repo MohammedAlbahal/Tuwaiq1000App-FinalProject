@@ -92,7 +92,7 @@
 		E69246FD2754C77E00421DCB /* BootcampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246FC2754C77E00421DCB /* BootcampVC.swift */; };
 		E69247002754F05A00421DCB /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246FF2754F05A00421DCB /* StudentVC.swift */; };
 		E69247022754F18300421DCB /* StudentVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69247012754F18300421DCB /* StudentVC2.swift */; };
-		E6EF13DA276781E2008227D1 /* collmove.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13D9276781E1008227D1 /* collmove.swift */; };
+		E6EF13DA276781E2008227D1 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13D9276781E1008227D1 /* SettingVC.swift */; };
 		E6EF13DC27678652008227D1 /* ThemeColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13DB27678652008227D1 /* ThemeColorVC.swift */; };
 		E6EF14042769328F008227D1 /* SideBarInstroctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */; };
 		E6EF140627693346008227D1 /* SideBarInstroctorVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF140527693346008227D1 /* SideBarInstroctorVCTableViewCell.swift */; };
@@ -210,7 +210,7 @@
 		E69246FC2754C77E00421DCB /* BootcampVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampVC.swift; sourceTree = "<group>"; };
 		E69246FF2754F05A00421DCB /* StudentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
 		E69247012754F18300421DCB /* StudentVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVC2.swift; sourceTree = "<group>"; };
-		E6EF13D9276781E1008227D1 /* collmove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collmove.swift; sourceTree = "<group>"; };
+		E6EF13D9276781E1008227D1 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		E6EF13DB27678652008227D1 /* ThemeColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorVC.swift; sourceTree = "<group>"; };
 		E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarInstroctorVC.swift; sourceTree = "<group>"; };
 		E6EF140527693346008227D1 /* SideBarInstroctorVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarInstroctorVCTableViewCell.swift; sourceTree = "<group>"; };
@@ -394,16 +394,16 @@
 				E6EF14602769DD8B008227D1 /* weeks */,
 				E6EF140727695115008227D1 /* attndace */,
 				E65D9501275F9374008A378A /* sstudent app */,
-				E6EF146D2769E59C008227D1 /* New Group */,
+				E6EF1480276CC117008227D1 /* Localizable Group */,
+				E6EF146D2769E59C008227D1 /* Note */,
 				E6EF13DB27678652008227D1 /* ThemeColorVC.swift */,
 				E67505AF2766356C004080BD /* GestureVC.swift */,
 				E6EF147C2769FCD3008227D1 /* remiderVC.swift */,
-				E6EF13D9276781E1008227D1 /* collmove.swift */,
+				E6EF13D9276781E1008227D1 /* SettingVC.swift */,
 				E6EF147E276BA0C8008227D1 /* NewsVC.swift */,
 				E67505AD2765E754004080BD /* mapVC.swift */,
 				E64C23B92761ECD100DE566D /* animation.swift */,
 				E67505A92764182B004080BD /* G.P.A VC.swift */,
-				E6EF147A2769F73B008227D1 /* Localizable.strings */,
 				E67505AB27641868004080BD /* LinkVC.swift */,
 				E64C23B72761E9A600DE566D /* WebVC.swift */,
 				E67505992763AE21004080BD /* SideBarTableViewCell.xib */,
@@ -596,7 +596,7 @@
 			path = weeks;
 			sourceTree = "<group>";
 		};
-		E6EF146D2769E59C008227D1 /* New Group */ = {
+		E6EF146D2769E59C008227D1 /* Note */ = {
 			isa = PBXGroup;
 			children = (
 				E6EF14712769E5CA008227D1 /* Note.swift */,
@@ -604,7 +604,15 @@
 				E6EF146E2769E5C7008227D1 /* NotesService.swift */,
 				E6EF146F2769E5C8008227D1 /* NoteVC.swift */,
 			);
-			path = "New Group";
+			path = Note;
+			sourceTree = "<group>";
+		};
+		E6EF1480276CC117008227D1 /* Localizable Group */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF147A2769F73B008227D1 /* Localizable.strings */,
+			);
+			path = "Localizable Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -756,7 +764,7 @@
 				E6EF14682769DE98008227D1 /* daaysssVC.swift in Sources */,
 				E64C23A22760EA5700DE566D /* StudentViewController.swift in Sources */,
 				5E33D38D275390CC007EC44C /* Top10VC.swift in Sources */,
-				E6EF13DA276781E2008227D1 /* collmove.swift in Sources */,
+				E6EF13DA276781E2008227D1 /* SettingVC.swift in Sources */,
 				E634873D274DAFCD00559B91 /* AppDelegate.swift in Sources */,
 				E67505B02766356D004080BD /* GestureVC.swift in Sources */,
 				E64C23732760BCAC00DE566D /* Tt.swift in Sources */,

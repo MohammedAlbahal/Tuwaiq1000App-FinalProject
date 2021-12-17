@@ -9,7 +9,6 @@ class SettingViewController: UIViewController {
     
     
     let switchMood = UISwitch(frame:CGRect(x: 180, y: 150, width: 15, height: 0))
-    let signOutButton = UIButton(type: .system)
     let darkImageView = UIImageView()
     let lightImageView = UIImageView()
     let languageButton = UIButton(type: .system)
@@ -19,7 +18,6 @@ class SettingViewController: UIViewController {
         view.backgroundColor = UIColor(named: "Color")
         navigationItem.title = NSLocalizedString("setting", comment: "")
         setupMoodSwitch()
-        setupSignOut()
         setupDarkLightImageView()
         setupLanguageButton()
     }
@@ -54,54 +52,6 @@ class SettingViewController: UIViewController {
         gloabalWindow?.overrideUserInterfaceStyle = switchMood.isOn ? .dark : .light
     }
     
-    func setupSignOut(){
-        view.addSubview(signOutButton)
-        signOutButton.translatesAutoresizingMaskIntoConstraints = false
-        signOutButton.setTitle(NSLocalizedString("signout", comment: ""), for: .normal)
-//        signOutButton.addTarget(self, action: #selector(signOutButtonPressed), for: .touchUpInside)
-        signOutButton.tintColor = UIColor(named: "Color")
-        signOutButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        signOutButton.layer.cornerRadius = 10
-        signOutButton.layer.masksToBounds = true
-        
-        let gradient = setupRedGradientLayer()
-        gradient.frame = view.bounds
-        gradient.startPoint = CGPoint(x: 0, y: 1)
-        gradient.endPoint = CGPoint(x: 1, y: 1)
-        signOutButton.layer.insertSublayer(gradient, at: 0)
-        
-        
-        let constraint = [
-            signOutButton.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -20),
-            signOutButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            signOutButton.heightAnchor.constraint(equalToConstant: 50),
-            signOutButton.widthAnchor.constraint(equalToConstant: view.frame.width-90)
-        ]
-        
-        NSLayoutConstraint.activate(constraint)
-    }
-//
-//    @objc func signOutButtonPressed(){
-//        let alert = UIAlertController(title: NSLocalizedString("signout", comment: ""), message: NSLocalizedString("signoutMessage", comment: "") , preferredStyle: .alert)
-//        let exitAction = UIAlertAction(title: NSLocalizedString("signout", comment: ""), style: .destructive) { (true) in
-//            self.logout()
-//        }
-//        alert.addAction(UIAlertAction(title: NSLocalizedString("cancel", comment: "") , style: .default, handler: nil))
-//        alert.addAction(exitAction)
-//        present(alert, animated: true, completion: nil)
-//    }
-//
-//    func logout(){
-//        do{
-//            try Auth.auth().signOut()
-//            let controller = SignInViewController()
-//            controller.modalPresentationStyle = .fullScreen
-//            self.present(controller, animated: false, completion: nil)
-//        } catch {
-//            print(error)
-//        }
-//    }
-//
     func setupDarkLightImageView(){
         view.addSubview(darkImageView)
         view.addSubview(lightImageView)
@@ -145,7 +95,7 @@ class SettingViewController: UIViewController {
         languageButton.layer.insertSublayer(gradient, at: 0)
         let constraints = [
             languageButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            languageButton.bottomAnchor.constraint(equalTo: signOutButton.topAnchor, constant: -16),
+//            languageButton.bottomAnchor.constraint(equalTo: signOutButton.topAnchor, constant: -16),
             languageButton.heightAnchor.constraint(equalToConstant: 50),
             languageButton.widthAnchor.constraint(equalToConstant: view.frame.width-90)
         ]
