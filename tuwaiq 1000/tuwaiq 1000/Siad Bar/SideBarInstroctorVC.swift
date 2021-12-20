@@ -27,8 +27,8 @@ class SideBarInstroctorVC: UIViewController {
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["Subject", "Students","Edit Students","Top 10 Students","attendance","Note","Learning Resource","Location","Setting"]
-    var arrImages:[UIImage] = [#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "person.wave.2"),#imageLiteral(resourceName: "person.3"),#imageLiteral(resourceName: "figure.wave"),#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "keyboard.onehanded.right"),#imageLiteral(resourceName: "globe.badge.chevron.backward"),#imageLiteral(resourceName: "location"),#imageLiteral(resourceName: "gear.circle-1")]
+    var arrData = ["Subject", "Students","Edit Students","Top 10 Students","attendance","Note","Learning Resource","Location","Setting","rimm"]
+    var arrImages:[UIImage] = [#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "person.wave.2"),#imageLiteral(resourceName: "person.3"),#imageLiteral(resourceName: "figure.wave"),#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "keyboard.onehanded.right"),#imageLiteral(resourceName: "globe.badge.chevron.backward"),#imageLiteral(resourceName: "location"),#imageLiteral(resourceName: "gear.circle-1"),#imageLiteral(resourceName: "gear.circle-1"),#imageLiteral(resourceName: "gear.circle-1")]
     
     
     var swipeToRight = UISwipeGestureRecognizer()
@@ -333,6 +333,9 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
         //
         
         switch indexPath.row {
+		case 9:
+			let ggoo = self.storyboard?.instantiateViewController(identifier: "pop")as!AminVC
+			self.navigationController?.pushViewController(ggoo, animated: true)
         case 8:
             let stteing = self.storyboard?.instantiateViewController(identifier: "kkk")as!SettingViewController
             self.navigationController?.pushViewController(stteing, animated: true)
