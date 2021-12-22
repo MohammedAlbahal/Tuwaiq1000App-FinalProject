@@ -15,7 +15,7 @@ class LanguageVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(Language.currentLanguage)
-        
+        NSLocalizedString(<#T##key: String##String#>, comment: "")
     }
     
     //MARK: - Functions

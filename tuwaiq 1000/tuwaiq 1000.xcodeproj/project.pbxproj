@@ -24,7 +24,6 @@
 		5E33D39127539125007EC44C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33D39027539125007EC44C /* Data.swift */; };
 		5E33D393275391A5007EC44C /* stulnfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33D392275391A5007EC44C /* stulnfoVC.swift */; };
 		5E33D3952753938F007EC44C /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33D3942753938F007EC44C /* DetailsCell.swift */; };
-		5E33D397275397AB007EC44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33D396275397AB007EC44C /* Main.storyboard */; };
 		5E33D399275397C4007EC44C /* customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33D398275397C4007EC44C /* customer.storyboard */; };
 		5ED1E9AA277068D500DFACD7 /* Rimnder Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E9A9277068D500DFACD7 /* Rimnder Data.swift */; };
 		5ED1E9AC277068FD00DFACD7 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E9AB277068FD00DFACD7 /* ReminderCell.swift */; };
@@ -81,6 +80,7 @@
 		E65D9513275F9675008A378A /* PersonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D950F275F9674008A378A /* PersonProtocol.swift */; };
 		E65D9514275F9675008A378A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D9510275F9675008A378A /* Student.swift */; };
 		E65D9515275F9675008A378A /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D9511275F9675008A378A /* Teacher.swift */; };
+		E66F1A3927735A020045628F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66F1A3B27735A020045628F /* Main.storyboard */; };
 		E675059A2763AE21004080BD /* SideBarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E67505992763AE21004080BD /* SideBarTableViewCell.xib */; };
 		E67505A02763AF4B004080BD /* SideBarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059B2763AF48004080BD /* SideBarTableViewCell.swift */; };
 		E67505A42763AF4B004080BD /* VViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675059F2763AF4B004080BD /* VViewController.swift */; };
@@ -149,7 +149,6 @@
 		5E33D39027539125007EC44C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		5E33D392275391A5007EC44C /* stulnfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stulnfoVC.swift; sourceTree = "<group>"; };
 		5E33D3942753938F007EC44C /* DetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
-		5E33D396275397AB007EC44C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5E33D398275397C4007EC44C /* customer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = customer.storyboard; sourceTree = "<group>"; };
 		5ED1E9A9277068D500DFACD7 /* Rimnder Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rimnder Data.swift"; sourceTree = "<group>"; };
 		5ED1E9AB277068FD00DFACD7 /* ReminderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
@@ -209,6 +208,8 @@
 		E65D950F275F9674008A378A /* PersonProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonProtocol.swift; sourceTree = "<group>"; };
 		E65D9510275F9675008A378A /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		E65D9511275F9675008A378A /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		E66F1A3A27735A020045628F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E66F1A3D27735A730045628F /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		E67505992763AE21004080BD /* SideBarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarTableViewCell.xib; sourceTree = "<group>"; };
 		E675059B2763AF48004080BD /* SideBarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewCell.swift; sourceTree = "<group>"; };
 		E675059F2763AF4B004080BD /* VViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = VViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -418,10 +419,11 @@
 			children = (
 				E64C23702760941C00DE566D /* GoogleService-Info.plist */,
 				E634874A274DAFD700559B91 /* Info.plist */,
-				5E33D396275397AB007EC44C /* Main.storyboard */,
+				E66F1A3B27735A020045628F /* Main.storyboard */,
 				E69246F82754B92C00421DCB /* Assets.xcassets */,
 				E67505A7276414F0004080BD /* Start.storyboard */,
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
+				E6EF147A2769F73B008227D1 /* Localizable.strings */,
 				E64C236E2760910900DE566D /* Reghister.swift */,
 				E6EF14602769DD8B008227D1 /* weeks */,
 				E6EF140727695115008227D1 /* attndace */,
@@ -648,7 +650,6 @@
 				E6EF1481276CC792008227D1 /* LanguageVC.swift */,
 				E6EF1483276CC793008227D1 /* String+Extensions.swift */,
 				E6EF1484276CC795008227D1 /* UserDefaultsManager.swift */,
-				E6EF147A2769F73B008227D1 /* Localizable.strings */,
 			);
 			path = "Localizable Group";
 			sourceTree = "<group>";
@@ -717,7 +718,7 @@
 				E62F35F727561937000E4296 /* Launch Screen.storyboard in Resources */,
 				5E33D399275397C4007EC44C /* customer.storyboard in Resources */,
 				E67505A8276414F1004080BD /* Start.storyboard in Resources */,
-				5E33D397275397AB007EC44C /* Main.storyboard in Resources */,
+				E66F1A3927735A020045628F /* Main.storyboard in Resources */,
 				E6EF14782769F73B008227D1 /* Localizable.strings in Resources */,
 				5E33D37827538D50007EC44C /* Manager.storyboard in Resources */,
 				E64C23712760941C00DE566D /* GoogleService-Info.plist in Resources */,
@@ -893,6 +894,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E66F1A3B27735A020045628F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E66F1A3A27735A020045628F /* Base */,
+				E66F1A3D27735A730045628F /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E6EF147A2769F73B008227D1 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
