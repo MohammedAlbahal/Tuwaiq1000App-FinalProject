@@ -2,7 +2,7 @@
  - `README.md` 
 
 
-
+[![wakatime](https://wakatime.com/badge/github/MohammedAlbahal/tuwaiq-1000.svg)](https://wakatime.com/badge/github/MohammedAlbahal/tuwaiq-1000)
 # Quick Compo
 
 <img src="/Users/enriquecoscarelli/Downloads/minilogo.png" alt="minilogo" style="zoom:75%;" />
