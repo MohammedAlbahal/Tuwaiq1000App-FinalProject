@@ -8,14 +8,14 @@
 import UIKit
 
 class LanguageVC: UIViewController {
-    
+    var fawaz : String = "kk"
     @IBOutlet weak var langLabel: UILabel!
     @IBOutlet weak var changeLangButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print(Language.currentLanguage)
-        NSLocalizedString(<#T##key: String##String#>, comment: "")
+//        NSLocalizedString(String, comment: "")
     }
     
     //MARK: - Functions
