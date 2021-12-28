@@ -25,39 +25,39 @@ var Liist : Array<Iitem> = [
     Iitem(
         namee: "apple airpods 2",
         date : "699",
-        imageee: UIImage(named: "9"),
+        imageee: UIImage(named: "111111_3570"),
         summmmer : "ميكروفون مزدوج بتكنولوجيا التكوين الشعاعي، مستشعرات بصرية مزدوجة، مقياس تسارع يتعرف على الحركة، مقياس تسارع يتعرف على الكلام"
     ),
 Iitem(
     namee: "apple airpods pro",
     date : "899",
-    imageee: UIImage(named: "10"),
+    imageee: UIImage(named: "111111_3570"),
     summmmer : "ميكروفون مزدوج بتكنولوجيا التكوين الشعاعي,مكيروفون باتجاه الأذن,مستشعر بصري مزدوج,مقياس تسارع يتعرف على الحركة,مقياس تسارع يتعرف على الكلام,مستشعر ضغط"
 ),
 Iitem(
     namee: "iphone 12 pro",
     date : "3999",
-    imageee: UIImage(named: "12"),
+    imageee: UIImage(named: "111111_3570"),
     summmmer : "نظام كاميرا مزدوجة 12MP (كاميرا واسعة للغاية وكاميرا واسعة) مع نمط بورتريه‏، ونمط الليل، وDeep Fusion‏، وميزة ‏HDR 3 الذكية وتسجيل فيديو HDR مع Dolby Vision لغاية 4K بمعدل 30 إطاراً في,الثانية، وفيديو 4K لغاية 60 إطاراً في الثانية بنطاق ديناميكي أوسع"
 ),
 Iitem(
     namee: "apple watch",
     date : "1499",
-    imageee: UIImage(named: "11"),
+    imageee: UIImage(named: "111111_3570"),
     summmmer : "شاشة Retina لا تنطفئ أكبر من شاشة Series 6 بنسبة 20% تقريباً، ما يتيح لك المزيد من السهولة في الرؤية والاستخدام"
 
 ),
 Iitem(
     namee: "console PS5",
     date : "250",
-    imageee: UIImage(named: "13"),
+    imageee: UIImage(named: "111111_3570"),
     summmmer : "اكتشف تجربة لعب أعمق وغامرة للغاية مع وحدة تحكم PlayStation 5 المبتكرة الجديدة والتي تتميز باستجابة لمسية وتأثيرات تحفيز ديناميكية تتضمن وحدة التحكم دوال سينس اللاسلكية ميكروفون مدمج وزر إنشائي، وجميعها مدمجة في تصميم أيقوني ومريح."
 
 ),
 Iitem(
     namee: "PS5",
     date : "2999",
-    imageee: UIImage(named: "14"),
+    imageee: UIImage(named: "111111_3570"),
     
     summmmer : "استمتع بتجربة تحميل بسرعة البرق مع وسيط تخزين ذو حالة ثابتة فائق السرعة، وانغماس أعمق مع دعمٍ لردود الفعل اللمسية، وأزرار متكيفة وصوت ثلاثي الأبعاد، وجيل جديد تمامًا من ألعاب PlayStation المذهلة"
 

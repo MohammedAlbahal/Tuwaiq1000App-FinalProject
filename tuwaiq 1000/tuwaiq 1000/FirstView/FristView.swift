@@ -57,10 +57,14 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
         
+        if segue.identifier != "shsh" {
+            return
+        }
         let yy = segue.destination as! VC22
         yy.selectedpro = sender as? Iitem
     }
 
+    
     @IBOutlet weak var picC: UICollectionView!
     
     override func viewWillAppear(_ animated: Bool) {
@@ -68,7 +72,6 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         
         searchba = Liist
         picC.reloadData()
-        
     }
 
     
