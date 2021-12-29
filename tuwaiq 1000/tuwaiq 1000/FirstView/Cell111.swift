@@ -17,6 +17,6 @@ class CEll111 : UICollectionViewCell {
     func setup(Item : Iitem){
         logop.image = Item.imageee 
         lName.text = Item.namee
-        price1.text = "\(Item.date)"
+//        price1.text = "\(Item.date)"
     }
 }

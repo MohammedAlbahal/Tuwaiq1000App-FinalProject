@@ -462,9 +462,9 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-## DTGradientButton
+## ExcelCollectionViewLayout
 
-Copyright (c) 2018 Tung Vo <tung98.dn@gmail.com>
+Copyright (c) 2017 Rafael Rocha <rocha.development@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

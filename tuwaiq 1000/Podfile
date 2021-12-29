@@ -16,7 +16,7 @@ target 'tuwaiq 1000' do
     pod 'Firebase/Database'
     pod 'Firebase/Analytics'
     pod 'Firebase/Storage'
-    pod 'MapKit'
+    pod 'ExcelCollectionViewLayout'
     
  
 end

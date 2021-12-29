@@ -352,7 +352,7 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
             let tabVC = self.storyboard?.instantiateViewController(identifier: "666")as! TabbsVC
             self.navigationController?.pushViewController(tabVC, animated: true)
         case 5:
-            let Not = self.storyboard?.instantiateViewController(identifier: "555")as! NoteVC
+            let Not = self.storyboard?.instantiateViewController(identifier: "555")as! VvviewController
             self.navigationController?.pushViewController(Not, animated: true)
         case 0:
             let weeks = self.storyboard?.instantiateViewController(identifier: "444")as! CourtVC
