@@ -1,11 +1,9 @@
 # tuwaiq-1000
  - `README.md` 
 
-
-
 # Quick Compo
 
-<img src="/Users/enriquecoscarelli/Downloads/minilogo.png" alt="minilogo" style="zoom:75%;" />
+
 
 ## Description
 
