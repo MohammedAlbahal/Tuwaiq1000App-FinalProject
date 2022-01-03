@@ -11,23 +11,23 @@ class CourtVC: UIViewController,UICollectionViewDelegateFlowLayout {
         let screenSize: CGSize = UIScreen.main.bounds.size
 
         if indexPath.row % 3 == 0 {
-            return CGSize(width: screenSize.width, height: 200)
+            return CGSize(width: screenSize.width/2, height: 200)
         } else {
             return CGSize(width: screenSize.width/2, height: 200)
         }
     
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return .zero
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 0
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 0
-    }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+//        return .zero
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+//        return 0
+//    }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+//        return 0
+//    }
     
   private var collectionView: UICollectionView?
   //--------------------------------------------------------------------------
@@ -74,7 +74,7 @@ extension CourtVC: UICollectionViewDelegate, UICollectionViewDataSource {
 
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CourtVC_Cell.identifier, for: indexPath) as! CourtVC_Cell
     cell.configure(label: "Custem\(indexPath.row)")
-      cell.backgroundColor = .brown
+      cell.backgroundColor = .white
       cell.myImageView.image = list.image
     cell.name.text = list.name
 

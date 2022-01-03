@@ -24,11 +24,11 @@ struct A{
 var data_Court_str = [
   
   Court_str(
-    image: UIImage(named: "law3.png"),
-    name: "المحكمه العامه",
+    image: UIImage(named: "ad4"),
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
+      imageA: UIImage(named: "ad4"),
       nameA: "اصدار الصكوك",
       staly: "",
       summaryA: """
@@ -45,7 +45,7 @@ var data_Court_str = [
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
+          imageA: UIImage(named: "ad4"),
           nameA: "المنازعه في الملكيه",
           staly: "",
           summaryA: """
@@ -63,11 +63,11 @@ var data_Court_str = [
   ),
   //==========================================================================
   Court_str(
-    image: UIImage(named: "law3.png"),
-    name: "المحكمه الجزائيه",
+    image: UIImage(named: "ad4"),
+    name:"",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
+      imageA: UIImage(named: "ad4"),
       nameA: "الاستعلام التفصيلي عن قضية",
       staly: "",
       summaryA: """
@@ -84,7 +84,7 @@ var data_Court_str = [
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
+          imageA: UIImage(named: "ad4"),
           nameA: "الاطلاع على الأحكام",
           staly: "",
           summaryA: """
@@ -101,7 +101,7 @@ var data_Court_str = [
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
+          imageA: UIImage(named: "ad4"),
           nameA: "الاستعلام عن مواعيد الجلسات",
           staly: "",
           summaryA: """
@@ -118,7 +118,7 @@ var data_Court_str = [
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
+          imageA: UIImage(named: "ad4"),
           nameA: "الاستعلام عن حالة قضية",
           staly: "",
           summaryA: """
@@ -135,7 +135,7 @@ var data_Court_str = [
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
+          imageA: UIImage(named: "ad4"),
           nameA: "قضاياي",
           staly: "",
           summaryA: """
@@ -152,7 +152,7 @@ var data_Court_str = [
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
+          imageA: UIImage(named: "ad4"),
           nameA: "مواعيدي",
           staly: "",
           summaryA: """
@@ -172,11 +172,11 @@ var data_Court_str = [
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "law3.png"),
+    image: UIImage(named: "ad4"),
     name: "محكمه الاحوال الشخصيه",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
+      imageA: UIImage(named: "ad4"),
       nameA: "إثبات الزواج",
       staly: "",
       summaryA: """
@@ -193,7 +193,7 @@ var data_Court_str = [
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
+          imageA: UIImage(named: "ad4"),
           nameA: "إثبات الطلاق والخلع",
           staly: "",
           summaryA: """
@@ -209,7 +209,7 @@ var data_Court_str = [
 """
         ),
         A(
-          imageA: UIImage(named: "law4.png"),
+          imageA: UIImage(named: "ad4"),
           nameA: "الحضانه والنفقه و الزياره",
           staly: "",
           summaryA: """
