@@ -70,7 +70,7 @@ class SideBarInstroctorVC: UIViewController {
     
     private func checkIfUserDidntSignout() {
         if FirebaseAuth.Auth.auth().currentUser == nil {
-            let navigationController = UINavigationController(rootViewController: RegisterVC())
+            let navigationController = UINavigationController(rootViewController: RegisterInstroctorVC())
             navigationController.modalPresentationStyle = .overFullScreen
             present(navigationController, animated: true)
             
