@@ -3,7 +3,6 @@
 
 # Quick Compo
 
-
 ## Description
 
 ***dataBASE*** is the resource for all BASE jumpers around the world to check the weather conditions of different jumps across the world cross referencing latitude and longitude of exit points and the Windy API
