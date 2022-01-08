@@ -23,21 +23,21 @@ var edc : Array<Iitem> = []
 
 var Liist : Array<Iitem> = [
     Iitem(
-        namee: "apple airpods 2",
+        namee: "",
         date : "699",
-        imageee: UIImage(named: "333334"),
+        imageee: UIImage(named: "ad1"),
         summmmer : "ميكروفون مزدوج بتكنولوجيا التكوين الشعاعي، مستشعرات بصرية مزدوجة، مقياس تسارع يتعرف على الحركة، مقياس تسارع يتعرف على الكلام"
     ),
 Iitem(
     namee: "apple airpods pro",
     date : "899",
-    imageee: UIImage(named: "333334"),
+    imageee: UIImage(named: "ad1"),
     summmmer : "ميكروفون مزدوج بتكنولوجيا التكوين الشعاعي,مكيروفون باتجاه الأذن,مستشعر بصري مزدوج,مقياس تسارع يتعرف على الحركة,مقياس تسارع يتعرف على الكلام,مستشعر ضغط"
 ),
 Iitem(
-    namee: "iphone 12 pro",
+    namee: "",
     date : "3999",
-    imageee: UIImage(named: "333334"),
+    imageee: UIImage(named: "ad1"),
     summmmer : "نظام كاميرا مزدوجة 12MP (كاميرا واسعة للغاية وكاميرا واسعة) مع نمط بورتريه‏، ونمط الليل، وDeep Fusion‏، وميزة ‏HDR 3 الذكية وتسجيل فيديو HDR مع Dolby Vision لغاية 4K بمعدل 30 إطاراً في,الثانية، وفيديو 4K لغاية 60 إطاراً في الثانية بنطاق ديناميكي أوسع"
 ),
 Iitem(

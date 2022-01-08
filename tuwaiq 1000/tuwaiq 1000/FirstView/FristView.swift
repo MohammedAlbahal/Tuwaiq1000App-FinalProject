@@ -19,17 +19,17 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
     }()
   
     @objc private func singInButtonTapped(sender: UIButton!) {
-        let alert = UIAlertController(title: "Sign Out",
-                                      message: "Are you sure you want to sign out",
+        let alert = UIAlertController(title: "Tuwaiq Academy Student, Staff or Employee? Click Here to Login ",
+                                      message: "",
                                       preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {
+        alert.addAction(UIAlertAction(title: "Student", style: .default, handler: {
             action in
             let vc = RegisterVC()
                      vc.modalPresentationStyle = .fullScreen
                      self.navigationController?.pushViewController(vc, animated: true)
                      print("Yes start Chat")}))
          
-        alert.addAction(UIAlertAction(title: "No", style: .destructive, handler: {
+        alert.addAction(UIAlertAction(title: "Instroctor", style: .default, handler: {
             action in
             let vcc = RegisterInstroctorVC()
             vcc.modalPresentationStyle = .fullScreen
@@ -50,10 +50,12 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         logInBtn.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 135).isActive = true
         logInBtn.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 90).isActive = true
         logInBtn.heightAnchor.constraint(equalToConstant: 70).isActive = true
-        logInBtn.widthAnchor.constraint(equalToConstant: 120).isActive = true
+        logInBtn.widthAnchor.constraint(equalToConstant: 400).isActive = true
     }
     func loadSideBarViewFunctionalityy(){
-    logInBtn.setTitle("Log Out", for: .normal)
+    logInBtn.setTitle("Student or Employee? Click Here to Login", for: .normal)
+    logInBtn.layer.cornerRadius = 10
+    logInBtn.clipsToBounds = true
     logInBtn.backgroundColor = UIColor(named: "Color-2")
     logInBtn.titleLabel?.textColor = UIColor(named: "Color-1")
     logInBtn.titleLabel?.tintColor = UIColor(named: "Color-1")
@@ -96,7 +98,10 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         
         let item = searchba[indexPath.row]
         cell.setup(Item: item)
+        cell.layer.cornerRadius = 30
+        cell.clipsToBounds = true
         return cell
+        
     }
     
 
@@ -134,9 +139,11 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         loadSideBarViewFunctionalityy()
         setUpBottomViewConstraintss()
         setupButtonForSignIn()
-        logInBtn.backgroundColor = .black
+        logInBtn.backgroundColor = .gray
         picC.delegate = self
         picC.dataSource = self
+        picC.layer.masksToBounds = true
+        picC.layer.cornerRadius = 30
 
     }
    
