@@ -32,7 +32,8 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         
         alert.addAction(UIAlertAction(title: "Instroctor", style: .default, handler: {
             action in
-            let vcc = RegisterInstroctorVC()
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vcc = storyboard.instantiateViewController(withIdentifier: "RegisterInstroctorVC")
             vcc.modalPresentationStyle = .fullScreen
             self.navigationController?.pushViewController(vcc, animated: true)
             print("Yes start Chat")}))
