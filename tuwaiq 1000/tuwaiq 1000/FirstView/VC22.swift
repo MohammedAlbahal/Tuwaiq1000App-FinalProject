@@ -32,12 +32,12 @@ class VC22 : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        UIButton.setTitle("My Title", forState: UIControlState.Normal) ??
+
 
         
         if selectedpro != nil{
             Name2.text = selectedpro?.namee
-//            price2.text = selectedpro?.date
+            price2.text = selectedpro?.date
             labels.text = selectedpro?.summmmer
             Image1.image = selectedpro!.imageee
         }

@@ -26,17 +26,17 @@ var eee : Array<Iitem> = []
 var Liist : Array<Iitem> = [
     Iitem(
         namee: "شروط التقديم على معسكر طويق 1000",
-        date : "699",
+        date : "15/9/2021",
         imageee: UIImage(named: "ad1"),
         summmmer : "أن يكون المتقدم للمعسكر سعودي أو سعودية الجنسية،يمتلك شغف واهتمام في أي من المسارات التقنية في البرنامج، لديه دوافع حقيقية ومقنعة للانضمام يمتلك مهارات متميزة وممتازة في العمل الجماعي مع الآخرين، ألا يقل عمر المتقدم عن 18 عامًا،الإجادة التامة من قِبل المتقدم للغة الإنجليزية،إجتياز المقابلة الشخصية للمتقدم، التفرغ التام للمتقدم لمدة لا تقل عن 4 أشهر، يتكفل المشارك بتسديد كافة نفقات البرنامج في حالة الإنسحاب أو الغياب الغير مبرر",
         webnews : "https://google.com"
     ),
 Iitem(
-    namee: "apple airpods pro",
-    date : "899",
+    namee:" تدريب ألف مطوّرة ومطوّر سعوديين على المهارات التقنية المتقدمة مع أكاديمية طويق",
+    date : "15/9/2021",
     imageee: UIImage(named: "ad2"),
     summmmer : "",
-    webnews : "https://www.google.com/search?q=tuwaiq+1000&sxsrf=AOaemvLiBJ7ymJ0rj31GIe_dil7nnQaYMQ:1641723996565&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwiylYm9uqT1AhUIHM0KHW4pAuEQ_AUoAnoECAEQBA&biw=1440&bih=821&dpr=1#imgrc=S2PI8GSf-IAejM"
+    webnews : "https://arabia.googleblog.com/2021/08/blog-post.html"
 ),
 Iitem(
     namee: "",
