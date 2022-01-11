@@ -27,12 +27,21 @@ class VC22 : UIViewController {
        }
     @IBAction func addtocart(_ sender:  UIButton) {
         UIApplication.shared.open(URL(string: "https://bootcamp.sa/tuwaiq1000")! as URL, options: [:], completionHandler: nil)
+      
     }
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        Image1.layer.cornerRadius = 20
+        price2.layer.cornerRadius = 20
+//        addtocart.cornerRadius = 30
+//        Share.layer.cornerRadius = 30
+        price2.clipsToBounds = true
+        Image1.clipsToBounds = true
+//        Share.clipsToBounds = true
+        Name2.clipsToBounds = true
 
         
         if selectedpro != nil{
