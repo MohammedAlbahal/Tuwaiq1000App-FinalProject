@@ -101,6 +101,7 @@
 		E695836E277C9C78001C69CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E695836D277C9C77001C69CB /* GoogleService-Info.plist */; };
 		E695837227831A79001C69CB /* RegisterInstroctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695837127831A77001C69CB /* RegisterInstroctorVC.swift */; };
 		E6958374278B1A3D001C69CB /* excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958373278B1A3D001C69CB /* excel.swift */; };
+		E6958376278EED77001C69CB /* BootcampsmapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958375278EED74001C69CB /* BootcampsmapVC.swift */; };
 		E6EF13DA276781E2008227D1 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13D9276781E1008227D1 /* SettingVC.swift */; };
 		E6EF13DC27678652008227D1 /* ThemeColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13DB27678652008227D1 /* ThemeColorVC.swift */; };
 		E6EF14042769328F008227D1 /* SideBarInstroctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */; };
@@ -234,6 +235,7 @@
 		E695836D277C9C77001C69CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E695837127831A77001C69CB /* RegisterInstroctorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInstroctorVC.swift; sourceTree = "<group>"; };
 		E6958373278B1A3D001C69CB /* excel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = excel.swift; sourceTree = "<group>"; };
+		E6958375278EED74001C69CB /* BootcampsmapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsmapVC.swift; sourceTree = "<group>"; };
 		E6EF13D9276781E1008227D1 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		E6EF13DB27678652008227D1 /* ThemeColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorVC.swift; sourceTree = "<group>"; };
 		E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarInstroctorVC.swift; sourceTree = "<group>"; };
@@ -433,6 +435,7 @@
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
 				E6EF147A2769F73B008227D1 /* Localizable.strings */,
 				E64C236E2760910900DE566D /* Reghister.swift */,
+				E6958375278EED74001C69CB /* BootcampsmapVC.swift */,
 				E695837127831A77001C69CB /* RegisterInstroctorVC.swift */,
 				E695835927788323001C69CB /* FirstView */,
 				E6EF14602769DD8B008227D1 /* weeks */,
@@ -867,6 +870,7 @@
 				E6958374278B1A3D001C69CB /* excel.swift in Sources */,
 				E69246FD2754C77E00421DCB /* BootcampVC.swift in Sources */,
 				E64C23962760C85600DE566D /* dddata.swift in Sources */,
+				E6958376278EED77001C69CB /* BootcampsmapVC.swift in Sources */,
 				E69246F32754B7A100421DCB /* DataBootcamp.swift in Sources */,
 				5E33D36A27538B8D007EC44C /* InstructioerVC.swift in Sources */,
 				E64C238B2760C4C200DE566D /* Protocols.swift in Sources */,
