@@ -16,7 +16,7 @@ class SettingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(named: "Color")
-        navigationItem.title = NSLocalizedString("setting", comment: "")
+        navigationItem.title = NSLocalizedString("", comment: "")
         setupMoodSwitch()
         setupDarkLightImageView()
         setupLanguageButton()
@@ -81,7 +81,7 @@ class SettingViewController: UIViewController {
     func setupLanguageButton(){
         view.addSubview(languageButton)
         languageButton.translatesAutoresizingMaskIntoConstraints = false
-        languageButton.setTitle(NSLocalizedString("language", comment: "") , for: .normal)
+        languageButton.setTitle(NSLocalizedString("Change to Arabic", comment: "") , for: .normal)
         languageButton.addTarget(self, action: #selector(changeLanguagePressed), for: .touchUpInside)
         languageButton.tintColor = UIColor(named: "Color")
         languageButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
@@ -95,9 +95,9 @@ class SettingViewController: UIViewController {
         languageButton.layer.insertSublayer(gradient, at: 0)
         let constraints = [
             languageButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            languageButton.bottomAnchor.constraint(equalTo: signOutButton.topAnchor, constant: -16),
-            languageButton.heightAnchor.constraint(equalToConstant: 50),
-            languageButton.widthAnchor.constraint(equalToConstant: view.frame.width-90)
+           languageButton.bottomAnchor.constraint(equalTo: switchMood.topAnchor, constant: -16),
+            languageButton.heightAnchor.constraint(equalToConstant: 70),
+            languageButton.widthAnchor.constraint(equalToConstant: view.frame.width-110)
         ]
         NSLayoutConstraint.activate(constraints)
     }

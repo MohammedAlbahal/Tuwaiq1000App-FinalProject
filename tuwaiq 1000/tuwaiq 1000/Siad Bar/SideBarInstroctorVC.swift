@@ -27,7 +27,7 @@ class SideBarInstroctorVC: UIViewController {
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["Subject", "Students","Edit Students","Top 10 Students","attendance","Note","Learning Resource","Location","Setting","rimm"]
+    var arrData = ["Subject", "Students","Edit Students","Top 10 Students","attendance","Excel","Learning Resource","rimm"]
     var arrImages:[UIImage] = [#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "person.wave.2"),#imageLiteral(resourceName: "person.3"),#imageLiteral(resourceName: "figure.wave"),#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "keyboard.onehanded.right"),#imageLiteral(resourceName: "globe.badge.chevron.backward"),#imageLiteral(resourceName: "location"),#imageLiteral(resourceName: "gear.circle-1"),#imageLiteral(resourceName: "gear.circle-1"),#imageLiteral(resourceName: "gear.circle-1")]
     
     
@@ -307,13 +307,7 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "sideBarCell", for: indexPath)as! SideBarTableViewCell
         cell.imagev.image = self.arrImages[indexPath.row]
         cell.lbl.text = self.arrData[indexPath.row]
-        //        if(indexPath.row % 2 == 0){
-        //            cell.backgroundColor = .black
-        //            } else{
-        //                cell.backgroundColor = .red
-        //            }
-        //        cell.imagev.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-        //        cell.lbl.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
+        
         cell.lbl.tintColor = UIColor(named: "Color-1")
         cell.imagev.tintColor = UIColor(named: "Color-1")
         cell.contentView.backgroundColor = UIColor(named: "Color")

@@ -24,18 +24,18 @@ struct A{
 var data_Court_str = [
   
   Court_str(
-    image: UIImage(named: "ad4"),
+    image: UIImage(named: "WEEK2"),
     name: "",
     
     a: [A(
-      imageA: UIImage(named: "ad4"),
+      imageA: UIImage(named: "WEEK2"),
       nameA: "اصدار الصكوك",
       staly: "",
       summaryA: "h"
     ),
         
         A(
-          imageA: UIImage(named: "ad4"),
+          imageA: UIImage(named: "WEEK2"),
           nameA: "المنازعه في الملكيه",
           staly: "",
           summaryA: "k"
@@ -43,11 +43,11 @@ var data_Court_str = [
   ),
   //==========================================================================
   Court_str(
-    image: UIImage(named: "ad4"),
+    image: UIImage(named: "WEEK2"),
     name:"",
     
     a: [A(
-      imageA: UIImage(named: "ad4"),
+      imageA: UIImage(named: "WEEK2"),
       nameA: "الاستعلام التفصيلي عن قضية",
       staly: "",
       summaryA: """
@@ -64,7 +64,7 @@ var data_Court_str = [
     ),
         
         A(
-          imageA: UIImage(named: "ad4"),
+          imageA: UIImage(named: "WEEK2"),
           nameA: "الاطلاع على الأحكام",
           staly: "",
           summaryA: """

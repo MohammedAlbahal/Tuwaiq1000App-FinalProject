@@ -48,7 +48,10 @@ class VC2 : UIViewController, UISearchBarDelegate, MKMapViewDelegate, CLLocation
             Image1.clipsToBounds = true
             configureLocationManager()
             configureMapView()
-           
+            mapView.layer.cornerRadius = 27
+            mapView.clipsToBounds = true
+            centerMapButton.layer.cornerRadius = 27
+            centerMapButton.clipsToBounds = true
     }
 
 }

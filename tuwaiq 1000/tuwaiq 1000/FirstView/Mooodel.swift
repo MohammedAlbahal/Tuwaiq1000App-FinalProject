@@ -25,67 +25,75 @@ var eee : Array<Iitem> = []
 
 var Liist : Array<Iitem> = [
     Iitem(
-        namee: "شروط التقديم على معسكر طويق 1000",
-        date : "15/9/2021",
-        imageee: UIImage(named: "ad1"),
-        summmmer : "أن يكون المتقدم للمعسكر سعودي أو سعودية الجنسية،يمتلك شغف واهتمام في أي من المسارات التقنية في البرنامج، لديه دوافع حقيقية ومقنعة للانضمام يمتلك مهارات متميزة وممتازة في العمل الجماعي مع الآخرين، ألا يقل عمر المتقدم عن 18 عامًا،الإجادة التامة من قِبل المتقدم للغة الإنجليزية،إجتياز المقابلة الشخصية للمتقدم، التفرغ التام للمتقدم لمدة لا تقل عن 4 أشهر، يتكفل المشارك بتسديد كافة نفقات البرنامج في حالة الإنسحاب أو الغياب الغير مبرر",
+        namee: "Tuwaiq Software Path",
+        date : "1/9/2021",
+        imageee: UIImage(named: "ad3"),
+        summmmer : "Tuwaiq Software Path: It is a training camp that aims to qualify Saudi capabilities to become programmers using the latest programming languages ​​to give them sufficient technical and practical experience to start their careers in the specialties of developing web and mobile applications. Tuwaiq Software Path: A training camp that aims to qualify Saudi capabilities to become programmers using the latest languages Programming to give them enough technical and practical experience to start their careers in web and mobile application development.",
         webnews : "https://google.com"
     ),
 Iitem(
-    namee:" تدريب ألف مطوّرة ومطوّر سعوديين على المهارات التقنية المتقدمة مع أكاديمية طويق",
-    date : "15/9/2021",
+    namee:"Training a thousand Saudi female developers on advanced technical skills",
+    date : "15/6/2021",
     imageee: UIImage(named: "ad2"),
-    summmmer : "",
+    summmmer : "Collaborating with Tuwaiq Academy to train 1,000 Saudi developers, As part of our ongoing commitment to help people and businesses grow, we're happy to collaborate with Tuwaiq Academy to equip a thousand Saudi developers with advanced tech skills to successfully scale their ideas. The initiative 'Tuwaiq 1000' was announced last week in Riyadh, which also included a series of local initiatives to boost tech innovation across the Kingdom in collaboration with a number of companies. ",
     webnews : "https://arabia.googleblog.com/2021/08/blog-post.html"
 ),
 Iitem(
-    namee: "",
-    date : "3999",
-    imageee: UIImage(named: "ad3"),
-    summmmer : "نظام كاميرا مزدوجة 12MP (كاميرا واسعة للغاية وكاميرا واسعة) مع نمط بورتريه‏، ونمط الليل، وDeep Fusion‏، وميزة ‏HDR 3 الذكية وتسجيل فيديو HDR مع Dolby Vision لغاية 4K بمعدل 30 إطاراً في,الثانية، وفيديو 4K لغاية 60 إطاراً في الثانية بنطاق ديناميكي أوسع",
+    namee: "Conditions for applying to Tuwaiq camp 1000",
+    date : "1/2/2021",
+    imageee: UIImage(named: "ad1"),
+    summmmer : "The applicant for the camp should be a Saudi or a Saudi national, possesses passion and interest in any of the technical tracks in the program, has real and convincing motives to join, possesses distinct and excellent skills in teamwork with others, the applicant must be at least 18 years old, full proficiency by the applicant English, passing the applicant’s personal interview, full-time for the applicant for a period of no less than 4 months, the participant shall pay all program expenses in case of unjustified withdrawal or absence",
     webnews : "https://google.com"
 ),
 Iitem(
-    namee: "apple watch",
-    date : "1499",
+    namee: "At Hack",
+    date : "26/10/2021",
     imageee: UIImage(named: "ad4"),
-    summmmer : "شاشة Retina لا تنطفئ أكبر من شاشة Series 6 بنسبة 20% تقريباً، ما يتيح لك المزيد من السهولة في الرؤية والاستخدام",
+    summmmer : "Riyadh Season has announced the launch of the At Hack event, the largest cybersecurity event in the Middle East, which will take place from 28-30 November, in the “Riyadh Front” area, which is the most rich and attractive for quality events of interest to visitors of all ages. The zone connects global investors and manufacturers with those interested from the Kingdom and its visitors from abroad, and brings together the greatest minds, elite professionals and trainers globally in this field for the first time in the Kingdom",
     webnews : "https://google.com"
 
 ),
 Iitem(
-    namee: "console PS5",
-    date : "250",
+    namee: "tuwaiq bootcamp",
+    date : "5/8/2021",
     imageee: UIImage(named: "ad5"),
-    summmmer : "اكتشف تجربة لعب أعمق وغامرة للغاية مع وحدة تحكم PlayStation 5 المبتكرة الجديدة والتي تتميز باستجابة لمسية وتأثيرات تحفيز ديناميكية تتضمن وحدة التحكم دوال سينس اللاسلكية ميكروفون مدمج وزر إنشائي، وجميعها مدمجة في تصميم أيقوني ومريح.",
+    summmmer : "Together with experts from inside and outside Google, we'll kick-off a series of workshops in December to help participants learn how to solve real-life problems using machine learning and Google Cloud Platform. The workshops will be conducted at established centers by Tuwaiq Academy in different parts of the Kingdom, in addition to others being hosted online,If you're in Saudi Arabia and interested in joining the program, please visit the website and apply for the 'Tuwaiq 1000' bootcamp",
     webnews : "https://google.com"
 
 ),
 Iitem(
-    namee: "PS5",
-    date : "2999",
+    namee: "Website DNS Tuwaiq 1000",
+    date : "6/7/2021",
     imageee: UIImage(named: "ad6"),
     
-    summmmer : "استمتع بتجربة تحميل بسرعة البرق مع وسيط تخزين ذو حالة ثابتة فائق السرعة، وانغماس أعمق مع دعمٍ لردود الفعل اللمسية، وأزرار متكيفة وصوت ثلاثي الأبعاد، وجيل جديد تمامًا من ألعاب PlayStation المذهلة",
+    summmmer : "Tuwaiq camp test 1000 | cyber security track Tuesday 7 September 2021 from 10 am to 4 pm",
     webnews : "https://google.com"
 
 ),
 Iitem(
-    namee: "coffe maker",
-    date : "500",
-    imageee: UIImage(named: "15"),
-    summmmer : "ديلونجي EC9 الة لصنع القهوة كما لو ان تم صنعها في المقهى. ابعاد هذه الالة تصل الى 24.0 * 26.0 * 29.0سم ويمكن وضعها في مطبخ ضيق. وهي تزن فقط 2.5 كغم مما يسهل عملية نقلها من مكان لاخر. الة صنع القهوة هذه تتميز بنظام فاريو الذي يوفرلك امكانية اختيار من النكهة الغنية الى الخفيفية. وهذه الميزة توفر لك السيطرة بالكامل على طعم المشروب الخاص بك اذ تتيح لك صنع القهوة بالطريقة التي ترغبها.",
+    namee: "Tuwaiq Programming Bootcamp",
+    date : "2/7/2021",
+    imageee: UIImage(named: "ad8"),
+    summmmer : "The Tuwaiq Programming embraces beginners through nurturing and training them from scratch, giving professionals an opportunity to reﬁne their programming skills, and opening doors to those who are interested in learning new skills, building websites or designing applications for their startup business ideas. The camp prepares trainees for the job market, provides personal support and direct guidance, and focuses on required skills through a multi-project-based education, creating continuous challenges that showcases exceptional abilities and contribute to unique digital career opportunities. Official website: satr.codes",
     webnews : "https://google.com"
 
 ),
 Iitem(
-    namee: "coffe maker",
-    date : "400",
-    imageee: UIImage(named: "16"),
-    summmmer : "سعة خزان المياه: 0.8 لتر، وزن الماكينة: 2.5 كغم، القوة الكهربائية للآلة: 1500 واط، ستستمتع بقهوةٍ مصنوعة باحتراف بالكريما المخملية الكثيفة، مع نظام الضغط الذي يقدر بنحو 15 بار لماكينة القهوة ميني مي. يتم الحفاظ على جودة القهوة باستخدام كبسولات محكمة الإغلاق للاستمتاع بمذاق غني ورائحة فواحة. اختر ما تريد تناوله من مشروبات القهوة الـ 16: إذ يمكنك التمتع بمجموعةٍ واسعة من الاسبريسو والكابتشينو بالرغوة الناعمة أو قهوة غراندي ذات الرائحة الأخاذة وحتى مشروب الشوكولاتة الساخنة ونكهات الشاي المتنوعة وأكثر من ذلك تحضّر ماكينة تحضير القهوة ميني مي المشروبات الساخنة بالإضافة إلى المشروبات الباردة اللذيذة باستخدام الكبسولات. يقوم وضع الشحن الاقتصادي بإيقاف تشغيل الجهاز تلقائيًا بعد 5 دقائق من عدم الاستخدام. يملك الجهاز تصنيف ايه في مجال استهلاك الطاقة.",
+    namee: "1000 young men and women",
+    date : "15/7/2021",
+    imageee: UIImage(named: "ad7"),
+    summmmer : "Provides #Twaiq_1000_camp ending with employment Various training tracks in the fields of technology for 1000 male and female students to rise up in the Kingdom globally in the technology industry 🇸🇦",
     webnews : "https://google.com"
 
 ),
+    Iitem(
+        namee: "javascript Bootcamp",
+        date : "15/3/2021",
+        imageee: UIImage(named: "ad9"),
+        summmmer : "The Saudi Federation for Cyber ​​Security, Programming and Drones has announced the opening of the largest attendance training camp in the world, which ends with the recruitment of participants. The camp aims to train approximately 1,000 young men and women in many regions of the Kingdom at the same time, in coordination with the Ministry of Communications and Information Technology for investment The energies of the emerging Saudi youth and their refinement through intensive training to develop programming skills through simple platforms, to then move to advanced and advanced levels, and enhance trainees' awareness of modern technologies.",
+        webnews : "https://google.com"
+
+    ),
 ]
 
 

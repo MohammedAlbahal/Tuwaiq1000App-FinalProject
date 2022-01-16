@@ -24,7 +24,7 @@ class CourtVC_Cell: UICollectionViewCell {
     imageView.contentMode = .scaleAspectFit
     imageView.tintColor = .label
     imageView.backgroundColor = .white
-    imageView.layer.cornerRadius = 22
+    imageView.layer.cornerRadius = 66
     imageView.clipsToBounds = true
     return imageView
   }()
@@ -61,8 +61,8 @@ class CourtVC_Cell: UICollectionViewCell {
     
     myImageView.frame = CGRect(x: 10,
                                y: 15,
-                               width: 160,
-                               height: 140)
+                               width: 200,
+                               height: 180)
     
     name.frame = CGRect(x: 10,
                         y: 160,
