@@ -24,7 +24,7 @@ struct A{
 var data_Court_str = [
   
   Court_str(
-    image: UIImage(named: "WEEK2"),
+    image: UIImage(named: "WEEK1"),
     name: "",
     
     a: [A(
@@ -64,7 +64,7 @@ var data_Court_str = [
     ),
         
         A(
-          imageA: UIImage(named: "WEEK2"),
+          imageA: UIImage(named: "WEEK3"),
           nameA: "الاطلاع على الأحكام",
           staly: "",
           summaryA: """
@@ -152,7 +152,7 @@ var data_Court_str = [
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "ad4"),
+    image: UIImage(named: "WEEK4"),
     name: "محكمه الاحوال الشخصيه",
     
     a: [A(
@@ -341,7 +341,7 @@ var data_Court_str = [
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "law3.png"),
+    image: UIImage(named: "WEEK5"),
     name: "المحكمه التجاريه",
     
     a: [A(
@@ -484,7 +484,7 @@ var data_Court_str = [
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "law3.png"),
+    image: UIImage(named: "WEEK6"),
     name: "المحكمه العماليه",
     
     a: [A(
@@ -576,7 +576,7 @@ var data_Court_str = [
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "law3.png"),
+    image: UIImage(named: "WEEK7"),
     name: "منصة تراضي",
     
     a: [A(
@@ -656,7 +656,7 @@ var data_Court_str = [
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "law3.png"),
+    image: UIImage(named: "WEEK8"),
     name: "التحقق من صحة وثائق الصلح",
     
     a: [A(
@@ -696,7 +696,7 @@ var data_Court_str = [
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "law3.png"),
+    image: UIImage(named: "WEEK9"),
     name: "صحيفة الدعوى الإلكترونية",
     
     a: [A(
@@ -736,7 +736,7 @@ var data_Court_str = [
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "law3.png"),
+    image: UIImage(named: "WEEK10"),
     name: "طلب التنفيذ الإلكتروني",
     
     a: [A(
@@ -775,4 +775,83 @@ var data_Court_str = [
   ),
   
   //==========================================================================
+  //==========================================================================
+  Court_str(
+    image: UIImage(named: "WEEK11"),
+    name: "التحقق من صحة وثائق الصلح",
+    
+    a: [A(
+      imageA: UIImage(named: "law4.png"),
+      nameA: "",
+      staly: "",
+      summaryA: """
+وصف الخدمه ......
+
+
+
+متطلبات الخدمه .......
+
+
+
+خطوات التقديم على الخدمه .......
+"""
+    ),
+        
+        A(
+          imageA: UIImage(named: "law4.png"),
+          nameA: "",
+          staly: "",
+          summaryA: """
+وصف الخدمه ......
+
+
+
+متطلبات الخدمه .......
+
+
+
+خطوات التقديم على الخدمه .......
+"""
+        )]
+  ),
+  
+  //==========================================================================
+  Court_str(
+    image: UIImage(named: "WEEK12"),
+    name: "صحيفة الدعوى الإلكترونية",
+    
+    a: [A(
+      imageA: UIImage(named: "law4.png"),
+      nameA: "",
+      staly: "",
+      summaryA: """
+وصف الخدمه ......
+
+
+
+متطلبات الخدمه .......
+
+
+
+خطوات التقديم على الخدمه .......
+"""
+    ),
+        
+        A(
+          imageA: UIImage(named: "law4.png"),
+          nameA: "",
+          staly: "",
+          summaryA: """
+وصف الخدمه ......
+
+
+
+متطلبات الخدمه .......
+
+
+
+خطوات التقديم على الخدمه .......
+"""
+        )]
+  ),
 ]

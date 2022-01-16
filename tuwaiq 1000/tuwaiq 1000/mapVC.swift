@@ -62,7 +62,7 @@ class MapVC: UIViewController {
     ])
     //========================================================================
     let m1 = MKPointAnnotation()
-    m1.title = "Tuwaiq 1000 Bootcamp"
+    m1.title = "Swift Bootcamp"
     m1.coordinate = CLLocationCoordinate2D(latitude: 18.2497564,
                                            longitude: 42.5567473)
     mapView.addAnnotation(m1)

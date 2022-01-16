@@ -27,7 +27,7 @@ class SideBarInstroctorVC: UIViewController {
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["Subject", "Students","Edit Students","Top 10 Students","attendance","Excel","Learning Resource","rimm"]
+    var arrData = ["Subject", "Students","Edit Students","Top 10 Students","attendance","Excel"]
     var arrImages:[UIImage] = [#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "person.wave.2"),#imageLiteral(resourceName: "person.3"),#imageLiteral(resourceName: "figure.wave"),#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "keyboard.onehanded.right"),#imageLiteral(resourceName: "globe.badge.chevron.backward"),#imageLiteral(resourceName: "location"),#imageLiteral(resourceName: "gear.circle-1"),#imageLiteral(resourceName: "gear.circle-1"),#imageLiteral(resourceName: "gear.circle-1")]
     
     
@@ -308,11 +308,11 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
         cell.imagev.image = self.arrImages[indexPath.row]
         cell.lbl.text = self.arrData[indexPath.row]
         
-        cell.lbl.tintColor = UIColor(named: "Color-1")
-        cell.imagev.tintColor = UIColor(named: "Color-1")
+        cell.lbl.tintColor = UIColor(named: "color-1")
+        cell.imagev.tintColor = UIColor(named: "color-1")
         cell.contentView.backgroundColor = UIColor(named: "Color")
         
-        cell.lbl.textColor = UIColor(named: "Color-1")
+        cell.lbl.textColor = UIColor(named: "color-1")
         
         return cell
     }
@@ -360,8 +360,8 @@ extension SideBarInstroctorVC : UITableViewDelegate,UITableViewDataSource{
             
         default:
             print(self.arrData[indexPath.row])
-            cell.imagev.tintColor = UIColor(named: "Color-1")
-            cell.lbl.textColor = UIColor(named: "Color-1")
+            cell.imagev.tintColor = UIColor(named: "color-1")
+            cell.lbl.textColor = UIColor(named: "color-1")
             cell.contentView.backgroundColor = UIColor(named: "Color")
             
         }
