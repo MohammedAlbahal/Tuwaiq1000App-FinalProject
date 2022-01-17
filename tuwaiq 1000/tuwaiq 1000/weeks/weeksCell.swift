@@ -15,14 +15,14 @@ class CourtVC_Cell: UICollectionViewCell {
     staly.textColor = .label
     staly.layer.cornerRadius = 40
     staly.clipsToBounds = true
-    staly.backgroundColor = .white
+    staly.backgroundColor = UIColor(named: "Color-3")
     return staly
   }()
   //--------------------------------------------------------------------------
   let myImageView: UIImageView = {
     let imageView = UIImageView()
     imageView.contentMode = .scaleAspectFit
-    imageView.tintColor = .label
+    imageView.tintColor = UIColor(named: "Color-3")
     imageView.backgroundColor = .white
     imageView.layer.cornerRadius = 66
     imageView.clipsToBounds = true
@@ -34,7 +34,7 @@ class CourtVC_Cell: UICollectionViewCell {
     label.textColor = .label
     label.numberOfLines = 0
     label.textAlignment = .center
-    label.backgroundColor = .white
+    label.backgroundColor = UIColor(named: "Color-3")
     return label
   }()
   //--------------------------------------------------------------------------

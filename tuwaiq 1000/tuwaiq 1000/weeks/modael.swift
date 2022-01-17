@@ -28,18 +28,113 @@ var data_Court_str = [
     name: "",
     
     a: [A(
-      imageA: UIImage(named: "WEEK2"),
-      nameA: "اصدار الصكوك",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
-      summaryA: "h"
+      summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "WEEK2"),
-          nameA: "المنازعه في الملكيه",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
-          summaryA: "k"
-        )]
+          summaryA: """
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
+
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
+          staly: "",
+          summaryA: """
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
+          staly: "",
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
+
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Tasbih App",
+          staly: "",
+          summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
+       ]
   ),
   //==========================================================================
   Court_str(
@@ -47,811 +142,1261 @@ var data_Court_str = [
     name:"",
     
     a: [A(
-      imageA: UIImage(named: "WEEK2"),
-      nameA: "الاستعلام التفصيلي عن قضية",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "WEEK3"),
-          nameA: "الاطلاع على الأحكام",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "ad4"),
-          nameA: "الاستعلام عن مواعيد الجلسات",
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
           staly: "",
           summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
         ),
         
         A(
-          imageA: UIImage(named: "ad4"),
-          nameA: "الاستعلام عن حالة قضية",
+          imageA: UIImage(named: "DAY4"),
+          nameA: "APIs",
           staly: "",
-          summaryA: """
-وصف الخدمه ......
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "ad4"),
-          nameA: "قضاياي",
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Jahez App:",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
+       ]
+  ),
+  
+  //==========================================================================
+  Court_str(
+    image: UIImage(named: "WEEK3"),
+    name: "",
+    
+    a: [A(
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
+      staly: "",
+      summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+    ),
+        
+        A(
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
+          staly: "",
+          summaryA: """
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "ad4"),
-          nameA: "مواعيدي",
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
           staly: "",
           summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
         ),
+        
+        A(
+          imageA: UIImage(named: "DAY4"),
+          nameA: "Firebase",
+          staly: "",
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
+
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Todo App:",
+          staly: "",
+          summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
        ]
   ),
   
   //==========================================================================
   Court_str(
     image: UIImage(named: "WEEK4"),
-    name: "محكمه الاحوال الشخصيه",
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "ad4"),
-      nameA: "إثبات الزواج",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "ad4"),
-          nameA: "إثبات الطلاق والخلع",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
-        A(
-          imageA: UIImage(named: "ad4"),
-          nameA: "الحضانه والنفقه و الزياره",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "إثتبات الوقف والوصيه",
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
           staly: "",
           summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "إثبات النسب",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "الميراث وقسمه التركه",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "إثبات تعيين الاوصياء",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "إثبات الغيبه والوفاه و حصر الورثه",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "الحجر على السفهاء",
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
           staly: "",
-          summaryA: """
-وصف الخدمه ......
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "تزويج من لا ولي لها",
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Amazon App",
           staly: "",
           summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
         ),
         
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "إثبات توكيل الأخرس",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
        ]
   ),
   
   //==========================================================================
   Court_str(
     image: UIImage(named: "WEEK5"),
-    name: "المحكمه التجاريه",
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "المنازعات التجاريه",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "الدعوى على تاجر",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "دعاوى الإفلاس",
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
           staly: "",
           summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "مخالفات الانظمه التجاريه",
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
           staly: "",
-          summaryA: """
-وصف الخدمه ......
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "دعوى على مقاول إنشائي",
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Amazon App",
           staly: "",
           summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
         ),
         
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "دعوى  بالتوريد",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
-        
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "دعوى المتعلقه بالسمسره",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
-        
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "النزاعات في تركت المتوفي",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        ),
        ]
   ),
   
   //==========================================================================
   Court_str(
     image: UIImage(named: "WEEK6"),
-    name: "المحكمه العماليه",
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "عقود العمل و الاجور",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "عقوبات نظام العمل",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "الفصل من العمل",
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
           staly: "",
           summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "اعتراض على قرار",
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
           staly: "",
-          summaryA: """
-وصف الخدمه ......
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+          """
         ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "التظلم",
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Whatsapp App",
           staly: "",
           summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
         ),
+        
+       ]
+  ),
+  //==========================================================================
+  Court_str(
+    image: UIImage(named: "WEEK7"),
+    name: "",
+    
+    a: [A(
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
+      staly: "",
+      summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+    ),
+        
+        A(
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
+          staly: "",
+          summaryA: """
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
+
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
+          staly: "",
+          summaryA: """
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
+          staly: "",
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
+
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Attendance App",
+          staly: "",
+          summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
        ]
   ),
   
   //==========================================================================
   Court_str(
-    image: UIImage(named: "WEEK7"),
-    name: "منصة تراضي",
-    
-    a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "",
-      staly: "",
-      summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-    ),
-        
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        )]
-  ),
-  
-  //==========================================================================
-  Court_str(
-    image: UIImage(named: "law3.png"),
-    name: "خدمة التقاضي الإلكتروني",
-    
-    a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "",
-      staly: "",
-      summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-    ),
-        
-        A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "",
-          staly: "",
-          summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        )]
-  ),
-  
-  //==========================================================================
-  Court_str(
     image: UIImage(named: "WEEK8"),
-    name: "التحقق من صحة وثائق الصلح",
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
+          staly: "",
+          summaryA: """
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
+          staly: "",
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        )]
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Solo App",
+          staly: "",
+          summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
+       ]
   ),
   
   //==========================================================================
   Court_str(
     image: UIImage(named: "WEEK9"),
-    name: "صحيفة الدعوى الإلكترونية",
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
+          staly: "",
+          summaryA: """
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
+          staly: "",
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        )]
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Team Work",
+          staly: "",
+          summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
+       ]
   ),
-  
   //==========================================================================
   Court_str(
     image: UIImage(named: "WEEK10"),
-    name: "طلب التنفيذ الإلكتروني",
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
+          staly: "",
+          summaryA: """
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
+          staly: "",
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        )]
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY5"),
+          nameA: "App",
+          staly: "",
+          summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
+       ]
   ),
   
   //==========================================================================
   //==========================================================================
   Court_str(
     image: UIImage(named: "WEEK11"),
-    name: "التحقق من صحة وثائق الصلح",
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
+          staly: "",
+          summaryA: """
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
+          staly: "",
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        )]
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY5"),
+          nameA: " App",
+          staly: "",
+          summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
+       ]
   ),
   
   //==========================================================================
   Court_str(
     image: UIImage(named: "WEEK12"),
-    name: "صحيفة الدعوى الإلكترونية",
+    name: "",
     
     a: [A(
-      imageA: UIImage(named: "law4.png"),
-      nameA: "",
+      imageA: UIImage(named: "DAY1"),
+      nameA: "Getting started with Xcode",
       staly: "",
       summaryA: """
-وصف الخدمه ......
-
-
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
     ),
         
         A(
-          imageA: UIImage(named: "law4.png"),
-          nameA: "",
+          imageA: UIImage(named: "DAY2"),
+          nameA: "Data Modeling",
           staly: "",
           summaryA: """
-وصف الخدمه ......
+          Choosing Between Structures and Classes
+          Adopting Common Protocols
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY3"),
+          nameA: "functions,proprieties",
+          staly: "",
+          summaryA: """
+          Variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          numbers
+          string
+          arrays
+          UITableview
+          UITableview controller
+          UITableviewCell
+          protocols
+          Collection views
+          localization and internalization
+          optional
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY4"),
+          nameA: "UITableview, UITableview controller",
+          staly: "",
+          summaryA:"""
+                    Variables
+                    functions
+                    classes and struct
+                    proprieties
+                    view controllers
+                    numbers
+                    string
+                    arrays
+                    UITableview
+                    UITableview controller
+                    UITableviewCell
+                    protocols
+                    Collection views
+                    localization and internalization
+                    optional
 
-
-متطلبات الخدمه .......
-
-
-
-خطوات التقديم على الخدمه .......
-"""
-        )]
+          """
+        ),
+        
+        A(
+          imageA: UIImage(named: "DAY5"),
+          nameA: "Finel Project App",
+          staly: "",
+          summaryA: """
+                                                                          initilization
+          variables
+          functions
+          classes and struct
+          proprieties
+          view controllers
+          loops
+          numbers
+          string
+          """
+        ),
+        
+       ]
   ),
 ]

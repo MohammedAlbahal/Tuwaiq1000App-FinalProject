@@ -34,15 +34,15 @@ class CourtVC: UIViewController,UICollectionViewDelegateFlowLayout {
   override func viewDidLoad(){
     super.viewDidLoad()
     
-      view.backgroundColor = .red
-      collectionView?.backgroundColor = .black
+      view.backgroundColor = UIColor(named: "Color-3")
+      collectionView?.backgroundColor = UIColor(named: "Color-3")
     collectionView = UICollectionView(frame: .zero,
                                       collectionViewLayout: layout)
 //    collectionView?.backgroundColor = UIColor (named: "myBackgroundColor")
     guard let collectionView = collectionView else {
       return
     }
-    navigationController?.navigationBar.backgroundColor = UIColor (named: "myBackgroundColor")
+    navigationController?.navigationBar.backgroundColor = UIColor(named: "Color-3")
     collectionView.register(CourtVC_Cell.self, forCellWithReuseIdentifier: CourtVC_Cell.identifier)
     collectionView.dataSource = self
     collectionView.delegate = self
@@ -74,7 +74,7 @@ extension CourtVC: UICollectionViewDelegate, UICollectionViewDataSource {
 
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CourtVC_Cell.identifier, for: indexPath) as! CourtVC_Cell
     cell.configure(label: "Custem\(indexPath.row)")
-      cell.backgroundColor = .white
+      cell.backgroundColor = UIColor(named: "Color-3")
       cell.myImageView.image = list.image
     cell.name.text = list.name
 

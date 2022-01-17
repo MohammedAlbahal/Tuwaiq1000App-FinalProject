@@ -12,7 +12,7 @@ class CourtPageVC: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    view.backgroundColor = UIColor (named: "myBackgroundColor")
+    view.backgroundColor = UIColor(named: "Color-3")
     
     all()
   }

@@ -12,7 +12,7 @@ class ServicePageVC : UIViewController{
   override func viewDidLoad() {
     super.viewDidLoad()
     
-//    view.backgroundColor = UIColor (named: "myBackgroundColor")
+   view.backgroundColor = UIColor(named: "Color-3")
     
     allConstraint()
   }
@@ -63,7 +63,7 @@ class ServicePageVC : UIViewController{
   //--------------------------------------------------------------------------
   lazy var buttonServicePage: UIButton = {
     let buttonServicePage = UIButton()
-    buttonServicePage.setTitle("تقديم طلب", for: .normal)
+    buttonServicePage.setTitle("Show more", for: .normal)
     buttonServicePage.setTitleColor(.label, for: .normal)
     buttonServicePage.titleLabel?.font = UIFont.systemFont(ofSize: 20)
     buttonServicePage.layer.cornerRadius = 20
@@ -121,14 +121,14 @@ class ServicePageVC : UIViewController{
   //--------------------------------------------------------------------------
   @objc func popupAlert(sender: UIButton!){
     
-    let alert = UIAlertController(title: "هل تريد تقديم طلب على هذه الخدمه؟",
+    let alert = UIAlertController(title: "Swift Documentaion",
                                   message: "",
                                   preferredStyle: .alert)
     
-    alert.addAction(UIAlertAction(title: "نعم", style: .default, handler: { action in
-      UIApplication.shared.open(URL(string: "https://www.moj.gov.sa/ar/pages/default.aspx")! as URL, options: [:], completionHandler: nil)
+    alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
+      UIApplication.shared.open(URL(string: "https://www.swift.org/documentation/")! as URL, options: [:], completionHandler: nil)
       print("Yes, apply")}))
-    alert.addAction(UIAlertAction(title: "لا", style: .cancel, handler: { action in
+    alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: { action in
       print("Do not apply")}))
     
     self.present(alert, animated: true)
