@@ -218,7 +218,7 @@ class VvviewController: UIViewController, UICollectionViewDataSource, UICollecti
             .collection("grades").document(gradeValue.projectGradeId)
             .setData([
                 "id": gradeValue.projectGradeId,
-                "gradeValue": Int.random(in: 1...4)
+                "gradeValue": Int.random(in: 1...100)
             ], merge: true) { error in
                 self.fetchData()
             }
