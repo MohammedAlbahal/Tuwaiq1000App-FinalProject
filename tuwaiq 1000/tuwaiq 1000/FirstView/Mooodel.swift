@@ -25,10 +25,10 @@ var eee : Array<Iitem> = []
 
 var Liist : Array<Iitem> = [
     Iitem(
-        namee: "Tuwaiq Software Path",
-        date : "1/9/2021",
-        imageee: UIImage(named: "ad3"),
-        summmmer : "Tuwaiq Software Path: It is a training camp that aims to qualify Saudi capabilities to become programmers using the latest programming languages ​​to give them sufficient technical and practical experience to start their careers in the specialties of developing web and mobile applications. Tuwaiq Software Path: A training camp that aims to qualify Saudi capabilities to become programmers using the latest languages Programming to give them enough technical and practical experience to start their careers in web and mobile application development.",
+        namee: "Conditions for applying to Tuwaiq camp 1000",
+        date : "1/2/2021",
+        imageee: UIImage(named: "ad1"),
+        summmmer : "The applicant for the camp should be a Saudi or a Saudi national, possesses passion and interest in any of the technical tracks in the program, has real and convincing motives to join, possesses distinct and excellent skills in teamwork with others, the applicant must be at least 18 years old, full proficiency by the applicant English, passing the applicant’s personal interview, full-time for the applicant for a period of no less than 4 months, the participant shall pay all program expenses in case of unjustified withdrawal or absence",
         webnews : "https://google.com"
     ),
 Iitem(
@@ -39,10 +39,10 @@ Iitem(
     webnews : "https://arabia.googleblog.com/2021/08/blog-post.html"
 ),
 Iitem(
-    namee: "Conditions for applying to Tuwaiq camp 1000",
-    date : "1/2/2021",
-    imageee: UIImage(named: "ad1"),
-    summmmer : "The applicant for the camp should be a Saudi or a Saudi national, possesses passion and interest in any of the technical tracks in the program, has real and convincing motives to join, possesses distinct and excellent skills in teamwork with others, the applicant must be at least 18 years old, full proficiency by the applicant English, passing the applicant’s personal interview, full-time for the applicant for a period of no less than 4 months, the participant shall pay all program expenses in case of unjustified withdrawal or absence",
+    namee: "Tuwaiq Software Path",
+    date : "1/9/2021",
+    imageee: UIImage(named: "ad3"),
+    summmmer : "Tuwaiq Software Path: It is a training camp that aims to qualify Saudi capabilities to become programmers using the latest programming languages ​​to give them sufficient technical and practical experience to start their careers in the specialties of developing web and mobile applications. Tuwaiq Software Path: A training camp that aims to qualify Saudi capabilities to become programmers using the latest languages Programming to give them enough technical and practical experience to start their careers in web and mobile application development",
     webnews : "https://google.com"
 ),
 Iitem(

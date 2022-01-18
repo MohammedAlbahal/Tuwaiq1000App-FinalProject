@@ -15,7 +15,7 @@ struct ProjectGrade: Codable {
     let studentName: String
     let gradeValue: Double
     let projectNumber: String
-//    let interaction: String
+
     
     var json: [String: Any] {
         guard let jsonData = try? JSONEncoder().encode(self) else {
@@ -44,7 +44,7 @@ class VvviewController: UIViewController, UICollectionViewDataSource, UICollecti
     var topLabels: [String] = []
     var studentsNames: [String] = []
     var gradesValues: [[GradeValue]] = []
-//    var interactionn: [String] = []
+
     var projectsGrades = [
         ProjectGrade(studentName: "Hassan", gradeValue: 80, projectNumber: "Project 1" ),
         ProjectGrade(studentName: "Hassan", gradeValue: 25, projectNumber: "Midtearm" ),
@@ -56,7 +56,7 @@ class VvviewController: UIViewController, UICollectionViewDataSource, UICollecti
         ProjectGrade(studentName: "Fawaz", gradeValue: 9, projectNumber: "Activity"),
         ProjectGrade(studentName: "Hassan", gradeValue: 60, projectNumber: "Project 2"),
         ProjectGrade(studentName: "Hanan", gradeValue: 70, projectNumber: "Project 2"),
-        ProjectGrade(studentName: "Fawaz", gradeValue: 50, projectNumber: "Project 2"),
+        ProjectGrade(studentName: "Fawaz", gradeValue: 50, projectNumber    : "Project 2"),
         ProjectGrade(studentName: "Hassan", gradeValue: 60, projectNumber: "Project 3"),
         ProjectGrade(studentName: "Hanan", gradeValue: 70, projectNumber: "Project 3"),
         ProjectGrade(studentName: "Fawaz", gradeValue: 50, projectNumber: "Project 3")
@@ -65,7 +65,7 @@ class VvviewController: UIViewController, UICollectionViewDataSource, UICollecti
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let newGrade = ProjectGrade(studentName: "moahhmed", gradeValue: 100, projectNumber: "p\(Int.random(in: 1...5))")
+        let newGrade = ProjectGrade(studentName: "moahhmed", gradeValue: 4  , projectNumber: "p\(Int.random(in: 1...4))")
         Firestore.firestore()
             .collection("grades").document(newGrade.id)
             .setData(newGrade.json)
@@ -195,8 +195,9 @@ class VvviewController: UIViewController, UICollectionViewDataSource, UICollecti
             label.text = studentsNames[indexPath.section - 1]
             label.textColor = .black
         } else {
-            let value = gradesValues[indexPath.section - 1][indexPath.row - 1]
-            label.text = "\(value.value)"
+            print(indexPath)
+            let value = gradesValues[safe: indexPath.section - 1]?[safe: indexPath.row - 1]
+            label.text = "\(value?.value ?? 0)"
 //            label.textColor = value < 0 ? .red : .black
         }
         
@@ -218,7 +219,7 @@ class VvviewController: UIViewController, UICollectionViewDataSource, UICollecti
             .collection("grades").document(gradeValue.projectGradeId)
             .setData([
                 "id": gradeValue.projectGradeId,
-                "gradeValue": Int.random(in: 1...100)
+                "gradeValue": Int.random(in: 1...4)
             ], merge: true) { error in
                 self.fetchData()
             }
@@ -236,3 +237,15 @@ class VvviewController: UIViewController, UICollectionViewDataSource, UICollecti
 }
     
     
+public extension RandomAccessCollection {
+
+    /// Returns the element at the specified index if it is within bounds, otherwise nil.
+    /// - complexity: O(1)
+    subscript (safe index: Index) -> Element? {
+        guard index >= startIndex, index < endIndex else {
+            return nil
+        }
+        return self[index]
+    }
+    
+}

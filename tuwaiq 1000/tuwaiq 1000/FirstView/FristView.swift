@@ -59,9 +59,9 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         logInBtn.setTitle("Click Here to Login", for: .normal)
         logInBtn.layer.cornerRadius = 10
         logInBtn.clipsToBounds = true
-        logInBtn.backgroundColor = UIColor(named: "Color-2")
-        logInBtn.titleLabel?.textColor = UIColor(named: "Color-1")
-        logInBtn.titleLabel?.tintColor = UIColor(named: "Color-1")
+        logInBtn.backgroundColor = UIColor(named: "Color")
+        logInBtn.titleLabel?.textColor = UIColor(named: "color-1")
+        logInBtn.titleLabel?.tintColor = UIColor(named: "color-1")
         logInBtn.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         logInBtn.addTarget(self, action: #selector(singInButtonTapped), for: .touchUpInside)
         
@@ -142,7 +142,7 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         loadSideBarViewFunctionalityy()
         setUpBottomViewConstraintss()
         setupButtonForSignIn()
-        logInBtn.backgroundColor = UIColor(named: "Color-2")
+        logInBtn.backgroundColor = UIColor(named: "Color")
         picC.delegate = self
         picC.dataSource = self
         picC.layer.masksToBounds = true

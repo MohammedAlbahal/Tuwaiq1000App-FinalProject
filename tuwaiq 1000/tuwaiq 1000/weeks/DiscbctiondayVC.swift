@@ -35,6 +35,7 @@ class ServicePageVC : UIViewController{
     nameServicePage.layer.cornerRadius = 10
     nameServicePage.clipsToBounds = true
     nameServicePage.translatesAutoresizingMaskIntoConstraints = false
+      nameServicePage.textAlignment = .center
     return nameServicePage
   }()
   //--------------------------------------------------------------------------
@@ -47,7 +48,9 @@ class ServicePageVC : UIViewController{
     stalyServicePage.translatesAutoresizingMaskIntoConstraints = false
     stalyServicePage.layer.cornerRadius = 10
     stalyServicePage.clipsToBounds = true
+    stalyServicePage.textAlignment = .center
     return stalyServicePage
+      
   }()
   //--------------------------------------------------------------------------
   lazy var textServicePage: UILabel = {
@@ -58,6 +61,7 @@ class ServicePageVC : UIViewController{
     textServicePage.numberOfLines = 0
     textServicePage.textAlignment = .right
     textServicePage.translatesAutoresizingMaskIntoConstraints = false
+    textServicePage.textAlignment = .center
     return textServicePage
   }()
   //--------------------------------------------------------------------------
