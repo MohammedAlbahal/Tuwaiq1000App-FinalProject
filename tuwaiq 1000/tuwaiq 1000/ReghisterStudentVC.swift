@@ -15,7 +15,7 @@ class RegisterVC: UIViewController {
     
     let subTitLbl: UILabel = {
         let title = UILabel()
-        title.text = "Tuwaiq 1000"
+        title.text = NSLocalizedString("a", comment: "")
         title.textColor = .label
         title.font = UIFont.systemFont(ofSize: 15, weight: .light)
         title.backgroundColor = UIColor(named: "Color-2")

@@ -82,7 +82,7 @@ class VViewController: UIViewController {
     
     func loadViewFunctionality(){
         let menuBtn = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .done, target: self, action: #selector(menuBtnClick))
-        menuBtn.tintColor = UIColor(named: "Color-2")
+        menuBtn.tintColor = UIColor(named: "Color-5")
         self.navigationItem.leftBarButtonItem = menuBtn
     }
     func setupButtonForSignOut() {

@@ -1264,10 +1264,10 @@ var data_Court_str = [
 
           """
         ),
-        
+       //NSLocalizedString("q", comment: ""),
         A(
           imageA: UIImage(named: "DAY5"),
-          nameA: " App",
+          nameA: "App",
           staly: "",
           summaryA: """
                                                                           initilization

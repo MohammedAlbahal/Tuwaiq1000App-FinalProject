@@ -20,7 +20,7 @@ class SubjectMemberItemViewCell : UICollectionViewCell {
         viewFirstCollection.layer.cornerRadius = 10.0
         viewSecondCollection.layer.cornerRadius = 10.0
         
-        labelNameCollection.textColor = UIColor (named: "colorClaro")
+        labelNameCollection.textColor = UIColor (named: "color-1")
     }
     
     override func prepareForReuse() {

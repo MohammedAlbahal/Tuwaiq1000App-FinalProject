@@ -17,7 +17,7 @@ class PersonOrSubjectItemView: UICollectionViewCell {
         viewFirst.layer.cornerRadius = 10.0
         
         viewName.layer.cornerRadius = 10.0
-        name.textColor = UIColor (named: "colorClaro")
+        name.textColor = UIColor (named: "color-1")
     }
     
     override func prepareForReuse() {

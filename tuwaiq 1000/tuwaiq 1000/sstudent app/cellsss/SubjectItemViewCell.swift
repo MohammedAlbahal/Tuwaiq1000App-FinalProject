@@ -21,7 +21,7 @@ class SubjectItemViewCell : UICollectionViewCell {
         viewSubjectCollection.layer.cornerRadius = 10.0
         view2SubjectCollection.layer.cornerRadius = 10.0
         
-        labelSubjectCollection.textColor = UIColor (named: "colorClaro")
+        labelSubjectCollection.textColor = UIColor (named: "color-1")
 //        labelYearCollection.textColor = UIColor (named: "colorClaro")
     }
     

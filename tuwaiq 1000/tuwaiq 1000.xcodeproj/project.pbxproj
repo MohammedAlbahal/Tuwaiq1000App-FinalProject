@@ -34,7 +34,7 @@
 		E634873D274DAFCD00559B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634873C274DAFCD00559B91 /* AppDelegate.swift */; };
 		E634873F274DAFCD00559B91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634873E274DAFCD00559B91 /* SceneDelegate.swift */; };
 		E6348741274DAFCD00559B91 /* uu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6348740274DAFCD00559B91 /* uu.swift */; };
-		E64C236F2760910900DE566D /* Reghister.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C236E2760910900DE566D /* Reghister.swift */; };
+		E64C236F2760910900DE566D /* ReghisterStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C236E2760910900DE566D /* ReghisterStudentVC.swift */; };
 		E64C23732760BCAC00DE566D /* Tt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C23722760BCAA00DE566D /* Tt.swift */; };
 		E64C237D2760C47300DE566D /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C23762760C46600DE566D /* PrivacyViewController.swift */; };
 		E64C237E2760C47300DE566D /* SpashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C23772760C46800DE566D /* SpashViewController.swift */; };
@@ -94,14 +94,13 @@
 		E69246FD2754C77E00421DCB /* BootcampVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246FC2754C77E00421DCB /* BootcampVC.swift */; };
 		E69247002754F05A00421DCB /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69246FF2754F05A00421DCB /* StudentVC.swift */; };
 		E69247022754F18300421DCB /* StudentVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69247012754F18300421DCB /* StudentVC2.swift */; };
-		E6958366277896A8001C69CB /* Cell111.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958362277896A6001C69CB /* Cell111.swift */; };
-		E6958367277896A8001C69CB /* FristView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958363277896A7001C69CB /* FristView.swift */; };
+		E6958366277896A8001C69CB /* CellFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958362277896A6001C69CB /* CellFirstView.swift */; };
+		E6958367277896A8001C69CB /* FristViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958363277896A7001C69CB /* FristViewVC.swift */; };
 		E6958368277896A8001C69CB /* VC22.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958364277896A7001C69CB /* VC22.swift */; };
-		E6958369277896A8001C69CB /* Mooodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958365277896A8001C69CB /* Mooodel.swift */; };
+		E6958369277896A8001C69CB /* ModelFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958365277896A8001C69CB /* ModelFirstView.swift */; };
 		E695836E277C9C78001C69CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E695836D277C9C77001C69CB /* GoogleService-Info.plist */; };
 		E695837227831A79001C69CB /* RegisterInstroctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695837127831A77001C69CB /* RegisterInstroctorVC.swift */; };
 		E6958374278B1A3D001C69CB /* excel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958373278B1A3D001C69CB /* excel.swift */; };
-		E6958376278EED77001C69CB /* BootcampsmapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6958375278EED74001C69CB /* BootcampsmapVC.swift */; };
 		E6EF13DA276781E2008227D1 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13D9276781E1008227D1 /* SettingVC.swift */; };
 		E6EF13DC27678652008227D1 /* ThemeColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF13DB27678652008227D1 /* ThemeColorVC.swift */; };
 		E6EF14042769328F008227D1 /* SideBarInstroctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */; };
@@ -167,7 +166,7 @@
 		E634873E274DAFCD00559B91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E6348740274DAFCD00559B91 /* uu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uu.swift; sourceTree = "<group>"; };
 		E634874A274DAFD700559B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E64C236E2760910900DE566D /* Reghister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reghister.swift; sourceTree = "<group>"; };
+		E64C236E2760910900DE566D /* ReghisterStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReghisterStudentVC.swift; sourceTree = "<group>"; };
 		E64C23722760BCAA00DE566D /* Tt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tt.swift; sourceTree = "<group>"; };
 		E64C23762760C46600DE566D /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
 		E64C23772760C46800DE566D /* SpashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpashViewController.swift; sourceTree = "<group>"; };
@@ -228,14 +227,13 @@
 		E69246FC2754C77E00421DCB /* BootcampVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampVC.swift; sourceTree = "<group>"; };
 		E69246FF2754F05A00421DCB /* StudentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
 		E69247012754F18300421DCB /* StudentVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVC2.swift; sourceTree = "<group>"; };
-		E6958362277896A6001C69CB /* Cell111.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell111.swift; sourceTree = "<group>"; };
-		E6958363277896A7001C69CB /* FristView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FristView.swift; sourceTree = "<group>"; };
+		E6958362277896A6001C69CB /* CellFirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellFirstView.swift; sourceTree = "<group>"; };
+		E6958363277896A7001C69CB /* FristViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FristViewVC.swift; sourceTree = "<group>"; };
 		E6958364277896A7001C69CB /* VC22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC22.swift; sourceTree = "<group>"; };
-		E6958365277896A8001C69CB /* Mooodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mooodel.swift; sourceTree = "<group>"; };
+		E6958365277896A8001C69CB /* ModelFirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelFirstView.swift; sourceTree = "<group>"; };
 		E695836D277C9C77001C69CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E695837127831A77001C69CB /* RegisterInstroctorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInstroctorVC.swift; sourceTree = "<group>"; };
 		E6958373278B1A3D001C69CB /* excel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = excel.swift; sourceTree = "<group>"; };
-		E6958375278EED74001C69CB /* BootcampsmapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampsmapVC.swift; sourceTree = "<group>"; };
 		E6EF13D9276781E1008227D1 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		E6EF13DB27678652008227D1 /* ThemeColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorVC.swift; sourceTree = "<group>"; };
 		E6EF14032769328D008227D1 /* SideBarInstroctorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarInstroctorVC.swift; sourceTree = "<group>"; };
@@ -434,8 +432,7 @@
 				E67505A7276414F0004080BD /* Start.storyboard */,
 				E62F35F627561937000E4296 /* Launch Screen.storyboard */,
 				E6EF147A2769F73B008227D1 /* Localizable.strings */,
-				E64C236E2760910900DE566D /* Reghister.swift */,
-				E6958375278EED74001C69CB /* BootcampsmapVC.swift */,
+				E64C236E2760910900DE566D /* ReghisterStudentVC.swift */,
 				E695837127831A77001C69CB /* RegisterInstroctorVC.swift */,
 				E695835927788323001C69CB /* FirstView */,
 				E6EF14602769DD8B008227D1 /* weeks */,
@@ -614,10 +611,10 @@
 		E695835927788323001C69CB /* FirstView */ = {
 			isa = PBXGroup;
 			children = (
-				E6958362277896A6001C69CB /* Cell111.swift */,
+				E6958362277896A6001C69CB /* CellFirstView.swift */,
 				E6958373278B1A3D001C69CB /* excel.swift */,
-				E6958363277896A7001C69CB /* FristView.swift */,
-				E6958365277896A8001C69CB /* Mooodel.swift */,
+				E6958363277896A7001C69CB /* FristViewVC.swift */,
+				E6958365277896A8001C69CB /* ModelFirstView.swift */,
 				E6958364277896A7001C69CB /* VC22.swift */,
 			);
 			path = FirstView;
@@ -843,10 +840,10 @@
 				E65D9515275F9675008A378A /* Teacher.swift in Sources */,
 				E6EF148B276CC80F008227D1 /* Localizer.swift in Sources */,
 				E65D950A275F9623008A378A /* UIViewControllerExtension.swift in Sources */,
-				E6958366277896A8001C69CB /* Cell111.swift in Sources */,
+				E6958366277896A8001C69CB /* CellFirstView.swift in Sources */,
 				E65D950D275F9654008A378A /* SampleData.swift in Sources */,
 				5E33D37427538C83007EC44C /* PurchaseVC.swift in Sources */,
-				E6958369277896A8001C69CB /* Mooodel.swift in Sources */,
+				E6958369277896A8001C69CB /* ModelFirstView.swift in Sources */,
 				E69247022754F18300421DCB /* StudentVC2.swift in Sources */,
 				E6EF14722769E5CA008227D1 /* NotesService.swift in Sources */,
 				E64C23A12760EA5700DE566D /* SubjectDescriptionViewController.swift in Sources */,
@@ -865,12 +862,11 @@
 				5E33D37027538C19007EC44C /* UpdateStudentVC.swift in Sources */,
 				E6EF140627693346008227D1 /* SideBarInstroctorVCTableViewCell.swift in Sources */,
 				E64C237F2760C47300DE566D /* AvgViewController.swift in Sources */,
-				E64C236F2760910900DE566D /* Reghister.swift in Sources */,
-				E6958367277896A8001C69CB /* FristView.swift in Sources */,
+				E64C236F2760910900DE566D /* ReghisterStudentVC.swift in Sources */,
+				E6958367277896A8001C69CB /* FristViewVC.swift in Sources */,
 				E6958374278B1A3D001C69CB /* excel.swift in Sources */,
 				E69246FD2754C77E00421DCB /* BootcampVC.swift in Sources */,
 				E64C23962760C85600DE566D /* dddata.swift in Sources */,
-				E6958376278EED77001C69CB /* BootcampsmapVC.swift in Sources */,
 				E69246F32754B7A100421DCB /* DataBootcamp.swift in Sources */,
 				5E33D36A27538B8D007EC44C /* InstructioerVC.swift in Sources */,
 				E64C238B2760C4C200DE566D /* Protocols.swift in Sources */,
