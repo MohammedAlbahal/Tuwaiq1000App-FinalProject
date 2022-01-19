@@ -32,6 +32,7 @@ class RegisterInstroctorVC: UIViewController {
         button.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         button.setTitleColor(.black, for: .normal)
         button.backgroundColor = UIColor(named: "Color-2")
+        button.setTitleColor(UIColor(named: "color-1") , for: .normal)
         button.layer.cornerRadius = 20
         button.layer.masksToBounds = true
         return button

@@ -31,6 +31,7 @@ class RegisterVC: UIViewController {
         button.setTitle("Continue with Google", for: .normal)
         button.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         button.setTitleColor(.black, for: .normal)
+        button.setTitleColor(UIColor(named: "color-1") , for: .normal)
         button.backgroundColor = UIColor(named: "Color-2")
         button.layer.cornerRadius = 20
         button.layer.masksToBounds = true

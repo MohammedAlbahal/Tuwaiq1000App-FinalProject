@@ -22,7 +22,10 @@ class StudentsssVC: UIViewController {
         b.addTarget(self, action: #selector(addStudent), for: .touchUpInside)
         b.translatesAutoresizingMaskIntoConstraints = false
         b.setTitle("Add", for: .normal)
-        b.backgroundColor = .darkGray
+        b.layer.cornerRadius = 30
+        b.clipsToBounds = true
+        b.backgroundColor = UIColor(named: "Color")
+        b.setTitleColor(UIColor(named: "color-1"), for: .normal)
         return b
     }()
     

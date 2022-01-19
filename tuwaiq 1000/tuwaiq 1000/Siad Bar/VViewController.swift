@@ -28,7 +28,7 @@ class VViewController: UIViewController {
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["Subject", "Instructors","Studens","Top 10 Students","Exercises","Calculate your Rate","Learning Resource","Location","Setting"]
+    var arrData = ["Subject", "Instructors","Studens","Top 10 Students","Exercises","Calculate your Rate","Learning Resource","Location"]
     var arrImages:[UIImage] = [#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "person.wave.2"),#imageLiteral(resourceName: "person.3"),#imageLiteral(resourceName: "figure.wave"),#imageLiteral(resourceName: "square.and.pencil"),#imageLiteral(resourceName: "keyboard.onehanded.right"),#imageLiteral(resourceName: "globe.badge.chevron.backward"),#imageLiteral(resourceName: "location"),#imageLiteral(resourceName: "gear.circle-1")]
     
     

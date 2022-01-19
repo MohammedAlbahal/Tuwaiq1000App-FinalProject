@@ -25,6 +25,10 @@ class NewDayyyVC: UIViewController {
         btn.setTitleColor(.white, for: .normal)
         btn.titleLabel?.font = .systemFont(ofSize: 20, weight: .semibold)
         btn.setTitle("Add day", for: .normal)
+        btn.layer.cornerRadius = 30
+        btn.clipsToBounds = true
+        btn.backgroundColor = UIColor(named: "Color")
+        btn.setTitleColor(UIColor(named: "color-1"), for: .normal)
         btn.layer.cornerRadius = 10
         btn.addTarget(self, action: #selector(addDay), for: .touchUpInside)
         return btn
@@ -32,8 +36,7 @@ class NewDayyyVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .darkGray
+    
         
         view.addSubview(datePicker)
         NSLayoutConstraint.activate([

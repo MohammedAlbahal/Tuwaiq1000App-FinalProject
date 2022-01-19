@@ -25,7 +25,10 @@ class DaysssVC: UIViewController {
         b.addTarget(self, action: #selector(addDay), for: .touchUpInside)
         b.translatesAutoresizingMaskIntoConstraints = false
         b.setTitle("Add", for: .normal)
-        b.backgroundColor = .lightGray
+        b.layer.cornerRadius = 30
+        b.clipsToBounds = true
+        b.backgroundColor = UIColor(named: "Color")
+        b.setTitleColor(UIColor(named: "color-1"), for: .normal)
         return b
     }()
     

@@ -11,7 +11,10 @@ class NewwwStudentVC: UIViewController, UITextFieldDelegate {
         let tf = UITextField()
         tf.translatesAutoresizingMaskIntoConstraints = false
         tf.placeholder = "Write student name"
-        tf.backgroundColor = .purple
+        tf.layer.cornerRadius = 30
+        tf.clipsToBounds = true
+        tf.backgroundColor = UIColor(named: "Color")
+//        tf.setTitleColor(UIColor(named: "color-1"), for: .normal)
         tf.delegate = self
         return tf
     }()

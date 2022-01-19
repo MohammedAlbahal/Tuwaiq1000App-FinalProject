@@ -15,7 +15,7 @@ class SettingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(named: "Color")
+//        view.backgroundColor = UIColor(named: "Color")
         navigationItem.title = NSLocalizedString("", comment: "")
         setupMoodSwitch()
         setupDarkLightImageView()
@@ -87,15 +87,16 @@ class SettingViewController: UIViewController {
         languageButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
         languageButton.layer.cornerRadius = 10
         languageButton.layer.masksToBounds = true
-        
-        let gradient = setupGradientLayer()
-        gradient.frame = view.bounds
-        gradient.startPoint = CGPoint(x: 0, y: 1)
-        gradient.endPoint = CGPoint(x: 1, y: 1)
-        languageButton.layer.insertSublayer(gradient, at: 0)
+        languageButton.backgroundColor = UIColor(named: "Color")
+        languageButton.setTitleColor(UIColor(named: "color-1"), for: .normal)
+//        let gradient = setupGradientLayer()
+//        gradient.frame = view.bounds
+//        gradient.startPoint = CGPoint(x: 0, y: 1)
+//        gradient.endPoint = CGPoint(x: 1, y: 1)
+//        languageButton.layer.insertSublayer(gradient, at: 0)
         let constraints = [
             languageButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-           languageButton.bottomAnchor.constraint(equalTo: switchMood.topAnchor, constant: -16),
+           languageButton.bottomAnchor.constraint(equalTo: switchMood.topAnchor, constant: -10),
             languageButton.heightAnchor.constraint(equalToConstant: 70),
             languageButton.widthAnchor.constraint(equalToConstant: view.frame.width-110)
         ]

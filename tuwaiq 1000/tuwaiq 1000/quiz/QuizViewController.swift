@@ -21,7 +21,7 @@ class QuizViewController: UIViewController {
         super.viewWillAppear(animated)
         
         viTimer.frame.size.width = view.frame.size.width
-        UIView.animate(withDuration: 60.0, delay: 0, options: .curveLinear) {
+        UIView.animate(withDuration: 20.0, delay: 0, options: .curveLinear) {
             self.viTimer.frame.size.width = 0
         } completion: { (success) in
             self.showResults()
