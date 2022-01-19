@@ -614,26 +614,10 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="koo-Mp-dYe">
-                                                <rect key="frame" x="30" y="252" width="354" height="180"/>
+                                                <rect key="frame" x="30" y="252" width="354" height="115"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NO6-po-9W7">
-                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="50"/>
-                                                        <color key="backgroundColor" name="Color"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="1as-9b-5bI"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
-                                                        <state key="normal" title="Google Pay">
-                                                            <color key="titleColor" name="color-1"/>
-                                                        </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="10"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqn-3Z-BZq">
-                                                        <rect key="frame" x="0.0" y="65" width="354" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="50"/>
                                                         <color key="backgroundColor" name="Color"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="YIe-SF-ad1"/>
@@ -652,7 +636,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CW-bZ-cwz">
-                                                        <rect key="frame" x="0.0" y="130" width="354" height="50"/>
+                                                        <rect key="frame" x="0.0" y="65" width="354" height="50"/>
                                                         <color key="backgroundColor" name="Color"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="5Mb-ik-95o"/>
@@ -704,7 +688,6 @@
                     <connections>
                         <outlet property="Advertise" destination="io5-wr-Fj4" id="5YH-e9-0xS"/>
                         <outlet property="btnGeneralSettings" destination="8CW-bZ-cwz" id="Mem-Ci-uu9"/>
-                        <outlet property="btnGooglePay" destination="NO6-po-9W7" id="bKk-cT-0iM"/>
                         <outlet property="pageControl" destination="LCC-TD-hDu" id="yTx-iH-4vC"/>
                         <outlet property="viwCoursel" destination="V2p-pP-IjM" id="1zi-eI-cTd"/>
                     </connections>

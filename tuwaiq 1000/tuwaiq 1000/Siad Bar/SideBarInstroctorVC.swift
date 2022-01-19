@@ -121,16 +121,16 @@ class SideBarInstroctorVC: UIViewController {
         
         logOutBtn.setTitle("Log Out", for: .normal)
         logOutBtn.backgroundColor = UIColor(named: "Color-2")
-        logOutBtn.titleLabel?.textColor = UIColor(named: "Color-1")
-        logOutBtn.titleLabel?.tintColor = UIColor(named: "Color-1")
+        logOutBtn.titleLabel?.textColor = UIColor(named: "color-1")
+        logOutBtn.titleLabel?.tintColor = UIColor(named: "color-1")
         logOutBtn.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         logOutBtn.addTarget(self, action: #selector(singOutButtonTapped), for: .touchUpInside)
         
         
         nameLbl.numberOfLines = 0
         nameLbl.text = "Vinayak"
-        nameLbl.textColor = UIColor(named: "Color-1")
-        nameLbl.tintColor = UIColor(named: "Color-1")
+        nameLbl.textColor = UIColor(named: "color-1")
+        nameLbl.tintColor = UIColor(named: "color-1")
         nameLbl.textAlignment = NSTextAlignment.center
         nameLbl.backgroundColor = UIColor(named: "Color-2")
         

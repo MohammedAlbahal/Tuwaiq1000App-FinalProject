@@ -65,7 +65,7 @@ class VvviewController: UIViewController, UICollectionViewDataSource, UICollecti
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let newGrade = ProjectGrade(studentName: "moahhmed", gradeValue: 4  , projectNumber: "p\(Int.random(in: 1...4))")
+        let newGrade = ProjectGrade(studentName: "Fawaz", gradeValue: 4  , projectNumber: "p\(Int.random(in: 1...4))")
         Firestore.firestore()
             .collection("grades").document(newGrade.id)
             .setData(newGrade.json)

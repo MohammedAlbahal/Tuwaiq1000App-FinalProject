@@ -117,22 +117,22 @@ class VViewController: UIViewController {
         toplabel.text = "Tuwaiq 1000"
         toplabel.textAlignment = .center
         toplabel.font = UIFont(name: "Party LET", size: 45)
-        toplabel.textColor = UIColor(named: "Color-1")
+        toplabel.textColor = UIColor(named: "color-1")
         toplabel.backgroundColor = UIColor(named: "Color-2")
         bottomView.backgroundColor = UIColor(named: "Color-2")
         
         logOutBtn.setTitle("Log Out", for: .normal)
         logOutBtn.backgroundColor = UIColor(named: "Color-2")
-        logOutBtn.titleLabel?.textColor = UIColor(named: "Color-1")
-        logOutBtn.titleLabel?.tintColor = UIColor(named: "Color-1")
+        logOutBtn.titleLabel?.textColor = UIColor(named: "color-1")
+        logOutBtn.titleLabel?.tintColor = UIColor(named: "color-1")
         logOutBtn.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         logOutBtn.addTarget(self, action: #selector(singOutButtonTapped), for: .touchUpInside)
         
         
         nameLbl.numberOfLines = 0
         nameLbl.text = "Vinayak"
-        nameLbl.textColor = UIColor(named: "Color-1")
-        nameLbl.tintColor = UIColor(named: "Color-1")
+        nameLbl.textColor = UIColor(named: "color-1")
+        nameLbl.tintColor = UIColor(named: "color-1")
         nameLbl.textAlignment = NSTextAlignment.center
         nameLbl.backgroundColor = UIColor(named: "Color-2")
         
@@ -316,11 +316,11 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
         //            }
         //        cell.imagev.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
         //        cell.lbl.backgroundColor = UIColor(red: 0.90, green: 1.00, blue: 1.00, alpha: 1.00)
-        cell.lbl.tintColor = UIColor(named: "Color-1")
-        cell.imagev.tintColor = UIColor(named: "Color-1")
+        cell.lbl.tintColor = UIColor(named: "color-1")
+        cell.imagev.tintColor = UIColor(named: "color-1")
         cell.contentView.backgroundColor = UIColor(named: "Color")
         //        cell.contentView.lbl. = .black
-        cell.lbl.textColor = UIColor(named: "Color-1")
+        cell.lbl.textColor = UIColor(named: "color-1")
         
         return cell
     }
@@ -376,7 +376,7 @@ extension VViewController : UITableViewDelegate,UITableViewDataSource{
         default:
             print(self.arrData[indexPath.row])
             cell.imagev.tintColor = UIColor(named: "Color-1")
-            cell.lbl.textColor = UIColor(named: "Color-1")
+            cell.lbl.textColor = UIColor(named: "color-1")
             cell.contentView.backgroundColor = UIColor(named: "Color")
             
         }
