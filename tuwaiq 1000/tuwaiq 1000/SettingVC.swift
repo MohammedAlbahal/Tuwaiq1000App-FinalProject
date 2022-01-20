@@ -85,18 +85,14 @@ class SettingViewController: UIViewController {
         languageButton.addTarget(self, action: #selector(changeLanguagePressed), for: .touchUpInside)
         languageButton.tintColor = UIColor(named: "Color")
         languageButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        languageButton.layer.cornerRadius = 10
+        languageButton.layer.cornerRadius = 17
         languageButton.layer.masksToBounds = true
         languageButton.backgroundColor = UIColor(named: "Color")
         languageButton.setTitleColor(UIColor(named: "color-1"), for: .normal)
-//        let gradient = setupGradientLayer()
-//        gradient.frame = view.bounds
-//        gradient.startPoint = CGPoint(x: 0, y: 1)
-//        gradient.endPoint = CGPoint(x: 1, y: 1)
-//        languageButton.layer.insertSublayer(gradient, at: 0)
+
         let constraints = [
             languageButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-           languageButton.bottomAnchor.constraint(equalTo: switchMood.topAnchor, constant: -10),
+            languageButton.bottomAnchor.constraint(equalTo: switchMood.topAnchor, constant: 0.3),
             languageButton.heightAnchor.constraint(equalToConstant: 70),
             languageButton.widthAnchor.constraint(equalToConstant: view.frame.width-110)
         ]

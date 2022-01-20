@@ -1,9 +1,9 @@
 
-/* Class = "UITabBarItem"; title = "product"; ObjectID = "0OP-27-asb"; */
-"0OP-27-asb.title" = "product";
-
 /* Class = "UILabel"; text = "Resultado"; ObjectID = "0jD-KI-JLR"; */
 "0jD-KI-JLR.text" = "Resultado";
+
+/* Class = "UILabel"; text = "Swift Documnetition"; ObjectID = "14a-Lc-KaK"; */
+"14a-Lc-KaK.text" = "Swift Documnetition";
 
 /* Class = "UILabel"; text = "Student assessment"; ObjectID = "1UI-6M-6Ta"; */
 "1UI-6M-6Ta.text" = "Student assessment";
@@ -23,32 +23,32 @@
 /* Class = "UITextField"; placeholder = "Enter the Name"; ObjectID = "341-Zk-MEt"; */
 "341-Zk-MEt.placeholder" = "Enter the Name";
 
-/* Class = "UILabel"; text = "Detail"; ObjectID = "3bF-ye-Ab4"; */
-"3bF-ye-Ab4.text" = "Detail";
-
 /* Class = "UILabel"; text = "Studeny Image :"; ObjectID = "3fA-7c-aTP"; */
 "3fA-7c-aTP.text" = "Studeny Image :";
-
-/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "3xr-Kt-xiY"; */
-"3xr-Kt-xiY.configuration.title" = "Button";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3xr-Kt-xiY"; */
-"3xr-Kt-xiY.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "Level"; ObjectID = "43A-Ad-7yH"; */
 "43A-Ad-7yH.text" = "Level";
 
-/* Class = "UILabel"; text = "product category"; ObjectID = "55f-uC-YSU"; */
-"55f-uC-YSU.text" = "product category";
+/* Class = "UILabel"; text = "Student category"; ObjectID = "55f-uC-YSU"; */
+"55f-uC-YSU.text" = "Student category";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5LL-gq-UR1"; */
+"5LL-gq-UR1.text" = "Label";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "5s2-9d-zRQ"; */
-"5s2-9d-zRQ.text" = "Label";
+"5s2-9d-zRQ.te xt" = "Label";
+
+/* Class = "UILabel"; text = "Hacking with Swift"; ObjectID = "766-LH-IuP"; */
+"766-LH-IuP.text" = "Hacking with Swift";
 
 /* Class = "UILabel"; text = "To:"; ObjectID = "9ur-3B-VvF"; */
 "9ur-3B-VvF.text" = "To:";
 
-/* Class = "UIButton"; normalTitle = "Create"; ObjectID = "A7z-Ta-h1j"; */
-"A7z-Ta-h1j.normalTitle" = "Create";
+/* Class = "UIButton"; configuration.title = "."; ObjectID = "A1X-HO-Bd3"; */
+"A1X-HO-Bd3.configuration.title" = ".";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "A1X-HO-Bd3"; */
+"A1X-HO-Bd3.normalTitle" = "Button";
 
 /* Class = "UIButton"; normalTitle = "Calculation"; ObjectID = "ACv-Sg-PSO"; */
 "ACv-Sg-PSO.normalTitle" = "Calculation";
@@ -59,14 +59,8 @@
 /* Class = "UILabel"; text = "Swfit"; ObjectID = "AZL-Ti-IGS"; */
 "AZL-Ti-IGS.text" = "Swfit";
 
-/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "BRD-Sw-DHR"; */
-"BRD-Sw-DHR.configuration.title" = "Button";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BRD-Sw-DHR"; */
-"BRD-Sw-DHR.normalTitle" = "Button";
-
 /* Class = "UILabel"; text = "Top 10 Students "; ObjectID = "CG8-Kf-NSH"; */
-"CG8-Kf-NSH.text" = "الطلاب العشرة الاوائل ";
+"CG8-Kf-NSH.text" = "Top 10 Students ";
 
 /* Class = "UITabBarItem"; title = "Item"; ObjectID = "CVV-3m-jza"; */
 "CVV-3m-jza.title" = "Item";
@@ -77,9 +71,24 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CwK-EV-1sQ"; */
 "CwK-EV-1sQ.normalTitle" = "Button";
 
+/* Class = "UIButton"; configuration.title = "."; ObjectID = "D9g-lP-wqu"; */
+"D9g-lP-wqu.configuration.title" = ".";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "D9g-lP-wqu"; */
+"D9g-lP-wqu.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DDZ-Sr-xYg"; */
+"DDZ-Sr-xYg.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Success People"; ObjectID = "De4-vH-MZQ"; */
+"De4-vH-MZQ.normaltitle" = "Success People";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "De4-vH-MZQ"; */
+"De4-vH-MZQ.normalTitle" = "Success People";
+
 /* Class = "UILabel"; text = "By continuing, you agree to Tuwaiq 1000 Terms of Service Privacy Policy"; ObjectID = "E3g-Ea-NfQ"; */
-"E3g-Ea-NfQ.text" = "من خلال المتابعة ، فإنك توافق على سياسة الخصوصية الخاصة بشروط خدمة طويق 1000";
-"w8r-5T-dv1.text" = "من خلال المتابعة ، فإنك توافق على سياسة الخصوصية الخاصة بشروط خدمة طويق 1000";
+"E3g-Ea-NfQ.text" = "By continuing, you agree to Tuwaiq 1000 Terms of Service Privacy Policy";
+
 /* Class = "UILabel"; text = "Student assessment"; ObjectID = "EAT-nk-LQ3"; */
 "EAT-nk-LQ3.text" = "Student assessment";
 
@@ -92,8 +101,8 @@
 /* Class = "UILabel"; text = "Sara"; ObjectID = "Eac-x3-Cmj"; */
 "Eac-x3-Cmj.text" = "Sara";
 
-/* Class = "UIButton"; normalTitle = "Google Pay"; ObjectID = "FYR-L3-eiV"; */
-"FYR-L3-eiV.normalTitle" = "Google Pay";
+/* Class = "UIButton"; normalTitle = "Your Greads"; ObjectID = "FYR-L3-eiV"; */
+"FYR-L3-eiV.normalTitle" = "Your Greads";
 
 /* Class = "UIButton"; configuration.title = "Upload"; ObjectID = "FaS-qM-S7s"; */
 "FaS-qM-S7s.configuration.title" = "Upload";
@@ -116,8 +125,17 @@
 /* Class = "UILabel"; text = "Label"; ObjectID = "GBf-k5-1na"; */
 "GBf-k5-1na.text" = "Label";
 
+/* Class = "UITabBarItem"; title = "About Tuwaiq"; ObjectID = "GGs-jY-m8b"; */
+"GGs-jY-m8b.title" = "About Tuwaiq";
+
 /* Class = "UILabel"; text = "Label"; ObjectID = "GSK-kq-bd6"; */
 "GSK-kq-bd6.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Send Email"; ObjectID = "HKk-gN-Qah"; */
+"HKk-gN-Qah.configuration.title" = "Send Email";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HKk-gN-Qah"; */
+"HKk-gN-Qah.normalTitle" = "Button";
 
 /* Class = "UIButton"; configuration.title = "."; ObjectID = "HON-gj-sTc"; */
 "HON-gj-sTc.configuration.title" = ".";
@@ -143,9 +161,6 @@
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JT5-Dn-7ZF"; */
 "JT5-Dn-7ZF.normalTitle" = "Button";
 
-/* Class = "UITextField"; placeholder = "enter title"; ObjectID = "JUS-My-ptc"; */
-"JUS-My-ptc.placeholder" = "enter title";
-
 /* Class = "UITabBarItem"; title = "Subjects"; ObjectID = "Jpj-Mv-hgp"; */
 "Jpj-Mv-hgp.title" = "Subjects";
 
@@ -166,6 +181,9 @@
 
 /* Class = "UIButton"; normalTitle = "Restart"; ObjectID = "NL8-k8-HiD"; */
 "NL8-k8-HiD.normalTitle" = "Restart";
+
+/* Class = "UILabel"; text = "Satr"; ObjectID = "NUc-L9-RnP"; */
+"NUc-L9-RnP.text" = "Satr";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "Naw-ee-cL9"; */
 "Naw-ee-cL9.text" = "Label";
@@ -188,12 +206,6 @@
 /* Class = "UILabel"; text = "Name"; ObjectID = "Qr9-ny-3KU"; */
 "Qr9-ny-3KU.text" = "Name";
 
-/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "RcY-py-O5H"; */
-"RcY-py-O5H.configuration.title" = "Button";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RcY-py-O5H"; */
-"RcY-py-O5H.normalTitle" = "Button";
-
 /* Class = "UILabel"; text = "Student Specs :"; ObjectID = "Rx1-rF-Zve"; */
 "Rx1-rF-Zve.text" = "Student Specs :";
 
@@ -210,7 +222,7 @@
 "SZw-sc-5VE.text" = "Subject";
 
 /* Class = "UILabel"; text = "Top 10 Students"; ObjectID = "T4i-ER-8IS"; */
-"T4i-ER-8IS.text" = "الطلاب ١٠ الاوائل";
+" " = "Top 10 Students";
 
 /* Class = "UIButton"; normalTitle = "General Settings"; ObjectID = "TMZ-G1-5UK"; */
 "TMZ-G1-5UK.normalTitle" = "General Settings";
@@ -224,26 +236,20 @@
 /* Class = "UILabel"; text = "Label"; ObjectID = "VIn-rz-a7N"; */
 "VIn-rz-a7N.text" = "Label";
 
-/* Class = "UILabel"; text = "oliver@gmail.com"; ObjectID = "Vdz-AQ-GaU"; */
-"Vdz-AQ-GaU.text" = "oliver@gmail.com";
+/* Class = "UILabel"; text = "M.albahl.q@gmail.com"; ObjectID = "Vdz-AQ-GaU"; */
+"Vdz-AQ-GaU.text" = "M.albahl.q@gmail.com";
 
-/* Class = "UILabel"; text = "Óliver"; ObjectID = "VeY-gT-VpF"; */
-"VeY-gT-VpF.text" = "Óliver";
+/* Class = "UILabel"; text = "Mohammed"; ObjectID = "VeY-gT-VpF"; */
+"VeY-gT-VpF.text" = "Mohammed";
 
-/* Class = "UIButton"; configuration.title = "Send Email🏅"; ObjectID = "WDh-ef-K06"; */
-"WDh-ef-K06.configuration.title" = "Send Email🏅";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WDh-ef-K06"; */
-"WDh-ef-K06.normalTitle" = "Button";
+/* Class = "UILabel"; text = "Developer Apple"; ObjectID = "W9e-Zy-FiX"; */
+"W9e-Zy-FiX.text" = "Developer Apple";
 
 /* Class = "UIButton"; configuration.title = "Add New Student "; ObjectID = "WSf-A7-KJn"; */
 "WSf-A7-KJn.configuration.title" = "Add New Student ";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WSf-A7-KJn"; */
 "WSf-A7-KJn.normalTitle" = "Button";
-
-/* Class = "UINavigationItem"; title = "Reminder"; ObjectID = "X0K-Xz-snm"; */
-"X0K-Xz-snm.title" = "Reminder";
 
 /* Class = "UILabel"; text = "skk"; ObjectID = "XPe-0A-a69"; */
 "XPe-0A-a69.text" = "skk";
@@ -254,14 +260,11 @@
 /* Class = "UILabel"; text = "Level"; ObjectID = "Ymp-4u-DUI"; */
 "Ymp-4u-DUI.text" = "Level";
 
+/* Class = "UILabel"; text = "Udemy"; ObjectID = "ZY1-ZC-dxo"; */
+"ZY1-ZC-dxo.text" = "Udemy";
+
 /* Class = "UILabel"; text = "Student Name:"; ObjectID = "aLJ-KJ-RMv"; */
 "aLJ-KJ-RMv.text" = "Student Name:";
-
-/* Class = "UITextField"; placeholder = "Enter body"; ObjectID = "afu-TB-OoV"; */
-"afu-TB-OoV.placeholder" = "Enter body";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "anz-xl-8lR"; */
-"anz-xl-8lR.text" = "Label";
 
 /* Class = "UILabel"; text = "p"; ObjectID = "bbc-7t-wtm"; */
 "bbc-7t-wtm.text" = "p";
@@ -296,20 +299,14 @@
 /* Class = "UILabel"; text = "Instructors"; ObjectID = "eo0-KE-04a"; */
 "eo0-KE-04a.text" = "Instructors";
 
-/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "f55-YE-utn"; */
-"f55-YE-utn.configuration.title" = "Button";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "f55-YE-utn"; */
-"f55-YE-utn.normalTitle" = "Button";
-
 /* Class = "UILabel"; text = "Cc:"; ObjectID = "fd8-sr-7ss"; */
 "fd8-sr-7ss.text" = "Cc:";
 
-/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "fhe-pS-fPJ"; */
-"fhe-pS-fPJ.configuration.title" = "Button";
+/* Class = "UILabel"; text = "Label"; ObjectID = "fou-oC-bHX"; */
+"fou-oC-bHX.text" = "Label";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fhe-pS-fPJ"; */
-"fhe-pS-fPJ.normalTitle" = "Button";
+/* Class = "UILabel"; text = "    Label"; ObjectID = "gFB-Hj-9pr"; */
+"gFB-Hj-9pr.text" = "    Label";
 
 /* Class = "UILabel"; text = "Student Assessment:"; ObjectID = "gap-As-sf2"; */
 "gap-As-sf2.text" = "Student Assessment:";
@@ -319,9 +316,6 @@
 
 /* Class = "UILabel"; text = "Student Specs :"; ObjectID = "hEY-M9-irY"; */
 "hEY-M9-irY.text" = "Student Specs :";
-
-/* Class = "UILabel"; text = "Title"; ObjectID = "hHO-Ft-wBr"; */
-"hHO-Ft-wBr.text" = "Title";
 
 /* Class = "UITabBarItem"; title = "Item"; ObjectID = "hXt-Mg-rk4"; */
 "hXt-Mg-rk4.title" = "Item";
@@ -334,6 +328,9 @@
 
 /* Class = "UILabel"; text = "Student name"; ObjectID = "i1N-dl-dK5"; */
 "i1N-dl-dK5.text" = "Student name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "i9U-sQ-Cl3"; */
+"i9U-sQ-Cl3.text" = "Label";
 
 /* Class = "UILabel"; text = "Student  Age:"; ObjectID = "iY3-iO-ZSJ"; */
 "iY3-iO-ZSJ.text" = "Student  Age:";
@@ -350,20 +347,23 @@
 /* Class = "UINavigationItem"; title = "Settings"; ObjectID = "ljM-fI-Zyq"; */
 "ljM-fI-Zyq.title" = "Settings";
 
+/* Class = "UIButton"; configuration.title = "."; ObjectID = "lru-sZ-6Z5"; */
+"lru-sZ-6Z5.configuration.title" = "";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lru-sZ-6Z5"; */
+"lru-sZ-6Z5.normalTitle" = "";
+
 /* Class = "UINavigationItem"; title = "Privacy Policy"; ObjectID = "luh-X0-IKM"; */
 "luh-X0-IKM.title" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Coderhub"; ObjectID = "m23-DZ-WAp"; */
+"m23-DZ-WAp.text" = "Coderhub";
 
 /* Class = "UILabel"; text = "Hadi@teacher.com"; ObjectID = "m2I-jx-0W8"; */
 "m2I-jx-0W8.text" = "Hadi@teacher.com";
 
 /* Class = "UILabel"; text = "Laura"; ObjectID = "mHe-xg-AbD"; */
 "mHe-xg-AbD.text" = "Laura";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "mho-MO-7j4"; */
-"mho-MO-7j4.text" = "Label";
-
-/* Class = "UILabel"; text = "Label"; ObjectID = "mrm-wo-HM6"; */
-"mrm-wo-HM6.text" = "Label";
 
 /* Class = "UIButton"; normalTitle = "Average of 5"; ObjectID = "nF9-Os-a2N"; */
 "nF9-Os-a2N.normalTitle" = "Average of 5";
@@ -376,12 +376,6 @@
 
 /* Class = "UILabel"; text = "Laura"; ObjectID = "oms-fZ-7rS"; */
 "oms-fZ-7rS.text" = "Laura";
-
-/* Class = "UIButton"; configuration.title = "Send Email"; ObjectID = "owC-l9-WOu"; */
-"owC-l9-WOu.configuration.title" = "Send Email";
-
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "owC-l9-WOu"; */
-"owC-l9-WOu.normalTitle" = "Button";
 
 /* Class = "UIButton"; configuration.title = "Edit Student"; ObjectID = "pGq-mA-z3H"; */
 "pGq-mA-z3H.configuration.title" = "Edit Student";
@@ -404,6 +398,12 @@
 /* Class = "UILabel"; text = "يمكنك معسكر swift من بناء تطبيقات iOS والقدرة على تطوير ونشر تطبيقات الموبايل على متجر تطبيقات Apple\n\nالتقنيات المستخدمة: Swift, Swift UI, Firebase\n\nمدة المعسكر :12 أسبوع ( الأحد إلى الخميس - ٩ ص إلى ٥ م) ويدرّس باللغة الانجليزية"; ObjectID = "qIv-n7-CYH"; */
 "qIv-n7-CYH.text" = "يمكنك معسكر swift من بناء تطبيقات iOS والقدرة على تطوير ونشر تطبيقات الموبايل على متجر تطبيقات Apple\n\nالتقنيات المستخدمة: Swift, Swift UI, Firebase\n\nمدة المعسكر :12 أسبوع ( الأحد إلى الخميس - ٩ ص إلى ٥ م) ويدرّس باللغة الانجليزية";
 
+/* Class = "UITabBarItem"; title = "Bootcamps"; ObjectID = "qWD-QY-ytz"; */
+"qWD-QY-ytz.title" = "Bootcamps";
+
+/* Class = "UILabel"; text = "skk"; ObjectID = "qXH-gx-WPG"; */
+"qXH-gx-WPG.text" = "skk";
+
 /* Class = "UIButton"; normalTitle = "Grade"; ObjectID = "s6c-lr-zBd"; */
 "s6c-lr-zBd.normalTitle" = "Grade";
 
@@ -425,6 +425,9 @@
 /* Class = "UIButton"; normalTitle = "Average of 4"; ObjectID = "vtV-s3-LtV"; */
 "vtV-s3-LtV.normalTitle" = "Average of 4";
 
+/* Class = "UILabel"; text = "By continuing, you agree to Tuwaiq 1000 Terms of Service Privacy Policy"; ObjectID = "w8r-5T-dv1"; */
+"w8r-5T-dv1.text" = "By continuing, you agree to Tuwaiq 1000 Terms of Service Privacy Policy";
+
 /* Class = "UILabel"; text = "Supject:"; ObjectID = "wCN-mz-SEh"; */
 "wCN-mz-SEh.text" = "Supject:";
 
@@ -439,8 +442,3 @@
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "zsJ-Tq-x6g"; */
 "zsJ-Tq-x6g.text" = "Label";
-
-
-"De4-vH-MZQ.normalTitle" = "الطلاب المتميزين";
-"GGs-jY-m8b.title" = "اخبارنا";
-"qWD-QY-ytz.title" = "المعسكرات";

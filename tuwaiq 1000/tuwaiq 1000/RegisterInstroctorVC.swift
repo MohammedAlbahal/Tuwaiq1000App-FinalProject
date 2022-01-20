@@ -15,7 +15,7 @@ class RegisterInstroctorVC: UIViewController {
     
     let subTitLbl: UILabel = {
         let title = UILabel()
-        title.text = "Tuwaiq 1000"
+        title.text = NSLocalizedString("m", comment: "")
         title.textColor = .label
         title.font = UIFont.systemFont(ofSize: 15, weight: .light)
         title.backgroundColor = UIColor(named: "Color-2")
@@ -28,7 +28,7 @@ class RegisterInstroctorVC: UIViewController {
     
     let button: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Continue with Google", for: .normal)
+        button.setTitle( NSLocalizedString("Continue with Google", comment: ""), for: .normal)
         button.titleLabel?.font = UIFont(name: "Chalkboard SE", size: 20)
         button.setTitleColor(.black, for: .normal)
         button.backgroundColor = UIColor(named: "Color-2")

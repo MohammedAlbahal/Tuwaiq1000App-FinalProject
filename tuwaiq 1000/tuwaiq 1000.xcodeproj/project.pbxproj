@@ -127,12 +127,6 @@
 		E6EF14752769E5CA008227D1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF14712769E5CA008227D1 /* Note.swift */; };
 		E6EF14782769F73B008227D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6EF147A2769F73B008227D1 /* Localizable.strings */; };
 		E6EF147D2769FCD4008227D1 /* remiderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF147C2769FCD3008227D1 /* remiderVC.swift */; };
-		E6EF1485276CC796008227D1 /* LanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF1481276CC792008227D1 /* LanguageVC.swift */; };
-		E6EF1486276CC796008227D1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF1482276CC792008227D1 /* Constants.swift */; };
-		E6EF1487276CC796008227D1 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF1483276CC793008227D1 /* String+Extensions.swift */; };
-		E6EF1488276CC796008227D1 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF1484276CC795008227D1 /* UserDefaultsManager.swift */; };
-		E6EF148B276CC80F008227D1 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF1489276CC80E008227D1 /* Localizer.swift */; };
-		E6EF148C276CC80F008227D1 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF148A276CC80E008227D1 /* Language.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +154,7 @@
 		5ED1E9AF2770960500DFACD7 /* AminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AminVC.swift; sourceTree = "<group>"; };
 		83976AF724202D7C4BA75CF6 /* Pods_tuwaiq_1000.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuwaiq_1000.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A1658221A179C86DA1FC4 /* Pods-tuwaiq 1000.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuwaiq 1000.release.xcconfig"; path = "Target Support Files/Pods-tuwaiq 1000/Pods-tuwaiq 1000.release.xcconfig"; sourceTree = "<group>"; };
+		E621D09627997177006DFBF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		E62F35F627561937000E4296 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E6348739274DAFCD00559B91 /* tuwaiq 1000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tuwaiq 1000.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E634873C274DAFCD00559B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -261,12 +256,6 @@
 		E6EF14792769F73B008227D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E6EF147B2769F76E008227D1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E6EF147C2769FCD3008227D1 /* remiderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remiderVC.swift; sourceTree = "<group>"; };
-		E6EF1481276CC792008227D1 /* LanguageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageVC.swift; sourceTree = "<group>"; };
-		E6EF1482276CC792008227D1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		E6EF1483276CC793008227D1 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		E6EF1484276CC795008227D1 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
-		E6EF1489276CC80E008227D1 /* Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
-		E6EF148A276CC80E008227D1 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		EE5BEB1A07E452DE90129F34 /* Pods-tuwaiq 1000.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuwaiq 1000.debug.xcconfig"; path = "Target Support Files/Pods-tuwaiq 1000/Pods-tuwaiq 1000.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -438,7 +427,6 @@
 				E6EF14602769DD8B008227D1 /* weeks */,
 				E6EF140727695115008227D1 /* attndace */,
 				E65D9501275F9374008A378A /* sstudent app */,
-				E6EF1480276CC117008227D1 /* Localizable Group */,
 				E6EF146D2769E59C008227D1 /* Note */,
 				E6EF13DB27678652008227D1 /* ThemeColorVC.swift */,
 				E67505AF2766356C004080BD /* GestureVC.swift */,
@@ -661,19 +649,6 @@
 			path = Note;
 			sourceTree = "<group>";
 		};
-		E6EF1480276CC117008227D1 /* Localizable Group */ = {
-			isa = PBXGroup;
-			children = (
-				E6EF1482276CC792008227D1 /* Constants.swift */,
-				E6EF148A276CC80E008227D1 /* Language.swift */,
-				E6EF1489276CC80E008227D1 /* Localizer.swift */,
-				E6EF1481276CC792008227D1 /* LanguageVC.swift */,
-				E6EF1483276CC793008227D1 /* String+Extensions.swift */,
-				E6EF1484276CC795008227D1 /* UserDefaultsManager.swift */,
-			);
-			path = "Localizable Group";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -807,11 +782,9 @@
 				E64C23A32760EA5700DE566D /* PersonInfoViewController.swift in Sources */,
 				E6EF14662769DE70008227D1 /* weeksCell.swift in Sources */,
 				E64C237E2760C47300DE566D /* SpashViewController.swift in Sources */,
-				E6EF1485276CC796008227D1 /* LanguageVC.swift in Sources */,
 				E64C23C227620E0B00DE566D /* ViewController.swift in Sources */,
 				5E33D38227538ED7007EC44C /* EmailVC.swift in Sources */,
 				E64C23A42760EA5700DE566D /* TeacherViewController.swift in Sources */,
-				E6EF148C276CC80F008227D1 /* Language.swift in Sources */,
 				E6348741274DAFCD00559B91 /* uu.swift in Sources */,
 				E64C23912760C4E600DE566D /* Advertisefile.swift in Sources */,
 				E64C237D2760C47300DE566D /* PrivacyViewController.swift in Sources */,
@@ -838,7 +811,6 @@
 				E67505AE2765E754004080BD /* mapVC.swift in Sources */,
 				E64C238C2760C4C200DE566D /* Utility.swift in Sources */,
 				E65D9515275F9675008A378A /* Teacher.swift in Sources */,
-				E6EF148B276CC80F008227D1 /* Localizer.swift in Sources */,
 				E65D950A275F9623008A378A /* UIViewControllerExtension.swift in Sources */,
 				E6958366277896A8001C69CB /* CellFirstView.swift in Sources */,
 				E65D950D275F9654008A378A /* SampleData.swift in Sources */,
@@ -899,16 +871,13 @@
 				E64C23802760C47300DE566D /* HomeViewController.swift in Sources */,
 				E64C238D2760C4C200DE566D /* Utils.swift in Sources */,
 				E6EF13DC27678652008227D1 /* ThemeColorVC.swift in Sources */,
-				E6EF1487276CC796008227D1 /* String+Extensions.swift in Sources */,
 				E64C23C427620E0B00DE566D /* Quiz.swift in Sources */,
 				E6EF145F2769D31F008227D1 /* StudentsssVC.swift in Sources */,
 				5E33D39127539125007EC44C /* Data.swift in Sources */,
 				5E33D37D27538E1C007EC44C /* RecCollectionVC.swift in Sources */,
 				5E33D38427538EFD007EC44C /* EmailCell.swift in Sources */,
 				E6EF145B2769D31F008227D1 /* Studentsss.swift in Sources */,
-				E6EF1486276CC796008227D1 /* Constants.swift in Sources */,
 				E6EF14752769E5CA008227D1 /* Note.swift in Sources */,
-				E6EF1488276CC796008227D1 /* UserDefaultsManager.swift in Sources */,
 				E65D9512275F9675008A378A /* Subject.swift in Sources */,
 				E64C23B42760EAA100DE566D /* StudentViewCell.swift in Sources */,
 				E64C23C127620E0B00DE566D /* ResultViewController.swift in Sources */,
@@ -923,6 +892,7 @@
 			children = (
 				E66F1A3A27735A020045628F /* Base */,
 				E66F1A3D27735A730045628F /* ar */,
+				E621D09627997177006DFBF1 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

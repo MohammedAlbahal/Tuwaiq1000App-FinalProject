@@ -20,10 +20,10 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
     }()
     
     @objc private func singInButtonTapped(sender: UIButton!) {
-        let alert = UIAlertController(title: "Tuwaiq Academy Student, Staff or Employee? Click Here to Login ",
+        let alert = UIAlertController( title: NSLocalizedString("l", comment: ""),
                                       message: "",
                                       preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Student", style: .default, handler: {
+        alert.addAction(UIAlertAction(title: NSLocalizedString("z", comment: ""),  style: .default, handler: {
             action in
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "RegisterVC")
@@ -31,7 +31,7 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
             self.navigationController?.pushViewController(vc, animated: true)
             print("Yes start Chat")}))
         
-        alert.addAction(UIAlertAction(title: "Instroctor", style: .default, handler: {
+        alert.addAction(UIAlertAction(title: NSLocalizedString("x", comment: ""), style: .default, handler: {
             action in
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vcc = storyboard.instantiateViewController(withIdentifier: "RegisterInstroctorVC")
@@ -56,7 +56,7 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         logInBtn.widthAnchor.constraint(equalToConstant: 180).isActive = true
     }
     func loadSideBarViewFunctionalityy(){
-        logInBtn.setTitle("Click Here to Login", for: .normal)
+        logInBtn.setTitle(NSLocalizedString("c", comment: ""), for: .normal)
         logInBtn.layer.cornerRadius = 10
         logInBtn.clipsToBounds = true
         logInBtn.backgroundColor = UIColor(named: "Color")
