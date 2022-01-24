@@ -48,7 +48,7 @@
 "A1X-HO-Bd3.configuration.title" = ".";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "A1X-HO-Bd3"; */
-"A1X-HO-Bd3.normalTitle" = "Button";
+"A1X-HO-Bd3.normalTitle" = "";
 
 /* Class = "UIButton"; normalTitle = "Calculation"; ObjectID = "ACv-Sg-PSO"; */
 "ACv-Sg-PSO.normalTitle" = "Calculation";
@@ -75,7 +75,7 @@
 "D9g-lP-wqu.configuration.title" = ".";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "D9g-lP-wqu"; */
-"D9g-lP-wqu.normalTitle" = "Button";
+"D9g-lP-wqu.normalTitle" = "";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "DDZ-Sr-xYg"; */
 "DDZ-Sr-xYg.text" = "Label";
