@@ -19,15 +19,8 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         return buttonSingIn
        
     }()
-//    private func rightitembar() {
-//        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(
-//            title: "some_text",
-//            style: .done,
-//            target: self,
-//            action: nil
-//            )
-//           
-//    }
+
+    
     @objc private func singInButtonTapped(sender: UIButton!) {
         let alert = UIAlertController( title: NSLocalizedString("l", comment: ""),
                                       message: "",
@@ -156,7 +149,7 @@ class FristView: UIViewController , UICollectionViewDelegate, UICollectionViewDa
         picC.dataSource = self
         picC.layer.masksToBounds = true
         picC.layer.cornerRadius = 30
-//        rightitembar()
+
     }
     
 }
