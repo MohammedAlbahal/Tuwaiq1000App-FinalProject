@@ -133,13 +133,6 @@ Exit model
 | GET         | /api/user      |                                                              |                |              | Used to get current user's profile. Id of the user is coming form the req.session.currentUser |
 | PUT         | /api/user      | {username, email, password}                                  |                |              | Used to update current user's profile. Id of the users is coming form the req.session.currentUser |
 
-## Links
-
-### Trello/Kanban
-
-[Link to your trello board](https://trello.com/b/PBqtkUFX/curasan) or picture of your physical board
-
-### Git
 
 The url to your repository and to your deployed project
 
