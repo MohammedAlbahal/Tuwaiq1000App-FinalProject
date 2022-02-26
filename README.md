@@ -135,6 +135,7 @@ Exit model
 | PUT         | /api/user      | {username, email, password}                                  |                |              | Used to update current user's profile. Id of the users is coming form the req.session.currentUser |
 
 
+
 The url to your repository and to your deployed project
 
 [Client repository Link](https://github.com/screeeen/project-client)
