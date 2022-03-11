@@ -29,7 +29,6 @@ User profile:
 - add geolocation
 
 
-
 # Client / Frontend
 
 ## React Router Routes (React App)
